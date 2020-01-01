@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="dist" name="FIX Agora">
+
+	<property location="/usr/java/launch4j" name="launch4j.dir" />
+
+	<property location="./dist" name="destination" />
+
+	<property location="./../FIXAgoraBasisClient" name="basis_client" />
+	<property location="./../FIXAgoraBasisServer" name="basis_server" />
+	<property location="./../FIXAgoraBasisShared" name="basis_shared" />
+
+	<property location="./../FIXAgoraBuySideClient" name="buyside_client" />
+	<property location="./../FIXAgoraBuySideServer" name="buyside_server" />
+	<property location="./../FIXAgoraBuySideShared" name="buyside_shared" />
+
+	<property location="./../FIXAgoraExcelClient" name="excel_client" />
+	<property location="./../FIXAgoraExcelServer" name="excel_server" />
+	<property location="./../FIXAgoraExcelShared" name="excel_shared" />
+
+	<property location="./../FIXAgoraSAPClient" name="sap_client" />
+	<property location="./../FIXAgoraSAPServer" name="sap_server" />
+	<property location="./../FIXAgoraSAPShared" name="sap_shared" />
+
+	<property location="./../FIXAgoraSellSideClient" name="sellside_client" />
+	<property location="./../FIXAgoraSellSideServer" name="sellside_server" />
+	<property location="./../FIXAgoraSellSideShared" name="sellside_shared" />
+
+	<property location="./../FIXAgoraTradeCaptureClient" name="tradecapture_client" />
+	<property location="./../FIXAgoraTradeCaptureServer" name="tradecapture_server" />
+	<property location="./../FIXAgoraTradeCaptureShared" name="tradecapture_shared" />
+
+	<property location="./../FIXAgoraSimulator" name="simulator" />
+
+	<property location="${destination}/FIXAgoraBasisClient/dist" name="basis_client_dist" />
+	<property location="${destination}/FIXAgoraBasisServer/dist" name="basis_server_dist" />
+	<property location="${destination}/FIXAgoraBasisShared/dist" name="basis_shared_dist" />
+
+	<property location="${destination}/FIXAgoraBuySideClient/dist" name="buyside_client_dist" />
+	<property location="${destination}/FIXAgoraBuySideServer/dist" name="buyside_server_dist" />
+	<property location="${destination}/FIXAgoraBuySideShared/dist" name="buyside_shared_dist" />
+
+	<property location="${destination}/FIXAgoraExcelClient/dist" name="excel_client_dist" />
+	<property location="${destination}/FIXAgoraExcelServer/dist" name="excel_server_dist" />
+	<property location="${destination}/FIXAgoraExcelShared/dist" name="excel_shared_dist" />
+
+	<property location="${destination}/FIXAgoraSAPClient/dist" name="sap_client_dist" />
+	<property location="${destination}/FIXAgoraSAPServer/dist" name="sap_server_dist" />
+	<property location="${destination}/FIXAgoraSAPShared/dist" name="sap_shared_dist" />
+
+	<property location="${destination}/FIXAgoraSellSideClient/dist" name="sellside_client_dist" />
+	<property location="${destination}/FIXAgoraSellSideServer/dist" name="sellside_server_dist" />
+	<property location="${destination}/FIXAgoraSellSideShared/dist" name="sellside_shared_dist" />
+
+	<property location="${destination}/FIXAgoraTradeCaptureClient/dist" name="tradecapture_client_dist" />
+	<property location="${destination}/FIXAgoraTradeCaptureServer/dist" name="tradecapture_server_dist" />
+	<property location="${destination}/FIXAgoraTradeCaptureShared/dist" name="tradecapture_shared_dist" />
+
+	<property location="${destination}/FIXAgoraSimulator/dist" name="simulator_dist" />
+
+	<property location="${destination}/FIXAgoraBasisClient/build" name="basis_client_build" />
+	<property location="${destination}/FIXAgoraBasisServer/build" name="basis_server_build" />
+	<property location="${destination}/FIXAgoraBasisShared/build" name="basis_shared_build" />
+
+	<property location="${destination}/FIXAgoraBuySideClient/build" name="buyside_client_build" />
+	<property location="${destination}/FIXAgoraBuySideServer/build" name="buyside_server_build" />
+	<property location="${destination}/FIXAgoraBuySideShared/build" name="buyside_shared_build" />
+
+	<property location="${destination}/FIXAgoraExcelClient/build" name="excel_client_build" />
+	<property location="${destination}/FIXAgoraExcelServer/build" name="excel_server_build" />
+	<property location="${destination}/FIXAgoraExcelShared/build" name="excel_shared_build" />
+
+	<property location="${destination}/FIXAgoraSAPClient/build" name="sap_client_build" />
+	<property location="${destination}/FIXAgoraSAPServer/build" name="sap_server_build" />
+	<property location="${destination}/FIXAgoraSAPShared/build" name="sap_shared_build" />
+
+	<property location="${destination}/FIXAgoraSellSideClient/build" name="sellside_client_build" />
+	<property location="${destination}/FIXAgoraSellSideServer/build" name="sellside_server_build" />
+	<property location="${destination}/FIXAgoraSellSideShared/build" name="sellside_shared_build" />
+
+	<property location="${destination}/FIXAgoraTradeCaptureClient/build" name="tradecapture_client_build" />
+	<property location="${destination}/FIXAgoraTradeCaptureServer/build" name="tradecapture_server_build" />
+	<property location="${destination}/FIXAgoraTradeCaptureShared/build" name="tradecapture_shared_build" />
+
+
+	<property location="${destination}/FIXAgoraSimulator/build" name="simulator_build" />
+
+	<property name="basis_version" value="1.0.3" />
+
+	<property name="buyside_version" value="1.0.3" />
+
+	<property name="excel_version" value="1.0.3" />
+
+	<property name="sap_version" value="1.0.3" />
+
+	<property name="sellside_version" value="1.0.3" />
+
+	<property name="tradecapture_version" value="1.0.3" />
+
+	<property name="client_cp" value="./lib/jgoodies-looks-2.5.2.jar:./lib/jgoodies-common-1.4.0.jar:./lib/dockingFramesCore.jar:./lib/fixagora-basis-shared-${basis_version}.jar:./lib/fixagora-basis-client-${basis_version}.jar:./lib/hibernate-core-4.1.6.Final.jar:./lib/javassist-3.15.0-GA.jar:./lib/jboss-logging-3.1.0.GA.jar:./lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:./lib/jcalendar-1.4.jar:./lib/jcommon-1.0.17.jar:./lib/jquantlib-0.2.4.jar:./lib/netty-3.5.7.Final.jar:./lib/poi-3.8-20120326.jar:./lib/poi-ooxml-3.8-20120326.jar:./lib/poi-ooxml-schemas-3.8-20120326.jar:./lib/slf4j-api-1.6.3.jar:./lib/slf4j-log4j12-1.6.3.jar:./lib/swingx-all-1.6.3.jar:./lib/log4j-1.2.17.jar" />
+
+	<property name="server_cp" value="./lib/guava-13.0.1.jar:./conf:./lib/c3p0-0.9.1.jar:./lib/hibernate-c3p0-4.1.6.Final.jar:./lib/netty-3.5.7.Final.jar:./conf:./lib/antlr-2.7.7.jar:./lib/commons-collections-3.2.1.jar:./lib/commons-math3-3.0.jar:./lib/dom4j-1.6.1.jar:./lib/fixagora-basis-shared-${basis_version}.jar:./lib/fixagora-basis-server-${basis_version}.jar:./lib/hibernate-commons-annotations-4.0.1.Final.jar:./lib/hibernate-core-4.1.6.Final.jar:./lib/hibernate-entitymanager-4.1.6.Final.jar:./lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:./lib/javassist-3.15.0-GA.jar:./lib/jboss-logging-3.1.0.GA.jar:./lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:./lib/jcommon-1.0.17.jar:./lib/jquantlib-0.2.4.jar:./lib/mina-core-1.1.7.jar:./lib/poi-3.8-20120326.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/log4j-1.2.17.jar:./lib/slf4j-api-1.6.1.jar:./lib/slf4j-log4j12-1.6.3.jar" />
+
+	<property name="simulator_cp" value="./lib/poi-3.8-20120326.jar:./lib/jgoodies-looks-2.5.2.jar:./lib/jgoodies-common-1.4.0.jar:./lib/fixagora-simulator-${basis_version}.jar:./lib/jcommon-1.0.17.jar:./lib/mina-core-1.1.7.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/slf4j-api-1.6.3.jar:./lib/jquantlib-0.2.4.jar:./lib/slf4j-jdk14-1.6.3.jar" />
+
+	<target name="init">
+		<mkdir dir="${basis_shared_build}" />
+		<mkdir dir="${basis_server_build}" />
+		<mkdir dir="${basis_client_build}" />
+
+		<mkdir dir="${buyside_shared_build}" />
+		<mkdir dir="${buyside_server_build}" />
+		<mkdir dir="${buyside_client_build}" />
+
+		<mkdir dir="${excel_shared_build}" />
+		<mkdir dir="${excel_server_build}" />
+		<mkdir dir="${excel_client_build}" />
+
+		<mkdir dir="${sap_shared_build}" />
+		<mkdir dir="${sap_server_build}" />
+		<mkdir dir="${sap_client_build}" />
+
+		<mkdir dir="${sellside_shared_build}" />
+		<mkdir dir="${sellside_server_build}" />
+		<mkdir dir="${sellside_client_build}" />
+
+		<mkdir dir="${tradecapture_shared_build}" />
+		<mkdir dir="${tradecapture_server_build}" />
+		<mkdir dir="${tradecapture_client_build}" />
+
+		<mkdir dir="${simulator_build}" />
+	</target>
+
+	<taskdef classname="net.sf.launch4j.ant.Launch4jTask" classpath="${launch4j.dir}/launch4j.jar:${launch4j.dir}/lib/xstream.jar" name="launch4j" />
+
+	<taskdef resource="net/sf/antcontrib/antlib.xml" />
+
+	<target depends="init" description="compile the source " name="compile">
+
+		<javac debug="true" includeantruntime="false" destdir="${basis_shared_build}" srcdir="${basis_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${basis_shared_build}" includes="**/*.class" jarfile="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar"/>
+
+		<javac debug="true" includeantruntime="false" destdir="${basis_server_build}" srcdir="${basis_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${basis_server_build}" includes="**/*.class" jarfile="${basis_server_build}/fixagora-basis-server-${basis_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${basis_client_build}" srcdir="${basis_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${basis_client_build}">
+			<fileset dir="${basis_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${basis_client_build}" includes="**/*.class,**/*.png" jarfile="${basis_client_build}/fixagora-basis-client-${basis_version}.jar" />
+
+		<!-- buyside -->
+
+		<javac debug="true" includeantruntime="false" destdir="${buyside_shared_build}" srcdir="${buyside_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${buyside_shared_build}" includes="**/*.class" jarfile="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${buyside_server_build}" srcdir="${buyside_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${buyside_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_server_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${buyside_server_build}" includes="**/*.class" jarfile="${buyside_server_build}/fixagora-buyside-server-${buyside_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.shared.model.communication.AbstractRequests" provider="net.sourceforge.fixagora.buyside.server.control.BuySideRequestHandler" />
+		</jar>
+
+		<javac debug="true" includeantruntime="false" destdir="${buyside_client_build}" srcdir="${buyside_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${buyside_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_client_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${buyside_client_build}">
+			<fileset dir="${buyside_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${buyside_client_build}" includes="**/*.class,**/*.png" jarfile="${buyside_client_build}/fixagora-buyside-client-${buyside_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.client.model.FIXAgoraPlugin" provider="net.sourceforge.fixagora.buyside.client.control.BuySidePlugin" />
+		</jar>
+
+		<!-- excel -->
+
+		<javac debug="true" includeantruntime="false" destdir="${excel_shared_build}" srcdir="${excel_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${excel_shared_build}" includes="**/*.class" jarfile="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${excel_server_build}" srcdir="${excel_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${excel_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_server_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${excel_server_build}" includes="**/*.class" jarfile="${excel_server_build}/fixagora-excel-server-${excel_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.shared.model.communication.AbstractRequests" provider="net.sourceforge.fixagora.excel.server.control.ExcelRequestHandler" />
+		</jar>
+
+		<javac debug="true" includeantruntime="false" destdir="${excel_client_build}" srcdir="${excel_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${excel_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_client_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${excel_client_build}">
+			<fileset dir="${excel_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${excel_client_build}" includes="**/*.class,**/*.png" jarfile="${excel_client_build}/fixagora-excel-client-${excel_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.client.model.FIXAgoraPlugin" provider="net.sourceforge.fixagora.excel.client.control.ExcelPlugin" />
+		</jar>
+
+		<!-- sap -->
+
+		<javac debug="true" includeantruntime="false" destdir="${sap_shared_build}" srcdir="${sap_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${sap_shared_build}" includes="**/*.class" jarfile="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${sap_server_build}" srcdir="${sap_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${sap_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_server_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${sap_server_build}" includes="**/*.class" jarfile="${sap_server_build}/fixagora-sap-server-${sap_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.shared.model.communication.AbstractRequests" provider="net.sourceforge.fixagora.sap.server.control.SAPRequestHandler" />
+		</jar>
+
+		<javac debug="true" includeantruntime="false" destdir="${sap_client_build}" srcdir="${sap_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${sap_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_client_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${sap_client_build}">
+			<fileset dir="${sap_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${sap_client_build}" includes="**/*.class,**/*.png" jarfile="${sap_client_build}/fixagora-sap-client-${sap_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.client.model.FIXAgoraPlugin" provider="net.sourceforge.fixagora.sap.client.control.SAPPlugin" />
+		</jar>
+
+		<!-- sellside -->
+
+		<javac debug="true" includeantruntime="false" destdir="${sellside_shared_build}" srcdir="${sellside_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${sellside_shared_build}" includes="**/*.class" jarfile="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${sellside_server_build}" srcdir="${sellside_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${sellside_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_server_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${sellside_server_build}" includes="**/*.class" jarfile="${sellside_server_build}/fixagora-sellside-server-${sellside_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.shared.model.communication.AbstractRequests" provider="net.sourceforge.fixagora.sellside.server.control.SellSideRequestHandler" />
+		</jar>
+
+		<javac debug="true" includeantruntime="false" destdir="${sellside_client_build}" srcdir="${sellside_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${sellside_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_client_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${sellside_client_build}">
+			<fileset dir="${sellside_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${sellside_client_build}" includes="**/*.class,**/*.png" jarfile="${sellside_client_build}/fixagora-sellside-client-${sellside_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.client.model.FIXAgoraPlugin" provider="net.sourceforge.fixagora.sellside.client.control.SellSidePlugin" />
+		</jar>
+
+		<!-- tradecapture -->
+
+		<javac debug="true" includeantruntime="false" destdir="${tradecapture_shared_build}" srcdir="${tradecapture_shared}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${tradecapture_shared_build}" includes="**/*.class" jarfile="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" />
+
+		<javac debug="true" includeantruntime="false" destdir="${tradecapture_server_build}" srcdir="${tradecapture_server}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${tradecapture_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_server_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<jar basedir="${tradecapture_server_build}" includes="**/*.class" jarfile="${tradecapture_server_build}/fixagora-tradecapture-server-${tradecapture_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.shared.model.communication.AbstractRequests" provider="net.sourceforge.fixagora.tradecapture.server.control.TradeCaptureRequestHandler" />
+		</jar>
+
+		<javac debug="true" includeantruntime="false" destdir="${tradecapture_client_build}" srcdir="${tradecapture_client}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${tradecapture_shared_build}" id="local-libs2">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_shared_build}" id="local-libs3">
+					<include name="**/*.jar" />
+				</fileset>
+				<fileset dir="${basis_client_build}" id="local-libs4">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${tradecapture_client_build}">
+			<fileset dir="${tradecapture_client}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${tradecapture_client_build}" includes="**/*.class,**/*.png" jarfile="${tradecapture_client_build}/fixagora-tradecapture-client-${tradecapture_version}.jar">
+			<service type="net.sourceforge.fixagora.basis.client.model.FIXAgoraPlugin" provider="net.sourceforge.fixagora.tradecapture.client.control.TradeCapturePlugin" />
+		</jar>
+
+
+		<javac debug="true" includeantruntime="false" destdir="${simulator_build}" srcdir="${simulator}/src" target="1.6" source="1.6" bootclasspath="/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar">
+			<classpath>
+				<fileset dir="lib" id="local-libs">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+		<copy todir="${simulator_build}">
+			<fileset dir="${simulator}/src">
+				<include name="**/*.png" />
+			</fileset>
+		</copy>
+
+		<jar basedir="${simulator_build}" includes="**/*.class,**/*.png" jarfile="${simulator_build}/fixagora-simulator-${basis_version}.jar" />
+
+	</target>
+
+	<target depends="compile" description="generate the distribution" name="dist">
+		
+		<copy file="${basis_client}/doc/html/pdf/quickstart.pdf" todir="${destination}/linux/fixagora/" />
+		
+		<copy file="${basis_client}/doc/html/pdf/quickstart.pdf" todir="${destination}/windows/fixagora/" />
+
+		<copy todir="${destination}/linux/fixagora/fixagora-server/lib">
+			<fileset dir="${basis_server}/lib">
+				<exclude name="**/*shared*.jar" />
+			</fileset>
+		</copy>
+
+		<copy file="${basis_server}/extlib/derby.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy todir="${destination}/linux/fixagora/fixagora-server/etc">
+			<fileset dir="${basis_server}/etc" />
+		</copy>
+
+		<copy todir="${destination}/linux/fixagora/fixagora-client/extlib">
+			<fileset dir="${basis_client}/extlib" />
+		</copy>
+		
+		<copy todir="${destination}/linux/fixagora/fixagora-client/etc">
+					<fileset dir="${basis_client}/etc" />
+		</copy>
+
+		<copy todir="${destination}/linux/fixagora/fixagora-client/doc">
+			<fileset dir="${basis_client}/doc" />
+		</copy>
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/lib" />
+
+		<copy file="${basis_server_build}/fixagora-basis-server-${basis_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/lib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${buyside_server_build}/fixagora-buyside-server-${buyside_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${excel_server_build}/fixagora-excel-server-${excel_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sap_server_build}/fixagora-sap-server-${sap_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sellside_server_build}/fixagora-sellside-server-${sellside_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${tradecapture_server_build}/fixagora-tradecapture-server-${tradecapture_version}.jar" todir="${destination}/linux/fixagora/fixagora-server/extlib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${buyside_client_build}/fixagora-buyside-client-${buyside_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${excel_client_build}/fixagora-excel-client-${excel_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sap_client_build}/fixagora-sap-client-${sap_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sellside_client_build}/fixagora-sellside-client-${sellside_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy file="${tradecapture_client_build}/fixagora-tradecapture-client-${tradecapture_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/extlib" />
+
+		<copy todir="${destination}/linux/fixagora/fixagora-server/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+
+		<copy todir="${destination}/linux/fixagora/fixagora-server/derby">
+			<fileset dir="etc/derby" />
+		</copy>
+		
+		<copy todir="${destination}/linux/fixagora/fixagora-server/log">
+			<fileset dir="etc/serverlog/log" />
+		</copy>
+		
+		<copy todir="${destination}/linux/fixagora/fixagora-simulator/log">
+			<fileset dir="etc/simulatorlog/log" />
+		</copy>
+
+		<copy todir="${destination}/linux/fixagora/fixagora-client/lib">
+			<fileset dir="${basis_client}/lib">
+				<exclude name="**/*shared*.jar" />
+			</fileset>
+		</copy>
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/lib" />
+
+		<copy file="${basis_client_build}/fixagora-basis-client-${basis_version}.jar" todir="${destination}/linux/fixagora/fixagora-client/lib" />
+
+		<copy todir="${destination}/linux/fixagora/fixagora-client/conf">
+			<fileset dir="${basis_client}/conf" />
+		</copy>
+
+		<copy todir="${destination}/linux/fixagora/fixagora-simulator/lib">
+			<fileset dir="${simulator}/lib" />
+		</copy>
+
+		<copy file="${simulator_build}/fixagora-simulator-${basis_version}.jar" todir="${destination}/linux/fixagora/fixagora-simulator/lib" />
+
+		<copy todir="${destination}/linux/fixagora/fixagora-simulator/conf">
+			<fileset dir="${simulator}/conf" />
+		</copy>
+
+		<chmod file="${destination}/linux/fixagora/fixagora-server/conf/**" perm="ugo+rw" type="both" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-server/derby/**" perm="ugo+rw" type="both" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-server/log/**" perm="ugo+rw" type="both" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-client/conf/**" perm="ugo+rw" type="both" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-simulator/conf/**" perm="ugo+rw" type="both" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-simulator/log/**" perm="ugo+rw" type="both" />
+
+		<copy todir="${destination}/windows/fixagora/fixagora-server/lib">
+			<fileset dir="${basis_server}/lib">
+				<exclude name="**/*shared*.jar" />
+				<exclude name="**/sapjco.jar" />
+				<exclude name="**/*.so" />
+			</fileset>
+		</copy>
+
+		<copy file="${basis_server}/extlib/derby.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy todir="${destination}/windows/fixagora/fixagora-server/etc">
+			<fileset dir="${basis_server}/etc" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/extlib">
+			<fileset dir="${basis_client}/extlib" />
+		</copy>
+		
+		<copy todir="${destination}/windows/fixagora/fixagora-client/etc">
+			<fileset dir="${basis_client}/etc" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/doc">
+			<fileset dir="${basis_client}/doc" />
+		</copy>
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/lib" />
+
+		<copy file="${basis_server_build}/fixagora-basis-server-${basis_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/lib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${buyside_server_build}/fixagora-buyside-server-${buyside_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${excel_server_build}/fixagora-excel-server-${excel_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sap_server_build}/fixagora-sap-server-${sap_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${sellside_server_build}/fixagora-sellside-server-${sellside_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${tradecapture_server_build}/fixagora-tradecapture-server-${tradecapture_version}.jar" todir="${destination}/windows/fixagora/fixagora-server/extlib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${buyside_client_build}/fixagora-buyside-client-${buyside_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${excel_client_build}/fixagora-excel-client-${excel_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sap_client_build}/fixagora-sap-client-${sap_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${sellside_client_build}/fixagora-sellside-client-${sellside_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+		<copy file="${tradecapture_client_build}/fixagora-tradecapture-client-${tradecapture_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/extlib" />
+
+
+		<copy todir="${destination}/windows/fixagora/fixagora-server/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-server/derby">
+			<fileset dir="etc/derby" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/lib">
+			<fileset dir="${basis_client}/lib" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/conf">
+			<fileset dir="${basis_client}/conf" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-server/log">
+			<fileset dir="etc/serverlog/log" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/lib">
+			<fileset dir="${basis_client}/lib">
+				<exclude name="**/*shared*.jar" />
+			</fileset>
+		</copy>
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/lib" />
+
+		<copy file="${basis_client_build}/fixagora-basis-client-${basis_version}.jar" todir="${destination}/windows/fixagora/fixagora-client/lib" />
+
+		<copy todir="${destination}/windows/fixagora/fixagora-client/conf">
+			<fileset dir="${basis_client}/conf" />
+		</copy>
+
+		<copy todir="${destination}/windows/fixagora/fixagora-simulator/log">
+			<fileset dir="etc/simulatorlog/log" />
+		</copy>
+		
+		<copy todir="${destination}/windows/fixagora/fixagora-simulator/lib">
+			<fileset dir="${simulator}/lib" />
+		</copy>
+
+		<copy file="${simulator_build}/fixagora-simulator-${basis_version}.jar" todir="${destination}/windows/fixagora/fixagora-simulator/lib" />
+
+		<copy todir="${destination}/windows/fixagora/fixagora-simulator/conf">
+			<fileset dir="${simulator}/conf" />
+		</copy>
+
+		<!--mac-->
+
+		<copy file="etc/macos/permission.sh" todir="${destination}/mac/fixagora" />
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app">
+			<fileset dir="etc/macos/server" />
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/lib">
+			<fileset dir="${basis_server}/lib">
+				<exclude name="**/*shared*.jar" />
+				<exclude name="**/sapjco.jar" />
+				<exclude name="**/*.so" />
+			</fileset>
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib">
+			<fileset dir="${basis_server}/extlib">
+				<exclude name="**/*shared*.jar" />
+				<exclude name="**/sapjco.jar" />
+				<exclude name="**/*.so" />
+			</fileset>
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Simulator.app">
+			<fileset dir="etc/macos/simulator" />
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Client.app">
+			<fileset dir="etc/macos/client" />
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/lib">
+			<fileset dir="${basis_client}/lib">
+				<exclude name="**/*shared*.jar" />
+				<exclude name="**/sapjco.jar" />
+				<exclude name="**/*.so" />
+			</fileset>
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/doc">
+			<fileset dir="${basis_client}/doc" />
+		</copy>
+		
+		<copy todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib">
+			<fileset dir="${basis_client}/extlib">
+				<exclude name="**/*shared*.jar" />
+				<exclude name="**/sapjco.jar" />
+				<exclude name="**/*.so" />
+			</fileset>
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/conf">
+			<fileset dir="${basis_client}/conf" />
+		</copy>
+
+
+		<mkdir dir="${destination}/mac/fixagora/FIX Agora Simulator.app/Contents/Resources/Java/log" />
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Simulator.app/Contents/Resources/Java/lib">
+			<fileset dir="${simulator}/lib" />
+		</copy>
+
+		<copy file="${simulator_build}/fixagora-simulator-${basis_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Simulator.app/Contents/Resources/Java/lib" />
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Simulator.app/Contents/Resources/Java/conf">
+			<fileset dir="${simulator}/conf" />
+		</copy>
+
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/lib" />
+
+		<copy file="${basis_server_build}/fixagora-basis-server-${basis_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/lib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${buyside_server_build}/fixagora-buyside-server-${buyside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${excel_server_build}/fixagora-excel-server-${excel_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sap_server_build}/fixagora-sap-server-${sap_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sellside_server_build}/fixagora-sellside-server-${sellside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${tradecapture_server_build}/fixagora-tradecapture-server-${tradecapture_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${basis_shared_build}/fixagora-basis-shared-${basis_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/lib" />
+
+		<copy file="${basis_client_build}/fixagora-basis-client-${basis_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/lib" />
+
+		<copy file="${buyside_shared_build}/fixagora-buyside-shared-${buyside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${buyside_client_build}/fixagora-buyside-client-${buyside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${excel_shared_build}/fixagora-excel-shared-${excel_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${excel_client_build}/fixagora-excel-client-${excel_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sap_shared_build}/fixagora-sap-shared-${sap_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sap_client_build}/fixagora-sap-client-${sap_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sellside_shared_build}/fixagora-sellside-shared-${sellside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${sellside_client_build}/fixagora-sellside-client-${sellside_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${tradecapture_shared_build}/fixagora-tradecapture-shared-${tradecapture_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy file="${tradecapture_client_build}/fixagora-tradecapture-client-${tradecapture_version}.jar" todir="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Resources/Java/extlib" />
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf">
+			<fileset dir="etc/conf" />
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/doc">
+			<fileset dir="${basis_client}/doc" />
+		</copy>
+
+		<copy todir="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/derby">
+			<fileset dir="etc/derby" />
+		</copy>
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Info.plist" token="@version@" value="${basis_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Client.app/Contents/Info.plist" token="@version@" value="${basis_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Simulator.app/Contents/Info.plist" token="@version@" value="${basis_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@basis_version@" value="${basis_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@buyside_version@" value="${buyside_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@excel_version@" value="${excel_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@sap_version@" value="${sap_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@sellside_version@" value="${sellside_version}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Resources/Java/conf/META-INF/persistence.xml" token="@tradecapture_version@" value="${tradecapture_version}" />
+
+		<!--ende mac-->
+
+		<copy file="etc/linux/fixagora-server.sh" todir="${destination}/linux/fixagora/fixagora-server" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/fixagora-server.sh" token="@lib@" value="${server_cp}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@basis_version@" value="${basis_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@buyside_version@" value="${buyside_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@excel_version@" value="${excel_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@sap_version@" value="${sap_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@sellside_version@" value="${sellside_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@tradecapture_version@" value="${tradecapture_version}" />
+
+		
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@basis_version@" value="${basis_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@buyside_version@" value="${buyside_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@excel_version@" value="${excel_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@sap_version@" value="${sap_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@sellside_version@" value="${sellside_version}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@tradecapture_version@" value="${tradecapture_version}" />
+
+		
+		<copy file="etc/linux/fixagora-client.sh" todir="${destination}/linux/fixagora/fixagora-client" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-client/fixagora-client.sh" token="@lib@" value="${client_cp}" />
+
+		<copy file="etc/linux/fixagora-simulator.sh" todir="${destination}/linux/fixagora/fixagora-simulator" />
+
+		<copy file="etc/linux/fixagora-demo.sh" todir="${destination}/linux/fixagora" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-simulator/fixagora-simulator.sh" token="@lib@" value="${simulator_cp}" />
+
+		<replace file="${destination}/linux/fixagora/fixagora-demo.sh" token="@lib@" value="${simulator_cp}" />
+
+		<replace file="${destination}/mac/fixagora/FIX Agora Server.app/Contents/Info.plist" token="@version@" value="${basis_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@buyside_version@" value="${buyside_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@excel_version@" value="${excel_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@sap_version@" value="${sap_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@sellside_version@" value="${sellside_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@tradecapture_version@" value="${tradecapture_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@buyside_version@" value="${buyside_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@excel_version@" value="${excel_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@sap_version@" value="${sap_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@sellside_version@" value="${sellside_version}" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.oracle" token="@tradecapture_version@" value="${tradecapture_version}" />
+		
+		<chmod file="${destination}/linux/fixagora/fixagora-server/fixagora-server.sh" perm="ugo+rx" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-client/fixagora-client.sh" perm="ugo+rx" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-demo.sh" perm="ugo+rx" />
+
+		<chmod file="${destination}/linux/fixagora/fixagora-simulator/fixagora-simulator.sh" perm="ugo+rx" />
+
+		<replace file="${destination}/windows/fixagora/fixagora-server/conf/META-INF/persistence.xml" token="@basis_version@" value="${basis_version}" />
+
+		<launch4j>
+
+			<config chdir="." customProcName="true" dontWrapJar="true" headerType="console" icon="etc/windows/a-logo.ico" outfile="${destination}/windows/fixagora/fixagora-server/FIX Agora Server.exe">
+
+				<classPath mainClass="net.sourceforge.fixagora.basis.server.FBasisServer">
+
+					<cp>./lib/*.jar</cp>
+					<cp>./conf</cp>
+
+				</classPath>
+
+				<jre minVersion="1.6.0" initialHeapSize="1024" maxHeapSize="1024">
+					<opt>-XX:MaxPermSize=512m</opt>
+				</jre>
+
+			</config>
+
+		</launch4j>
+
+		<launch4j>
+
+			<config chdir="." customProcName="true" dontWrapJar="true" headerType="gui" icon="etc/windows/a-logo.ico" outfile="${destination}/windows/fixagora/fixagora-client/FIX Agora Client.exe">
+
+				<classPath mainClass="net.sourceforge.fixagora.basis.client.control.BasisClient">
+
+					<cp>./lib/*.jar</cp>
+
+				</classPath>
+
+				<jre minVersion="1.6.0" initialHeapSize="1024" maxHeapSize="1024">
+					<opt>-XX:MaxPermSize=512m</opt>
+				</jre>
+
+
+			</config>
+
+		</launch4j>
+
+		<launch4j>
+
+			<config chdir="." customProcName="true" dontWrapJar="true" headerType="gui" icon="etc/windows/a-logo.ico" outfile="${destination}/windows/fixagora/fixagora-simulator/FIX Agora Simulator.exe">
+
+				<classPath mainClass="net.sourceforge.agora.simulator.view.FIXAgoraSimulator">
+
+					<cp>./lib/*.jar</cp>
+
+				</classPath>
+
+				<jre minVersion="1.6.0" initialHeapSize="1024" maxHeapSize="1024">
+					<opt>-XX:MaxPermSize=512m</opt>
+				</jre>
+
+
+			</config>
+
+		</launch4j>
+
+		<launch4j>
+
+			<config chdir="./fixagora-simulator" cmdLine="windows_demo.txt" customProcName="true" dontWrapJar="true" headerType="gui" icon="etc/windows/a-logo.ico" outfile="${destination}/windows/fixagora/FIX Agora Demo.exe">
+
+				<classPath mainClass="net.sourceforge.agora.simulator.view.FIXAgoraSimulator">
+
+					<cp>./lib/*.jar</cp>
+
+				</classPath>
+
+				<jre minVersion="1.6.0" initialHeapSize="512" maxHeapSize="512">
+					<opt>-XX:MaxPermSize=256m</opt>
+				</jre>
+
+			</config>
+
+		</launch4j>
+
+		<zip destfile="${destination}/fixagora-windows-${basis_version}.zip" basedir="${destination}/windows" />
+
+		<tar destfile="${destination}/fixagora-linux-${basis_version}.tar" longfile="gnu">
+
+			<tarfileset dir="${destination}/linux" filemode="777">
+				<include name="fixagora/fixagora-server/fixagora-server.sh" />
+				<include name="fixagora/fixagora-client/fixagora-client.sh" />
+				<include name="fixagora/fixagora-simulator/fixagora-simulator.sh" />
+				<include name="fixagora/fixagora-demo.sh" />
+			</tarfileset>
+
+			<tarfileset dir="${destination}/linux">
+				<include name="**" />
+				<exclude name="fixagora/fixagora-server/fixagora-server.sh" />
+				<exclude name="fixagora/fixagora-client/fixagora-client.sh" />
+				<exclude name="fixagora/fixagora-simulator/fixagora-simulator.sh" />
+				<exclude name="fixagora/fixagora-demo.sh" />
+			</tarfileset>
+
+		</tar>
+
+		<gzip destfile="${destination}/fixagora-linux-${basis_version}.tgz" src="${destination}/fixagora-linux-${basis_version}.tar" />
+
+		<delete file="${destination}/fixagora-linux-${basis_version}.tar" />
+
+		<tar destfile="${destination}/fixagora-macprebuild-${basis_version}.tar" longfile="gnu">
+
+			<tarfileset dir="${destination}/mac">
+				<include name="**" />
+			</tarfileset>
+
+		</tar>
+
+		<gzip destfile="${destination}/fixagora-macprebuild-${basis_version}.tgz" src="${destination}/fixagora-macprebuild-${basis_version}.tar" />
+
+		<delete file="${destination}/fixagora-macprebuild-${basis_version}.tar" />
+
+	</target>
+
+
+
+	<target description="clean up" name="clean">
+		<delete dir="${destination}" />
+	</target>
+
+</project>

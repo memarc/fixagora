@@ -1,0 +1,1777 @@
+06:36:58:455 INFO  Start FIX Agora Server
+06:36:58:471 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:36:58:472 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+06:36:58:472 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+06:36:58:472 INFO  System: java.vm.version=20.5-b03
+06:36:58:472 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+06:36:58:472 INFO  System: java.vendor.url=http://java.sun.com/
+06:36:58:472 INFO  System: path.separator=:
+06:36:58:472 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+06:36:58:472 INFO  System: file.encoding.pkg=sun.io
+06:36:58:472 INFO  System: sun.java.launcher=SUN_STANDARD
+06:36:58:472 INFO  System: user.country=DE
+06:36:58:472 INFO  System: sun.os.patch.level=unknown
+06:36:58:473 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+06:36:58:473 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisServer
+06:36:58:473 INFO  System: java.runtime.version=1.6.0_30-b12
+06:36:58:473 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+06:36:58:473 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+06:36:58:473 INFO  System: os.arch=amd64
+06:36:58:473 INFO  System: java.io.tmpdir=/tmp
+06:36:58:473 INFO  System: line.separator=
+
+06:36:58:473 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+06:36:58:473 INFO  System: os.name=Linux
+06:36:58:473 INFO  System: sun.jnu.encoding=UTF-8
+06:36:58:473 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+06:36:58:473 INFO  System: java.specification.name=Java Platform API Specification
+06:36:58:473 INFO  System: java.class.version=50.0
+06:36:58:473 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+06:36:58:473 INFO  System: os.version=3.11.10-29-desktop
+06:36:58:474 INFO  System: user.home=/home/alex
+06:36:58:474 INFO  System: user.timezone=Europe/Berlin
+06:36:58:474 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+06:36:58:474 INFO  System: file.encoding=UTF-8
+06:36:58:474 INFO  System: java.specification.version=1.6
+06:36:58:474 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/antlr-2.7.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-collections-3.2.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/dom4j-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/mina-core-1.1.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/conf:/home/alex/workspace_private/FIXAgoraBasisServer/lib/quickfixj-all-1.2.5-sp2-patch.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-math3-3.0.jar:/home/alex/workspace_private/FIXAgoraBuySideServer/bin:/home/alex/workspace_private/FIXAgoraSellSideServer/bin:/home/alex/workspace_private/FIXAgoraExcelServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraTradeCaptureServer/bin:/home/alex/workspace_private/FIXAgoraSAPServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-entitymanager-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jcommon-1.0.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-api-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/c3p0-0.9.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-c3p0-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/guava-13.0.1.jar
+06:36:58:474 INFO  System: user.name=alex
+06:36:58:474 INFO  System: java.vm.specification.version=1.0
+06:36:58:474 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.server.FBasisServer
+06:36:58:474 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+06:36:58:474 INFO  System: sun.arch.data.model=64
+06:36:58:474 INFO  System: user.language=de
+06:36:58:474 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+06:36:58:474 INFO  System: java.vm.info=mixed mode
+06:36:58:475 INFO  System: java.version=1.6.0_30
+06:36:58:475 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+06:36:58:475 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+06:36:58:475 INFO  System: java.vendor=Sun Microsystems Inc.
+06:36:58:475 INFO  System: file.separator=/
+06:36:58:475 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+06:36:58:475 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+06:36:58:475 INFO  System: sun.cpu.endian=little
+06:36:58:475 INFO  System: sun.cpu.isalist=
+06:36:58:476 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar loaded.
+06:36:58:476 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar loaded.
+06:36:58:476 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/ojdbc6_g.jar loaded.
+06:36:58:944 INFO  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+06:36:58:953 INFO  HHH000412: Hibernate Core {4.1.6.Final}
+06:36:58:956 INFO  HHH000206: hibernate.properties not found
+06:36:58:958 INFO  HHH000021: Bytecode provider name : javassist
+06:36:59:803 WARN  HHH000144: hibernate.connection.autocommit = false breaks the EJB3 specification
+06:37:00:556 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+06:37:00:564 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+06:37:00:611 INFO  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+06:37:00:612 INFO  HHH010002: C3P0 using driver: org.apache.derby.jdbc.EmbeddedDriver at URL: jdbc:derby:derby;create=true
+06:37:00:612 INFO  HHH000046: Connection properties: {user=fbasis, password=****, autocommit=false, release_mode=auto}
+06:37:00:612 INFO  HHH000006: Autocommit mode: false
+06:37:03:456 INFO  HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+06:37:03:459 WARN  HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+06:37:03:463 INFO  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+06:37:03:481 INFO  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+06:37:03:492 INFO  HHH000397: Using ASTQueryTranslatorFactory
+06:37:04:426 INFO  HHH000228: Running hbm2ddl schema update
+06:37:04:427 INFO  HHH000102: Fetching database metadata
+06:37:04:430 INFO  HHH000396: Updating schema
+06:37:04:642 INFO  HHH000261: Table found: .FBASIS.ABSBS
+06:37:04:642 INFO  HHH000037: Columns: [absbs_id, bankcalendar_id, calcmethod, security_id, valuta, buysidebook_id, fractionaldisplay, daycountconvention]
+06:37:04:642 INFO  HHH000108: Foreign keys: [fk3b33823769d520f, fk3b33823290f3deb, fk3b338231f7563ab]
+06:37:04:643 INFO  HHH000126: Indexes: [sql130210103934390, sql130210103911600, sql130210103933940, sql130210103934230]
+06:37:04:674 INFO  HHH000261: Table found: .FBASIS.ABSTCT
+06:37:04:674 INFO  HHH000037: Columns: [id, abstractbusinesscomponent_id, lasttradeid, buysidebook_id]
+06:37:04:674 INFO  HHH000108: Foreign keys: [fk72b40e331f7563ab, fk72b40e33d77ccf45]
+06:37:04:674 INFO  HHH000126: Indexes: [sql130210103934560, sql130210103934880, sql130210103911860]
+06:37:04:713 INFO  HHH000261: Table found: .FBASIS.ASSBS
+06:37:04:713 INFO  HHH000037: Columns: [sellsidebook_id, bankcalendar_id, calcmethod, security_id, valuta, fractionaldisplay, daycountconvention, assbs_id]
+06:37:04:713 INFO  HHH000108: Foreign keys: [fk3baf272290f3deb, fk3baf272769d520f, fk3baf27219802ca5]
+06:37:04:713 INFO  HHH000126: Indexes: [sql130210103935640, sql130210103935340, sql130210103935180, sql130210103912050]
+06:37:04:739 INFO  HHH000261: Table found: .FBASIS.ASSTCT
+06:37:04:739 INFO  HHH000037: Columns: [sellsidebook_id, id, abstractbusinesscomponent_id, lasttradeid]
+06:37:04:739 INFO  HHH000108: Foreign keys: [fk73a39dc4d77ccf45, fk73a39dc419802ca5]
+06:37:04:739 INFO  HHH000126: Indexes: [sql130210103935950, sql130210103935780, sql130210103912220]
+06:37:04:759 INFO  HHH000261: Table found: .FBASIS.ABSTRACTACCEPTOR
+06:37:04:759 INFO  HHH000037: Columns: [id, securityidsource, marketname, connectatstartup]
+06:37:04:760 INFO  HHH000108: Foreign keys: [fk391df74df03759e1]
+06:37:04:760 INFO  HHH000126: Indexes: [sql130210103912420, sql130210103936110]
+06:37:04:782 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSCOMPONENT
+06:37:04:782 INFO  HHH000037: Columns: [id, datadictionary]
+06:37:04:782 INFO  HHH000108: Foreign keys: [fk7b46ecfba66ebd31]
+06:37:04:782 INFO  HHH000126: Indexes: [sql130210103936160, sql130210103912610]
+06:37:04:802 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSOBJECT
+06:37:04:802 INFO  HHH000037: Columns: [id, modificationuser_id, modificationdate, name, parent_id]
+06:37:04:802 INFO  HHH000108: Foreign keys: [fk79c50401c25e156f, fk79c5040121d560e6]
+06:37:04:803 INFO  HHH000126: Indexes: [sql130210103936190, sql130210103912811, sql130210103912810, sql130210103936370]
+06:37:04:824 INFO  HHH000261: Table found: .FBASIS.ABSTRACTINITIATOR
+06:37:04:824 INFO  HHH000037: Columns: [id, securityidsource, marketname, route_id, connectatstartup, counterparty_id]
+06:37:04:824 INFO  HHH000108: Foreign keys: [fk5a04380d33fd41a9, fk5a04380d2caa87ef, fk5a04380df03759e1]
+06:37:04:824 INFO  HHH000126: Indexes: [sql130210103936560, sql130210103913130, sql130210103936720, sql130210103936580]
+06:37:04:837 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDBUYSIDEINITIATOR
+06:37:04:837 INFO  HHH000037: Columns: [id, initiator_id, buysidebook_id]
+06:37:04:838 INFO  HHH000108: Foreign keys: [fkf4b22bc029c96003, fkf4b22bc01f7563ab]
+06:37:04:838 INFO  HHH000126: Indexes: [sql130210103913340, sql130210103936860, sql130210103937020]
+06:37:04:855 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDINITIATORSECURITY
+06:37:04:856 INFO  HHH000037: Columns: [id, security_id, counterparty_id, fixinitiator_id]
+06:37:04:856 INFO  HHH000108: Foreign keys: [fk516a26412caa87ef, fk516a264186aaa9cf, fk516a264168987498, fk516a2641290f3deb]
+06:37:04:856 INFO  HHH000126: Indexes: [sql130210103937450, sql130210103937170, sql130210103937610, sql130210103913520, sql130210103937320]
+06:37:04:869 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDSELLSIDEACCEPTOR
+06:37:04:869 INFO  HHH000037: Columns: [sellsidebook_id, id, acceptor_id]
+06:37:04:870 INFO  HHH000108: Foreign keys: [fk96b6de287853c11, fk96b6de219802ca5]
+06:37:04:870 INFO  HHH000126: Indexes: [sql130210103913710, sql130210103937630, sql130210103937780]
+06:37:04:882 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURESOURCE
+06:37:04:882 INFO  HHH000037: Columns: [id, tradecapture_id, businesscomponent_id]
+06:37:04:882 INFO  HHH000108: Foreign keys: [fk7e207e8bdc3a4423, fk7e207e8ba3c333fe]
+06:37:04:883 INFO  HHH000126: Indexes: [sql130210103914180, sql130210103938090, sql130210103937940]
+06:37:04:895 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURETARGET
+06:37:04:895 INFO  HHH000037: Columns: [id, tradecapture_id, abstractbusinesscomponent_id, lasttradeid]
+06:37:04:895 INFO  HHH000108: Foreign keys: [fk7f0e8801a3c333fe, fk7f0e8801d77ccf45]
+06:37:04:895 INFO  HHH000126: Indexes: [sql130210103938460, sql130210103914380, sql130210103938230]
+06:37:04:908 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDUSERSETTINGS
+06:37:04:909 INFO  HHH000037: Columns: [id, exceltradecapture_id, fuser_id, path, replaceoldsheet, deleteafterexport, sheet]
+06:37:04:909 INFO  HHH000108: Foreign keys: [fk6e05621c238d8f65, fk6e05621c136a7e31]
+06:37:04:909 INFO  HHH000126: Indexes: [sql130210103914580, sql130210103938590, sql130210103938800]
+06:37:04:937 INFO  HHH000261: Table found: .FBASIS.BSBTCR
+06:37:04:937 INFO  HHH000037: Columns: [tradeid, lastquantity, fuser_id, security_id, counterparty_id, cumulativequantity, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, lastprice, settlementdate, trader_id, orderquantity, side, counterpartyorderid, orderid, buysidebook_id, execid, updatedtimestamp]
+06:37:04:938 INFO  HHH000108: Foreign keys: [fk7550bc12238d8f65, fk7550bc122caa87ef, fk7550bc12911f812f, fk7550bc12eaf08210, fk7550bc121f7563ab, fk7550bc12290f3deb]
+06:37:04:938 INFO  HHH000126: Indexes: [sql130210103939490, sql130210103939220, sql130210103914760, sql130210103939360, sql130210103938960, sql130210103939750, sql130210103939620]
+06:37:04:958 INFO  HHH000261: Table found: .FBASIS.BSCHILDREN
+06:37:04:958 INFO  HHH000037: Columns: [businesssection_id, children_id]
+06:37:04:958 INFO  HHH000108: Foreign keys: [fk9eaf7550f860c4e5, fk9eaf75508e008f71]
+06:37:04:958 INFO  HHH000126: Indexes: [sql130210103914950, sql130210103939900, sql130210103940300]
+06:37:04:967 INFO  HHH000261: Table found: .FBASIS.BANKCALENDAR
+06:37:04:967 INFO  HHH000037: Columns: [id]
+06:37:04:968 INFO  HHH000108: Foreign keys: [fk4fd6bdbaa66ebd31]
+06:37:04:968 INFO  HHH000126: Indexes: [sql130210103940320, sql130210103915140]
+06:37:04:977 INFO  HHH000261: Table found: .FBASIS.BANKCALENDARGROUP
+06:37:04:977 INFO  HHH000037: Columns: [id, description]
+06:37:04:977 INFO  HHH000108: Foreign keys: [fkeb5acce5a66ebd31]
+06:37:04:977 INFO  HHH000126: Indexes: [sql130210103940370, sql130210103915350]
+06:37:04:987 INFO  HHH000261: Table found: .FBASIS.BUSINESSSECTION
+06:37:04:987 INFO  HHH000037: Columns: [id, position, description]
+06:37:04:987 INFO  HHH000108: Foreign keys: [fk2a72d6e5a66ebd31]
+06:37:04:987 INFO  HHH000126: Indexes: [sql130210103915660, sql130210103940460]
+06:37:04:999 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOK
+06:37:04:999 INFO  HHH000037: Columns: [id, killfill, bankcalendar_id, displaystyle, description, calcmethod, valuta, absolutchange, fractionaldisplay, daycountconvention]
+06:37:05:000 INFO  HHH000108: Foreign keys: [fk2da2ad66f03759e1, fk2da2ad66769d520f]
+06:37:05:000 INFO  HHH000126: Indexes: [sql130210103940580, sql130210103915870, sql130210103940540]
+06:37:05:009 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOKGROUP
+06:37:05:009 INFO  HHH000037: Columns: [id, description]
+06:37:05:009 INFO  HHH000108: Foreign keys: [fkf02dc8b9a66ebd31]
+06:37:05:009 INFO  HHH000126: Indexes: [sql130210103940710, sql130210103916060]
+06:37:05:037 INFO  HHH000261: Table found: .FBASIS.BUYSIDENEWORDERSINGLE
+06:37:05:037 INFO  HHH000037: Columns: [orderstatus, neworderid, newquantity, counterparty_id, security_id, cumulativequantity, id, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, marketinterface_id, lastquantity, fuser_id, timeinforce, leavequantity, orderquantity, newlimit, orderid, tiftimestamp, buysidebook_id, updatedtimestamp]
+06:37:05:037 INFO  HHH000108: Foreign keys: [fkf648b9b32caa87ef, fkf648b9b3290f3deb, fkf648b9b31f7563ab, fkf648b9b3fb417af5, fkf648b9b3238d8f65, fkf648b9b3911f812f]
+06:37:05:038 INFO  HHH000126: Indexes: [sql130210103941310, sql130210103941020, sql130210103941450, sql130210103916240, sql130210103941160, sql130210103940870, sql130210103940730, sql130210103916241]
+06:37:05:046 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEPAGE
+06:37:05:046 INFO  HHH000037: Columns: [id, sortby, displaystyle, description, showmarketdepth]
+06:37:05:047 INFO  HHH000108: Foreign keys: [fk206a0acea66ebd31]
+06:37:05:047 INFO  HHH000126: Indexes: [sql130210103941580, sql130210103916560]
+06:37:05:077 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEREQUEST
+06:37:05:078 INFO  HHH000037: Columns: [orderstatus, quotereqid, newquantity, multiid, security_id, counterparty_id, quoteid, cumulativequantity, id, settlementtimestamp, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, marketinterface_id, limit, expiretimestamp, lastquantity, fuser_id, leavequantity, orderquantity, quoterespid, orderid, subjecttimestamp, buysidebook_id, updatedtimestamp]
+06:37:05:078 INFO  HHH000108: Foreign keys: [fk8574edf0290f3deb, fk8574edf0fb417af5, fk8574edf0911f812f, fk8574edf0238d8f65, fk8574edf02caa87ef, fk8574edf01f7563ab]
+06:37:05:078 INFO  HHH000126: Indexes: [sql130210103942190, sql130210103941880, sql130210103916750, sql130210103942050, sql130210103941740, sql130210103942330, sql130210103941600, sql130210103916751]
+06:37:05:087 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTDATE
+06:37:05:088 INFO  HHH000037: Columns: [id, eventenddate, securitycomplexevent_id, eventstartdate]
+06:37:05:088 INFO  HHH000108: Foreign keys: [fk7cf53eb87ee4eeef]
+06:37:05:088 INFO  HHH000126: Indexes: [sql130210103942480, sql130210103917090]
+06:37:05:097 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTTIME
+06:37:05:097 INFO  HHH000037: Columns: [id, eventstarttime, complexeventdate_id, eventendtime]
+06:37:05:097 INFO  HHH000108: Foreign keys: [fk7cfca1d76cba42af]
+06:37:05:098 INFO  HHH000126: Indexes: [sql130210103942620, sql130210103917290]
+06:37:05:111 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYPARTYID
+06:37:05:111 INFO  HHH000037: Columns: [id, partyidsource, abstractbusinesscomponent_id, partyrole, counterparty_id, partyid]
+06:37:05:111 INFO  HHH000108: Foreign keys: [fkfab3e8b7d77ccf45, fkfab3e8b72caa87ef]
+06:37:05:111 INFO  HHH000126: Indexes: [sql130210103942760, sql130210103917500, sql130210103942900]
+06:37:05:123 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTY
+06:37:05:123 INFO  HHH000037: Columns: [postalcode, fax, street, companypostalcode, ftimezone, house, popostalcode, city, country, id, mobilephone, flanguage, email, pobox, telephone]
+06:37:05:123 INFO  HHH000108: Foreign keys: [fka75e768aa66ebd31]
+06:37:05:123 INFO  HHH000126: Indexes: [sql130210103943040, sql130210103917710]
+06:37:05:132 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYGROUP
+06:37:05:132 INFO  HHH000037: Columns: [id, description]
+06:37:05:132 INFO  HHH000108: Foreign keys: [fk8ed61615a66ebd31]
+06:37:05:132 INFO  HHH000126: Indexes: [sql130210103917900, sql130210103943100]
+06:37:05:141 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTURE
+06:37:05:141 INFO  HHH000037: Columns: [id, securityidsource, description]
+06:37:05:141 INFO  HHH000108: Foreign keys: [fkc47a6179f03759e1]
+06:37:05:142 INFO  HHH000126: Indexes: [sql130210103943140, sql130210103918080]
+06:37:05:153 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREGROUP
+06:37:05:153 INFO  HHH000037: Columns: [id, description]
+06:37:05:153 INFO  HHH000108: Foreign keys: [fk5072a886a66ebd31]
+06:37:05:154 INFO  HHH000126: Indexes: [sql130210103918280, sql130210103943170]
+06:37:05:186 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREREPORT
+06:37:05:186 INFO  HHH000037: Columns: [tradeid, lastquantity, security_id, counterparty_id, cumulativequantity, executingtrader, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, exceltradecapture_id, settlementdate, lastprice, market, trader_id, side, orderquantity, counterpartyorderid, user_id, orderid, execid, updatedtimestamp]
+06:37:05:186 INFO  HHH000108: Foreign keys: [fkcff0e40da77d3bfe, fkcff0e40d911f812f, fkcff0e40dbfd5ae8b, fkcff0e40d2caa87ef, fkcff0e40d136a7e31, fkcff0e40d290f3deb]
+06:37:05:186 INFO  HHH000126: Indexes: [sql130210103943480, sql130210103943200, sql130210103943890, sql130210103943610, sql130210103943350, sql130210103943760, sql130210103918490]
+06:37:05:198 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTOR
+06:37:05:198 INFO  HHH000037: Columns: [id, partyidsource, socketadress, persistmessage, marketdatatype, partyrole, marketdatarequest, datadictionary, socketport, sendercompid, partyid]
+06:37:05:198 INFO  HHH000108: Foreign keys: [fkdae95000612ba43d]
+06:37:05:198 INFO  HHH000126: Indexes: [sql130210103918700, sql130210103944040]
+06:37:05:206 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORGROUP
+06:37:05:206 INFO  HHH000037: Columns: [id, description]
+06:37:05:206 INFO  HHH000108: Foreign keys: [fk1686b65fa66ebd31]
+06:37:05:206 INFO  HHH000126: Indexes: [sql130210103944080, sql130210103918910]
+06:37:05:218 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORTARGET
+06:37:05:218 INFO  HHH000037: Columns: [id, fixacceptor_id, targetcompid, counterparty_id]
+06:37:05:218 INFO  HHH000108: Foreign keys: [fkcf90adb12fad88c5, fkcf90adb12caa87ef, fkcf90adb1f4e6c0dc]
+06:37:05:218 INFO  HHH000126: Indexes: [sql130210103944120, sql130210103944270, sql130210103919230, sql130210103944280]
+06:37:05:226 INFO  HHH000261: Table found: .FBASIS.FIXFIELDORDERENTRY
+06:37:05:226 INFO  HHH000037: Columns: [id, fixfieldorderentry_id, fixfield]
+06:37:05:226 INFO  HHH000108: Foreign keys: [fka4df1da9a687ae92]
+06:37:05:226 INFO  HHH000126: Indexes: [sql130210103944410, sql130210103919440]
+06:37:05:241 INFO  HHH000261: Table found: .FBASIS.FIXINITIATOR
+06:37:05:241 INFO  HHH000037: Columns: [earlyprices, marginrate, settlehighprice, openingprice, reconnectinterval, targetcompid, indexvalue, cashrate, requesttype, persistmessage, priorsettleprice, cvafs, cvafl, midprice, swapvaluefactor, settlementprice, sendercompid, partyidsource, tradingsessionlowprice, fixingprice, securitylistrequest, recoveryrateforshort, socketadress, tradevolume, trade, partyrole, datadictionary, socketport, tradingsessionhighprice, tradingsessionvwapprice, id, marketdatatype, sessionlowoffer, settlelowprice, bid, partyid, recoveryrateforlong, openinterest, closingprice, compositeunderlying, dvafl, offer, recoveryrate, sessionhighbid, shutdownaftersnapshot, dvafs, auctionclearingprice, simulatedsellprice, heartbeatinterval, simulatedbuyprice]
+06:37:05:241 INFO  HHH000108: Foreign keys: [fkf1a3f5ba33aa9ff3]
+06:37:05:241 INFO  HHH000126: Indexes: [sql130210103944550, sql130210103919620]
+06:37:05:249 INFO  HHH000261: Table found: .FBASIS.FIXINITIATORGROUP
+06:37:05:249 INFO  HHH000037: Columns: [id, description]
+06:37:05:249 INFO  HHH000108: Foreign keys: [fkf11094e5a66ebd31]
+06:37:05:249 INFO  HHH000126: Indexes: [sql130210103919800, sql130210103944570]
+06:37:05:257 INFO  HHH000261: Table found: .FBASIS.FROLE
+06:37:05:257 INFO  HHH000037: Columns: [id, description]
+06:37:05:257 INFO  HHH000108: Foreign keys: [fk40161dca66ebd31]
+06:37:05:257 INFO  HHH000126: Indexes: [sql130210103920000, sql130210103944580]
+06:37:05:264 INFO  HHH000261: Table found: .FBASIS.FROLEGROUP
+06:37:05:264 INFO  HHH000037: Columns: [id, description]
+06:37:05:265 INFO  HHH000108: Foreign keys: [fk563b6e03a66ebd31]
+06:37:05:265 INFO  HHH000126: Indexes: [sql130210103944581, sql130210103920240]
+06:37:05:275 INFO  HHH000261: Table found: .FBASIS.FSECURITY
+06:37:05:276 INFO  HHH000037: Columns: [id, maturity, securitydetails_id, securityid]
+06:37:05:276 INFO  HHH000108: Foreign keys: [fkc72335a6e51d5bc5, fkc72335a6a66ebd31]
+06:37:05:276 INFO  HHH000126: Indexes: [sql130210103944620, sql130210103920441, sql130210103920440, sql130210103944650]
+06:37:05:283 INFO  HHH000261: Table found: .FBASIS.FSECURITYGROUP
+06:37:05:283 INFO  HHH000037: Columns: [id, sortby, description]
+06:37:05:283 INFO  HHH000108: Foreign keys: [fkc6f86879a66ebd31]
+06:37:05:283 INFO  HHH000126: Indexes: [sql130210103944790, sql130210103920770]
+06:37:05:294 INFO  HHH000261: Table found: .FBASIS.FUSER
+06:37:05:294 INFO  HHH000037: Columns: [building, fax, department, lastname, ffunction, firstname, treepanelwidth, roomnumber, id, mobilephone, academictitle, flanguage, ftitle, floor, email, mainpanelpanelheight, fpassword, telephone]
+06:37:05:294 INFO  HHH000108: Foreign keys: [fk402cd31a66ebd31]
+06:37:05:294 INFO  HHH000126: Indexes: [sql130210103944810, sql130210103921010]
+06:37:05:301 INFO  HHH000261: Table found: .FBASIS.FUSERGROUP
+06:37:05:302 INFO  HHH000037: Columns: [id, description]
+06:37:05:302 INFO  HHH000108: Foreign keys: [fk5670cfcea66ebd31]
+06:37:05:302 INFO  HHH000126: Indexes: [sql130210103921240, sql130210103944811]
+06:37:05:311 INFO  HHH000261: Table found: .FBASIS.FUSERPARTYID
+06:37:05:311 INFO  HHH000037: Columns: [id, partyidsource, fuser_id, abstractbusinesscomponent_id, partyrole, partyid]
+06:37:05:311 INFO  HHH000108: Foreign keys: [fk3cbbc410d77ccf45, fk3cbbc410238d8f65]
+06:37:05:311 INFO  HHH000126: Indexes: [sql130210103921450, sql130210103944950, sql130210103944820]
+06:37:05:317 INFO  HHH000261: Table found: .FBASIS.IDMANAGER
+06:37:05:317 INFO  HHH000037: Columns: [id, name, lastid]
+06:37:05:317 INFO  HHH000108: Foreign keys: []
+06:37:05:317 INFO  HHH000126: Indexes: [sql130210103921731, sql130210103921730]
+06:37:05:323 INFO  HHH000261: Table found: .FBASIS.LOGENTRY
+06:37:05:323 INFO  HHH000037: Columns: [logdate, id, messagecomponent, loglevel, highlightkey, messagetext]
+06:37:05:323 INFO  HHH000108: Foreign keys: []
+06:37:05:323 INFO  HHH000126: Indexes: [sql130210103922050]
+06:37:05:333 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTURE
+06:37:05:333 INFO  HHH000037: Columns: [settrader, sapclient, securityidsource, saptransactiontypesell, sappassword, sapcompanycode, sapgeneralvaluationclass, sapusername, id, description, sapsecuritiesaccount, setexchange, saptransactiontypebuy, sapsystemnumber, sapservername]
+06:37:05:333 INFO  HHH000108: Foreign keys: [fkd315d624f03759e1]
+06:37:05:333 INFO  HHH000126: Indexes: [sql130210103922250, sql130210103945200]
+06:37:05:340 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREGROUP
+06:37:05:340 INFO  HHH000037: Columns: [id, description]
+06:37:05:340 INFO  HHH000108: Foreign keys: [fk40ac66bba66ebd31]
+06:37:05:340 INFO  HHH000126: Indexes: [sql130210103922450, sql130210103945300]
+06:37:05:362 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREREPORT
+06:37:05:362 INFO  HHH000037: Columns: [counterparty_id, security_id, executingtrader, cumulativequantity, id, lastyield, createdtimestamp, lastprice, sapfinancialtransaction, side, trader_id, counterpartyorderid, user_id, execid, tradeid, lastquantity, leavequantity, market, settlementdate, sourcecomponent_id, exportstatus, orderquantity, orderid, updatedtimestamp, saptradecapture_id]
+06:37:05:362 INFO  HHH000108: Foreign keys: [fke6eeec782caa87ef, fke6eeec78911f812f, fke6eeec78290f3deb, fke6eeec78a77d3bfe, fke6eeec7851658d06, fke6eeec78bfd5ae8b]
+06:37:05:363 INFO  HHH000126: Indexes: [sql130210103945820, sql130210103945970, sql130210103945400, sql130210103945540, sql130210103922650, sql130210103946110, sql130210103945670]
+06:37:05:386 INFO  HHH000261: Table found: .FBASIS.SSBTCR
+06:37:05:386 INFO  HHH000037: Columns: [tradeid, lastquantity, fuser_id, security_id, counterparty_id, cumulativequantity, sellsidebook_id, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, lastprice, settlementdate, trader_id, orderquantity, side, counterpartyorderid, orderid, execid, updatedtimestamp]
+06:37:05:386 INFO  HHH000108: Foreign keys: [fk92531ea119802ca5, fk92531ea12caa87ef, fk92531ea1238d8f65, fk92531ea11871865a, fk92531ea1911f812f, fk92531ea1290f3deb]
+06:37:05:386 INFO  HHH000126: Indexes: [sql130210103946410, sql130210103946690, sql130210103946260, sql130210103946550, sql130210103947050, sql130210103922860, sql130210103946910]
+06:37:05:394 INFO  HHH000261: Table found: .FBASIS.SSCF_PDS
+06:37:05:395 INFO  HHH000037: Columns: [predefinedstrings, spreadsheetcellformat_id]
+06:37:05:395 INFO  HHH000108: Foreign keys: [fk4b024563758bc0e5]
+06:37:05:395 INFO  HHH000126: Indexes: [sql130210103947200]
+06:37:05:403 INFO  HHH000261: Table found: .FBASIS.SSFF
+06:37:05:403 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixfields_id]
+06:37:05:404 INFO  HHH000108: Foreign keys: [fk26fb2084c1520f, fk26fb201a957f54]
+06:37:05:404 INFO  HHH000126: Indexes: [sql130210103923140, sql130210103923141, sql130210103947330, sql130210103947350]
+06:37:05:411 INFO  HHH000261: Table found: .FBASIS.SSFGL
+06:37:05:412 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixgrouplists_id]
+06:37:05:412 INFO  HHH000108: Foreign keys: [fk4b8694b12ca2ba, fk4b8694b84c1520f]
+06:37:05:412 INFO  HHH000126: Indexes: [sql130210103947480, sql130210103923430, sql130210103923431, sql130210103947630]
+06:37:05:420 INFO  HHH000261: Table found: .FBASIS.SECURITYALTIDGROUP
+06:37:05:420 INFO  HHH000037: Columns: [id, securitydetails_id, securityaltidsource, securityaltid]
+06:37:05:420 INFO  HHH000108: Foreign keys: [fk53757bdbe51d5bc5]
+06:37:05:420 INFO  HHH000126: Indexes: [sql130210103923720, sql130210103947660]
+06:37:05:429 INFO  HHH000261: Table found: .FBASIS.SECURITYATTRIBUTE
+06:37:05:429 INFO  HHH000037: Columns: [id, attributevalue, securitydetails_id, attributetype]
+06:37:05:429 INFO  HHH000108: Foreign keys: [fke49dbb1ce51d5bc5]
+06:37:05:429 INFO  HHH000126: Indexes: [sql130210103947800, sql130210103923910]
+06:37:05:438 INFO  HHH000261: Table found: .FBASIS.SECURITYCOMPLEXEVENT
+06:37:05:438 INFO  HHH000037: Columns: [id, securitydetails_id, eventpriceboundaryprecision, eventpriceboundarymethod, eventpricetimetype, eventprice, eventcondition, eventtype, optionpayoutamount]
+06:37:05:438 INFO  HHH000108: Foreign keys: [fk7899ab4ae51d5bc5]
+06:37:05:438 INFO  HHH000126: Indexes: [sql130210103924350, sql130210103947930]
+06:37:05:452 INFO  HHH000261: Table found: .FBASIS.SECURITYDETAILS
+06:37:05:452 INFO  HHH000037: Columns: [countryofissue, cpregtype, maturitytime, flexibleindicator, optionpayoutamount, exercisestyle, priceunitofmeasure, description, strikepriceboundaryprecision, ntpositionlimit, seniority, fpool, listmethod, udm, spbm, contractsettlmonth, securitygroup, dateddate, instrmtassignmentmethod, localeofissue, restructuringtype, strikeprice, contractmultiplier, creditrating, percentatrisk, fpei, optionpayouttype, interestaccrualdate, stateofissue, deliveryform, issuer, issuedate, unitofmeasure, cficode, couponpaymentdate, pricequotemethod, settlonopen, strikemultiplier, flowscheduletyped, productcomplex, cpprogramm, securityidsource, minpriceincrementamount, minpriceincrement, floorprice, securitysubtype, redemptiondate, unitofmeasureqty, instrumentregistry, putorcall, currency, id, couponrate, settlemethod, valuationmethod, timeunit, securitystatus, contractmultiplierunit, spdm, factor, strikevalue, securitytype, product, symbolsfx, securityexchange, capprice, priceunitofmeasureqty, strikecurrency, positionlimit]
+06:37:05:452 INFO  HHH000108: Foreign keys: []
+06:37:05:452 INFO  HHH000126: Indexes: [sql130210103924800]
+06:37:05:461 INFO  HHH000261: Table found: .FBASIS.SECURITYEVENT
+06:37:05:461 INFO  HHH000037: Columns: [eventtime, id, securitydetails_id, eventdate, eventtext, eventprice, eventtype]
+06:37:05:461 INFO  HHH000108: Foreign keys: [fk438c31ae51d5bc5]
+06:37:05:461 INFO  HHH000126: Indexes: [sql130210103925070, sql130210103948070]
+06:37:05:471 INFO  HHH000261: Table found: .FBASIS.SECURITYLEG
+06:37:05:471 INFO  HHH000037: Columns: [id, ratioquantity, securitydetails_id, side, legsecurity_id, optionratio]
+06:37:05:471 INFO  HHH000108: Foreign keys: [fkbfce128ea4cb671d, fkbfce128ee51d5bc5]
+06:37:05:472 INFO  HHH000126: Indexes: [sql130210103948370, sql130210103948210, sql130210103925270]
+06:37:05:482 INFO  HHH000261: Table found: .FBASIS.SECURITYUNDERLYING
+06:37:05:482 INFO  HHH000037: Columns: [id, securitydetails_id, startvalue, endvalue, cashtype, allocationpercent, settlementtype, endprice, underlyingsecurity_id, cashamount]
+06:37:05:482 INFO  HHH000108: Foreign keys: [fk2d6246dde51d5bc5, fk2d6246dd1d3faa6e]
+06:37:05:482 INFO  HHH000126: Indexes: [sql130210103925480, sql130210103948520, sql130210103948660]
+06:37:05:491 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOK
+06:37:05:491 INFO  HHH000037: Columns: [id, killfill, bankcalendar_id, displaystyle, description, calcmethod, valuta, absolutchange, fractionaldisplay, daycountconvention]
+06:37:05:491 INFO  HHH000108: Foreign keys: [fke9711e72769d520f, fke9711e72f03759e1]
+06:37:05:491 INFO  HHH000126: Indexes: [sql130210103948790, sql130210103948780, sql130210103925710]
+06:37:05:497 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKGROUP
+06:37:05:497 INFO  HHH000037: Columns: [id, description]
+06:37:05:498 INFO  HHH000108: Foreign keys: [fk4d381f2da66ebd31]
+06:37:05:498 INFO  HHH000126: Indexes: [sql130210103948910, sql130210103925930]
+06:37:05:504 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKMDINPUT
+06:37:05:505 INFO  HHH000037: Columns: [sellsidebook_id, id, businesscomponent_id]
+06:37:05:505 INFO  HHH000108: Foreign keys: [fkcc78e1c1dc3a4423, fkcc78e1c119802ca5]
+06:37:05:505 INFO  HHH000126: Indexes: [sql130210103926160, sql130210103948920, sql130210103949050]
+06:37:05:524 INFO  HHH000261: Table found: .FBASIS.SELLSIDENEWORDERSINGLE
+06:37:05:524 INFO  HHH000037: Columns: [orderstatus, neworderid, newquantity, counterparty_id, security_id, cumulativequantity, id, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, marketinterface_id, lastquantity, fuser_id, timeinforce, sellsidebook_id, leavequantity, settlementdate, orderquantity, newlimit, orderid, tiftimestamp, updatedtimestamp]
+06:37:05:524 INFO  HHH000108: Foreign keys: [fkb6364bbf28c27f3f, fkb6364bbf238d8f65, fkb6364bbf911f812f, fkb6364bbf19802ca5, fkb6364bbf290f3deb, fkb6364bbf2caa87ef]
+06:37:05:524 INFO  HHH000126: Indexes: [sql130210103949860, sql130210103949600, sql130210103949180, sql130210103949460, sql130210103949320, sql130210103949730, sql130210103926411, sql130210103926410]
+06:37:05:533 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEPAGE
+06:37:05:533 INFO  HHH000037: Columns: [id, sortby, displaystyle, description]
+06:37:05:533 INFO  HHH000108: Foreign keys: [fk7d746142a66ebd31]
+06:37:05:533 INFO  HHH000126: Indexes: [sql130210103950000, sql130210103926820]
+06:37:05:554 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEREQUEST
+06:37:05:554 INFO  HHH000037: Columns: [orderstatus, quotereqid, newquantity, security_id, counterparty_id, quoteid, cumulativequantity, id, settlementtimestamp, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, expiretimestamp, marketinterface_id, lastquantity, fuser_id, sellsidebook_id, leavequantity, orderquantity, quoterespid, orderid, subjecttimestamp, updatedtimestamp]
+06:37:05:555 INFO  HHH000108: Foreign keys: [fkbb7792fc28c27f3f, fkbb7792fc911f812f, fkbb7792fc2caa87ef, fkbb7792fc290f3deb, fkbb7792fc19802ca5, fkbb7792fc238d8f65]
+06:37:05:555 INFO  HHH000126: Indexes: [sql130210103950860, sql130210103950010, sql130210103927120, sql130210103950590, sql130210103950710, sql130210103950280, sql130210103950140]
+06:37:05:563 INFO  HHH000261: Table found: .FBASIS.SPREADSHEET
+06:37:05:564 INFO  HHH000037: Columns: [id, workbook]
+06:37:05:564 INFO  HHH000108: Foreign keys: [fke33b138cf03759e1]
+06:37:05:564 INFO  HHH000126: Indexes: [sql130210103927350, sql130210103950990]
+06:37:05:570 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLCONTENT
+06:37:05:570 INFO  HHH000037: Columns: [id, stringvalue, spreadsheetcelltype, booleanvalue, cellcolumn, spreadsheet, numericvalue, cellrow, formulavalue]
+06:37:05:570 INFO  HHH000108: Foreign keys: []
+06:37:05:570 INFO  HHH000126: Indexes: [sql130210103927580]
+06:37:05:578 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLFORMAT
+06:37:05:578 INFO  HHH000037: Columns: [boldfont, presentationroundingmode, negativenumbersred, cellrow, id, foregroundblue, decimalplaces, solvertolerance, thousandsseparator, minimumvalue, leadingzeroes, foregroundgreen, truevalue, falsevalue, cellcolumn, spreadsheetformattype, spreadsheet, ticksize, backgroundblue, spinnerstyle, solvercell, vincrement, gradientpaint, dateformat, backgroundgreen, foregroundred, backgroundred, locked, fractionaldisplay, timeformat, maximumvalue]
+06:37:05:579 INFO  HHH000108: Foreign keys: []
+06:37:05:579 INFO  HHH000126: Indexes: [sql130210103927800]
+06:37:05:584 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCOLUMNFORMAT
+06:37:05:584 INFO  HHH000037: Columns: [columnwidth, id, hidden, spreadsheet, columnnumber]
+06:37:05:585 INFO  HHH000108: Foreign keys: []
+06:37:05:585 INFO  HHH000126: Indexes: [sql130210103928040]
+06:37:05:591 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITION
+06:37:05:591 INFO  HHH000037: Columns: [fadeout, conditiontype, value1, backgroundblue, value2, id, foregroundblue, backgroundgreen, istype, backgroundred, foregroundred, foregroundgreen, formula]
+06:37:05:591 INFO  HHH000108: Foreign keys: []
+06:37:05:591 INFO  HHH000126: Indexes: [sql130210103928310]
+06:37:05:600 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITIONALFORMAT
+06:37:05:600 INFO  HHH000037: Columns: [id, spreadsheetcondition2_id, cellcolumn, spreadsheetcondition3_id, spreadsheet, cellrow, spreadsheetcondition1_id]
+06:37:05:600 INFO  HHH000108: Foreign keys: [fkddd53bf1d8c2b37c, fkddd53bf1d8c39c3a, fkddd53bf1d8c327db]
+06:37:05:600 INFO  HHH000126: Indexes: [sql130210103951270, sql130210103928520, sql130210103951000, sql130210103951130]
+06:37:05:607 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELD
+06:37:05:607 INFO  HHH000037: Columns: [id, valuetype, spreadcolumn, fixnumber, fixname, fixfieldmap_id, keyvalue]
+06:37:05:607 INFO  HHH000108: Foreign keys: [fkb9541991bc8f8b43]
+06:37:05:607 INFO  HHH000126: Indexes: [sql130210103951410, sql130210103928720]
+06:37:05:612 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELDMAP
+06:37:05:612 INFO  HHH000037: Columns: [id]
+06:37:05:613 INFO  HHH000108: Foreign keys: []
+06:37:05:613 INFO  HHH000126: Indexes: [sql130210103928900]
+06:37:05:620 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUP
+06:37:05:620 INFO  HHH000037: Columns: [id, spreadsheetfixgrouplist_id, fixnumber, fixname, groupiterator]
+06:37:05:621 INFO  HHH000108: Foreign keys: [fkb9666f16e76173b, fkb9666f162c1f37a5]
+06:37:05:621 INFO  HHH000126: Indexes: [sql130210103929090, sql130210103951540, sql130210103951550]
+06:37:05:627 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUPLIST
+06:37:05:627 INFO  HHH000037: Columns: [id, fixnumber, fixfieldmap_id]
+06:37:05:627 INFO  HHH000108: Foreign keys: [fkb3f118d4bc8f8b43]
+06:37:05:627 INFO  HHH000126: Indexes: [sql130210103951700, sql130210103929300]
+06:37:05:638 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXINPUTMESSAGE
+06:37:05:638 INFO  HHH000037: Columns: [id, header_id, datadictionary, messagename, businesscomponent_id, trailer_id, messageid, spreadsheet_id]
+06:37:05:638 INFO  HHH000108: Foreign keys: [fk836ac866dc3a4423, fk836ac8661bf722d, fk836ac8669306f5c7, fk836ac866f3ec1505, fk836ac866e76173b]
+06:37:05:638 INFO  HHH000126: Indexes: [sql130210103929492, sql130210103951890, sql130210103952030, sql130210103951900, sql130210103951830, sql130210103952150, sql130210103929490, sql130210103929491]
+06:37:05:649 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXOUTPUTMESSAGE
+06:37:05:649 INFO  HHH000037: Columns: [id, header_id, datadictionary, sendif, messagename, businesscomponent_id, trailer_id, messageid, spreadsheet_id]
+06:37:05:649 INFO  HHH000108: Foreign keys: [fk9f207d5d1bf722d, fk9f207d5ddc3a4423, fk9f207d5de76173b, fk9f207d5d9306f5c7, fk9f207d5df3ec1505]
+06:37:05:649 INFO  HHH000126: Indexes: [sql130210103930001, sql130210103930002, sql130210103930000, sql130210103952230, sql130210103952480, sql130210103952200, sql130210103952160, sql130210103952350]
+06:37:05:657 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETGROUP
+06:37:05:658 INFO  HHH000037: Columns: [id, description]
+06:37:05:658 INFO  HHH000108: Foreign keys: [fk48bd4a53a66ebd31]
+06:37:05:658 INFO  HHH000126: Indexes: [sql130210103952490, sql130210103930430]
+06:37:05:667 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDINPUT
+06:37:05:667 INFO  HHH000037: Columns: [cleanuponlogout, lowpxcolumn, mdentrytype, mdtradevolumecolumn, id, mdentrysizecolumn, mdentrypxcolumn, mdentrytimecolumn, securitycolumn, businesscomponent_id, highpxcolumn, mdpricedeltacolumn, counterpartycolumn, spreadsheet_id, mdentrydatecolumn]
+06:37:05:668 INFO  HHH000108: Foreign keys: [fkfb5fdb67dc3a4423, fkfb5fdb67f3ec1505]
+06:37:05:668 INFO  HHH000126: Indexes: [sql130210103952550, sql130210103952750, sql130210103930610]
+06:37:05:677 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDOUTPUT
+06:37:05:677 INFO  HHH000037: Columns: [deleteifnot, lowpxcolumn, sendifcolumn, mdentrytype, mdtradevolumecolumn, id, mdentrysizecolumn, mdentrypxcolumn, mdentrytimecolumn, securitycolumn, businesscomponent_id, highpxcolumn, mdpricedeltacolumn, spreadsheet_id, mdentrydatecolumn]
+06:37:05:677 INFO  HHH000108: Foreign keys: [fk7b3d0904dc3a4423, fk7b3d0904f3ec1505]
+06:37:05:677 INFO  HHH000126: Indexes: [sql130210103930810, sql130210103953020, sql130210103952880]
+06:37:05:682 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETROWFORMAT
+06:37:05:682 INFO  HHH000037: Columns: [id, hidden, rownumber, spreadsheet]
+06:37:05:682 INFO  HHH000108: Foreign keys: []
+06:37:05:682 INFO  HHH000126: Indexes: [sql130210103931020]
+06:37:05:688 INFO  HHH000261: Table found: .FBASIS.TRADECAPTURE
+06:37:05:689 INFO  HHH000037: Columns: [id, description]
+06:37:05:689 INFO  HHH000108: Foreign keys: [fkceb02962f03759e1]
+06:37:05:689 INFO  HHH000126: Indexes: [sql130210103931240, sql130210103953170]
+06:37:05:694 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREGROUP
+06:37:05:695 INFO  HHH000037: Columns: [id, description]
+06:37:05:695 INFO  HHH000108: Foreign keys: [fk815a6a3da66ebd31]
+06:37:05:695 INFO  HHH000126: Indexes: [sql130210103931450, sql130210103953230]
+06:37:05:710 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREREPORT
+06:37:05:710 INFO  HHH000037: Columns: [tradecapture_id, tradeid, lastquantity, fuser_id, executingtradersource, security_id, counterparty_id, cumulativequantity, executingtrader, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, settlementdate, lastprice, market, trader_id, side, orderquantity, counterpartyorderid, orderid, execid, updatedtimestamp]
+06:37:05:710 INFO  HHH000108: Foreign keys: [fkbc015936911f812f, fkbc015936a3c333fe, fkbc015936a77d3bfe, fkbc015936290f3deb, fkbc0159362caa87ef, fkbc015936238d8f65]
+06:37:05:710 INFO  HHH000126: Indexes: [sql130210103953800, sql130210103953670, sql130210103931740, sql130210103953290, sql130210103953930, sql130210103954060, sql130210103953490]
+06:37:05:718 INFO  HHH000261: Table found: .FBASIS.TRADER
+06:37:05:718 INFO  HHH000037: Columns: [building, fax, department, lastname, ffunction, firstname, roomnumber, id, academictitle, mobilephone, flanguage, ftitle, floor, email, telephone]
+06:37:05:718 INFO  HHH000108: Foreign keys: [fk95cb27aea66ebd31]
+06:37:05:718 INFO  HHH000126: Indexes: [sql130210103954200, sql130210103931920]
+06:37:05:726 INFO  HHH000261: Table found: .FBASIS.TRADERPARTYID
+06:37:05:726 INFO  HHH000037: Columns: [id, partyidsource, trader_id, abstractbusinesscomponent_id, partyrole, partyid]
+06:37:05:726 INFO  HHH000108: Foreign keys: [fk7cad12f3911f812f, fk7cad12f3d77ccf45]
+06:37:05:726 INFO  HHH000126: Indexes: [sql130210103954440, sql130210103932120, sql130210103954250]
+06:37:05:733 INFO  HHH000261: Table found: .FBASIS.ASSIGNED_ROLES
+06:37:05:733 INFO  HHH000037: Columns: [fuser_id, assignedroles_id]
+06:37:05:733 INFO  HHH000108: Foreign keys: [fk8dd0ed0c376bc2d2, fk8dd0ed0c238d8f65]
+06:37:05:733 INFO  HHH000126: Indexes: [sql130210103954710, sql130210103954570, sql130210103932300]
+06:37:05:740 INFO  HHH000261: Table found: .FBASIS.BSQP_ABSBS
+06:37:05:740 INFO  HHH000037: Columns: [absbs_id, buysidequotepage_id]
+06:37:05:740 INFO  HHH000108: Foreign keys: [fkc59b79742dcd3240, fkc59b797493133209]
+06:37:05:740 INFO  HHH000126: Indexes: [sql130210103954990, sql130210103954850]
+06:37:05:746 INFO  HHH000261: Table found: .FBASIS.DOCKSETTINGS
+06:37:05:746 INFO  HHH000037: Columns: [id, docksettings]
+06:37:05:747 INFO  HHH000108: Foreign keys: [fk5aec5f76c89acd97]
+06:37:05:747 INFO  HHH000126: Indexes: [sql130210103955130]
+06:37:05:753 INFO  HHH000261: Table found: .FBASIS.EXECUTE_ROLES
+06:37:05:753 INFO  HHH000037: Columns: [executeroles_id, abstractbusinessobject_id]
+06:37:05:754 INFO  HHH000108: Foreign keys: [fk4853bd735c7c1579, fk4853bd734030528f]
+06:37:05:754 INFO  HHH000126: Indexes: [sql130210103932670, sql130210103955390, sql130210103955260]
+06:37:05:759 INFO  HHH000261: Table found: .FBASIS.EXPANDSET
+06:37:05:760 INFO  HHH000037: Columns: [id, expandset]
+06:37:05:760 INFO  HHH000108: Foreign keys: [fk109a768c89acd97]
+06:37:05:760 INFO  HHH000126: Indexes: [sql130210103932880, sql130210103955820]
+06:37:05:766 INFO  HHH000261: Table found: .FBASIS.OPENBUSINESSOBJECTS
+06:37:05:767 INFO  HHH000037: Columns: [id, openbusinessobjects]
+06:37:05:767 INFO  HHH000108: Foreign keys: [fk3e7c598ac89acd97]
+06:37:05:767 INFO  HHH000126: Indexes: [sql130210103956050, sql130210103933230]
+06:37:05:774 INFO  HHH000261: Table found: .FBASIS.READ_ROLES
+06:37:05:774 INFO  HHH000037: Columns: [readroles_id, abstractbusinessobject_id]
+06:37:05:774 INFO  HHH000108: Foreign keys: [fkf68c42d45ea8c69a, fkf68c42d44030528f]
+06:37:05:774 INFO  HHH000126: Indexes: [sql130210103933460, sql130210103956310, sql130210103956180]
+06:37:05:782 INFO  HHH000261: Table found: .FBASIS.SSQP_ASSBS
+06:37:05:782 INFO  HHH000037: Columns: [sellsidequotepage_id, assbs_id]
+06:37:05:782 INFO  HHH000108: Foreign keys: [fkfe83b6d22761e673, fkfe83b6d24320f54f]
+06:37:05:782 INFO  HHH000126: Indexes: [sql130210103956590, sql130210103956450]
+06:37:05:789 INFO  HHH000261: Table found: .FBASIS.WRITE_ROLES
+06:37:05:789 INFO  HHH000037: Columns: [writeroles_id, abstractbusinessobject_id]
+06:37:05:789 INFO  HHH000108: Foreign keys: [fk6889a65d46db6be3, fk6889a65d4030528f]
+06:37:05:789 INFO  HHH000126: Indexes: [sql130210103956890, sql130210103956730, sql130210103933740]
+06:37:05:793 INFO  HHH000232: Schema update complete
+06:37:17:164 INFO  Business Component Hungary Government Bond Pricing is started
+06:37:17:165 INFO  Business Component Dow Values Pricing is started
+06:37:17:167 INFO  Business Component Play with me is started
+06:37:17:165 INFO  Business Component DAX Values Pricing is started
+06:37:17:167 INFO  Business Component U.S. T-Notes 5 Years Pricing is started
+06:37:17:167 INFO  Business Component U.S. T-Notes 7 Years Pricing is started
+06:37:17:165 INFO  Business Component Buy Side Equity Book is started
+06:37:17:165 INFO  Business Component German Government Bond Pricing is started
+06:37:17:168 INFO  Business Component Sell Side Equity Book is started
+06:37:17:169 INFO  Business Component Sell Side Bond Book is started
+06:37:17:172 INFO  Business Component U.S. T-Notes 2-3 Years Pricing is started
+06:37:17:173 INFO  Business Component U.S. Treasury Rates is started
+06:37:17:173 INFO  Business Component Buy Side Bond Book is started
+06:37:17:174 INFO  Business Component U.S. T-Notes 10 Years Pricing is started
+06:37:17:175 INFO  Business Component Future Quotes is started
+06:37:17:341 INFO  FIX Agora Plugin "FIX Agora Buy Side Server" loaded.
+06:37:17:341 INFO  FIX Agora Buy Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:37:17:661 INFO  Business Component Sample Excel Export is started
+06:37:17:965 INFO  Business Component Trade Capture All Assets is started
+06:37:18:043 INFO  FIX Agora Plugin "FIX Agora Sell Side Server" loaded.
+06:37:18:043 INFO  FIX Agora Sell Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:37:18:401 INFO  FIX Agora Plugin "FIX Agora Excel Server" loaded.
+06:37:18:401 INFO  FIX Agora Excel Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:37:19:019 INFO  Business Component IDES Trade Export is started
+06:37:19:420 INFO  FIX Agora Plugin "FIX Agora Trade Capture Server" loaded.
+06:37:19:420 INFO  FIX Agora Trade Capture Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:37:19:457 INFO  [FIXT.1.1:BOM2->BOA2] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:457 INFO  [FIXT.1.1:BOM1->BOP1] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:457 INFO  [FIXT.1.1:BOM1->BOH1] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:457 INFO  [FIXT.1.1:BOM1->BOA1] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:457 INFO  [FIXT.1.1:BOM->YAHOO] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:457 INFO  [FIXT.1.1:BOM1->BOZ1] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:497 INFO  FIX Agora Plugin "FIX Agora SAP Server" loaded.
+06:37:19:497 INFO  FIX Agora SAP Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+06:37:19:508 INFO  Load configuration from /home/alex/workspace_private/FIXAgoraBasisServer/./conf/basis.xml
+06:37:19:509 INFO  Server is accepting clients as host=127.0.0.1 on port=4711
+06:37:19:649 INFO  [FIXT.1.1:BOM2->BOZ2] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:650 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:650 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:650 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:650 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:650 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:651 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:650 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:651 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:651 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:651 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:651 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:651 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:662 INFO  [FIXT.1.1:BOM2->BOH2] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:677 INFO  [FIXT.1.1:BOM2->BOP2] daily, 00:00:00-UTC - 00:00:00-UTC
+06:37:19:700 INFO  SessionTimer started
+06:37:19:737 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:738 INFO  [FIXT.1.1:BOM1->BOZ1] [/127.0.0.1:4717]
+06:37:19:738 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:738 INFO  SessionTimer started
+06:37:19:738 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:738 INFO  Business Component Bank of Zeus Initiator is started
+06:37:19:738 INFO  [FIXT.1.1:BOM1->BOA1] [/127.0.0.1:4715]
+06:37:19:740 INFO  [FIXT.1.1:BOM->YAHOO] [/127.0.0.1:4713]
+06:37:19:739 INFO  [FIXT.1.1:BOM1->BOP1] [/127.0.0.1:4716]
+06:37:19:738 INFO  Socket option: SocketTcpNoDelay=true
+06:37:19:740 INFO  SessionTimer started
+06:37:19:740 INFO  SessionTimer started
+06:37:19:741 INFO  Business Component Bank of Poseidon Initiator is started
+06:37:19:740 INFO  SessionTimer started
+06:37:19:740 INFO  Socket option: SocketSynchronousWrites=false
+06:37:19:741 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+06:37:19:741 INFO  [FIXT.1.1:BOM1->BOH1] [/127.0.0.1:4718]
+06:37:19:741 INFO  SessionTimer started
+06:37:19:741 INFO  Business Component Bank of Aphrodite Initiator is started
+06:37:19:743 INFO  Business Component Bank of Hades Initiator is started
+06:37:19:742 INFO  Business Component Yahoo Finance is started
+06:37:19:746 INFO  Listening for connections at /127.0.0.1:4714
+06:37:19:746 INFO  Business Component FIX Agora Acceptor is started
+06:37:19:771 INFO  MINA session created for FIXT.1.1:BOM1->BOZ1: local=/127.0.0.1:45133, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4717
+06:37:19:774 INFO  MINA session created for FIXT.1.1:BOM1->BOP1: local=/127.0.0.1:53307, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4716
+06:37:19:775 INFO  MINA session created for FIXT.1.1:BOM1->BOA1: local=/127.0.0.1:10841, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4715
+06:37:19:776 INFO  MINA session created for FIXT.1.1:BOM1->BOH1: local=/127.0.0.1:49485, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4718
+06:37:19:777 INFO  MINA session created for FIXT.1.1:BOM->YAHOO: local=/127.0.0.1:32305, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4713
+06:37:27:077 INFO  MINA session created: /127.0.0.1:9323
+06:37:27:125 INFO  MINA session created: /127.0.0.1:9324
+06:37:27:166 INFO  MINA session created: /127.0.0.1:9325
+06:37:27:225 INFO  MINA session created: /127.0.0.1:9326
+06:37:32:589 INFO  client connected
+06:38:19:778 INFO  client disconnected
+06:38:19:823 INFO  client disconnected
+06:38:22:400 INFO  [FIXT.1.1:BOM->YAHOO] Disconnecting: IO Session closed
+06:38:22:400 INFO  [FIXT.1.1:BOM1->BOZ1] Disconnecting: IO Session closed
+06:38:22:401 INFO  [FIXT.1.1:BOM1->BOA1] Disconnecting: IO Session closed
+06:38:22:401 INFO  [FIXT.1.1:BOM1->BOP1] Disconnecting: IO Session closed
+06:38:22:400 INFO  [FIXT.1.1:BOM2->BOA2] Disconnecting: IO Session closed
+06:38:22:401 INFO  [FIXT.1.1:BOM1->BOH1] Disconnecting: IO Session closed
+06:38:22:409 INFO  [FIXT.1.1:BOM2->BOZ2] Disconnecting: IO Session closed
+06:38:22:410 INFO  [FIXT.1.1:BOM2->BOH2] Disconnecting: IO Session closed
+06:38:22:412 INFO  [FIXT.1.1:BOM2->BOP2] Disconnecting: IO Session closed
+07:35:34:720 INFO  Start FIX Agora Server
+07:35:34:721 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:34:721 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+07:35:34:722 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+07:35:34:722 INFO  System: java.vm.version=20.5-b03
+07:35:34:722 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+07:35:34:722 INFO  System: java.vendor.url=http://java.sun.com/
+07:35:34:722 INFO  System: path.separator=:
+07:35:34:722 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+07:35:34:722 INFO  System: file.encoding.pkg=sun.io
+07:35:34:723 INFO  System: sun.java.launcher=SUN_STANDARD
+07:35:34:723 INFO  System: user.country=DE
+07:35:34:723 INFO  System: sun.os.patch.level=unknown
+07:35:34:723 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+07:35:34:723 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisServer
+07:35:34:723 INFO  System: java.runtime.version=1.6.0_30-b12
+07:35:34:723 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+07:35:34:724 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+07:35:34:724 INFO  System: os.arch=amd64
+07:35:34:724 INFO  System: java.io.tmpdir=/tmp
+07:35:34:724 INFO  System: line.separator=
+
+07:35:34:724 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+07:35:34:724 INFO  System: os.name=Linux
+07:35:34:724 INFO  System: sun.jnu.encoding=UTF-8
+07:35:34:724 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+07:35:34:724 INFO  System: java.specification.name=Java Platform API Specification
+07:35:34:725 INFO  System: java.class.version=50.0
+07:35:34:725 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+07:35:34:725 INFO  System: os.version=3.11.10-29-desktop
+07:35:34:725 INFO  System: user.home=/home/alex
+07:35:34:725 INFO  System: user.timezone=Europe/Berlin
+07:35:34:725 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+07:35:34:725 INFO  System: file.encoding=UTF-8
+07:35:34:725 INFO  System: java.specification.version=1.6
+07:35:34:725 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/antlr-2.7.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-collections-3.2.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/dom4j-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/mina-core-1.1.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/conf:/home/alex/workspace_private/FIXAgoraBasisServer/lib/quickfixj-all-1.2.5-sp2-patch.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-math3-3.0.jar:/home/alex/workspace_private/FIXAgoraBuySideServer/bin:/home/alex/workspace_private/FIXAgoraSellSideServer/bin:/home/alex/workspace_private/FIXAgoraExcelServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraTradeCaptureServer/bin:/home/alex/workspace_private/FIXAgoraSAPServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-entitymanager-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jcommon-1.0.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-api-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/c3p0-0.9.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-c3p0-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/guava-13.0.1.jar
+07:35:34:725 INFO  System: user.name=alex
+07:35:34:725 INFO  System: java.vm.specification.version=1.0
+07:35:34:725 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.server.FBasisServer
+07:35:34:726 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+07:35:34:726 INFO  System: sun.arch.data.model=64
+07:35:34:726 INFO  System: user.language=de
+07:35:34:726 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+07:35:34:726 INFO  System: java.vm.info=mixed mode
+07:35:34:726 INFO  System: java.version=1.6.0_30
+07:35:34:726 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+07:35:34:726 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+07:35:34:726 INFO  System: java.vendor=Sun Microsystems Inc.
+07:35:34:726 INFO  System: file.separator=/
+07:35:34:726 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+07:35:34:726 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+07:35:34:727 INFO  System: sun.cpu.endian=little
+07:35:34:727 INFO  System: sun.cpu.isalist=
+07:35:34:727 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar loaded.
+07:35:34:728 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar loaded.
+07:35:34:728 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/ojdbc6_g.jar loaded.
+07:35:34:922 INFO  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+07:35:34:930 INFO  HHH000412: Hibernate Core {4.1.6.Final}
+07:35:34:933 INFO  HHH000206: hibernate.properties not found
+07:35:34:934 INFO  HHH000021: Bytecode provider name : javassist
+07:35:35:201 WARN  HHH000144: hibernate.connection.autocommit = false breaks the EJB3 specification
+07:35:35:731 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+07:35:35:739 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+07:35:35:769 INFO  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+07:35:35:770 INFO  HHH010002: C3P0 using driver: org.apache.derby.jdbc.EmbeddedDriver at URL: jdbc:derby:derby;create=true
+07:35:35:770 INFO  HHH000046: Connection properties: {user=fbasis, password=****, autocommit=false, release_mode=auto}
+07:35:35:770 INFO  HHH000006: Autocommit mode: false
+07:35:37:289 INFO  HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+07:35:37:291 WARN  HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+07:35:37:295 INFO  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+07:35:37:304 INFO  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+07:35:37:307 INFO  HHH000397: Using ASTQueryTranslatorFactory
+07:35:38:240 INFO  HHH000228: Running hbm2ddl schema update
+07:35:38:240 INFO  HHH000102: Fetching database metadata
+07:35:38:244 INFO  HHH000396: Updating schema
+07:35:38:372 INFO  HHH000261: Table found: .FBASIS.ABSBS
+07:35:38:372 INFO  HHH000037: Columns: [absbs_id, bankcalendar_id, calcmethod, security_id, valuta, buysidebook_id, fractionaldisplay, daycountconvention]
+07:35:38:372 INFO  HHH000108: Foreign keys: [fk3b33823769d520f, fk3b33823290f3deb, fk3b338231f7563ab]
+07:35:38:373 INFO  HHH000126: Indexes: [sql130210103934390, sql130210103911600, sql130210103933940, sql130210103934230]
+07:35:38:422 INFO  HHH000261: Table found: .FBASIS.ABSTCT
+07:35:38:422 INFO  HHH000037: Columns: [id, abstractbusinesscomponent_id, lasttradeid, buysidebook_id]
+07:35:38:422 INFO  HHH000108: Foreign keys: [fk72b40e331f7563ab, fk72b40e33d77ccf45]
+07:35:38:422 INFO  HHH000126: Indexes: [sql130210103934560, sql130210103934880, sql130210103911860]
+07:35:38:458 INFO  HHH000261: Table found: .FBASIS.ASSBS
+07:35:38:458 INFO  HHH000037: Columns: [sellsidebook_id, bankcalendar_id, calcmethod, security_id, valuta, fractionaldisplay, daycountconvention, assbs_id]
+07:35:38:458 INFO  HHH000108: Foreign keys: [fk3baf272290f3deb, fk3baf272769d520f, fk3baf27219802ca5]
+07:35:38:458 INFO  HHH000126: Indexes: [sql130210103935640, sql130210103935340, sql130210103935180, sql130210103912050]
+07:35:38:488 INFO  HHH000261: Table found: .FBASIS.ASSTCT
+07:35:38:488 INFO  HHH000037: Columns: [sellsidebook_id, id, abstractbusinesscomponent_id, lasttradeid]
+07:35:38:488 INFO  HHH000108: Foreign keys: [fk73a39dc4d77ccf45, fk73a39dc419802ca5]
+07:35:38:488 INFO  HHH000126: Indexes: [sql130210103935950, sql130210103935780, sql130210103912220]
+07:35:38:507 INFO  HHH000261: Table found: .FBASIS.ABSTRACTACCEPTOR
+07:35:38:507 INFO  HHH000037: Columns: [id, securityidsource, marketname, connectatstartup]
+07:35:38:507 INFO  HHH000108: Foreign keys: [fk391df74df03759e1]
+07:35:38:507 INFO  HHH000126: Indexes: [sql130210103912420, sql130210103936110]
+07:35:38:528 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSCOMPONENT
+07:35:38:529 INFO  HHH000037: Columns: [id, datadictionary]
+07:35:38:529 INFO  HHH000108: Foreign keys: [fk7b46ecfba66ebd31]
+07:35:38:529 INFO  HHH000126: Indexes: [sql130210103936160, sql130210103912610]
+07:35:38:547 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSOBJECT
+07:35:38:547 INFO  HHH000037: Columns: [id, modificationuser_id, modificationdate, name, parent_id]
+07:35:38:547 INFO  HHH000108: Foreign keys: [fk79c50401c25e156f, fk79c5040121d560e6]
+07:35:38:548 INFO  HHH000126: Indexes: [sql130210103936190, sql130210103912811, sql130210103912810, sql130210103936370]
+07:35:38:570 INFO  HHH000261: Table found: .FBASIS.ABSTRACTINITIATOR
+07:35:38:570 INFO  HHH000037: Columns: [id, securityidsource, marketname, route_id, connectatstartup, counterparty_id]
+07:35:38:570 INFO  HHH000108: Foreign keys: [fk5a04380d33fd41a9, fk5a04380d2caa87ef, fk5a04380df03759e1]
+07:35:38:570 INFO  HHH000126: Indexes: [sql130210103936560, sql130210103913130, sql130210103936720, sql130210103936580]
+07:35:38:585 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDBUYSIDEINITIATOR
+07:35:38:585 INFO  HHH000037: Columns: [id, initiator_id, buysidebook_id]
+07:35:38:585 INFO  HHH000108: Foreign keys: [fkf4b22bc029c96003, fkf4b22bc01f7563ab]
+07:35:38:585 INFO  HHH000126: Indexes: [sql130210103913340, sql130210103936860, sql130210103937020]
+07:35:38:604 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDINITIATORSECURITY
+07:35:38:605 INFO  HHH000037: Columns: [id, security_id, counterparty_id, fixinitiator_id]
+07:35:38:605 INFO  HHH000108: Foreign keys: [fk516a26412caa87ef, fk516a264186aaa9cf, fk516a264168987498, fk516a2641290f3deb]
+07:35:38:605 INFO  HHH000126: Indexes: [sql130210103937450, sql130210103937170, sql130210103937610, sql130210103913520, sql130210103937320]
+07:35:38:618 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDSELLSIDEACCEPTOR
+07:35:38:618 INFO  HHH000037: Columns: [sellsidebook_id, id, acceptor_id]
+07:35:38:618 INFO  HHH000108: Foreign keys: [fk96b6de287853c11, fk96b6de219802ca5]
+07:35:38:618 INFO  HHH000126: Indexes: [sql130210103913710, sql130210103937630, sql130210103937780]
+07:35:38:630 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURESOURCE
+07:35:38:630 INFO  HHH000037: Columns: [id, tradecapture_id, businesscomponent_id]
+07:35:38:630 INFO  HHH000108: Foreign keys: [fk7e207e8bdc3a4423, fk7e207e8ba3c333fe]
+07:35:38:630 INFO  HHH000126: Indexes: [sql130210103914180, sql130210103938090, sql130210103937940]
+07:35:38:642 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURETARGET
+07:35:38:642 INFO  HHH000037: Columns: [id, tradecapture_id, abstractbusinesscomponent_id, lasttradeid]
+07:35:38:643 INFO  HHH000108: Foreign keys: [fk7f0e8801a3c333fe, fk7f0e8801d77ccf45]
+07:35:38:643 INFO  HHH000126: Indexes: [sql130210103938460, sql130210103914380, sql130210103938230]
+07:35:38:655 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDUSERSETTINGS
+07:35:38:656 INFO  HHH000037: Columns: [id, exceltradecapture_id, fuser_id, path, replaceoldsheet, deleteafterexport, sheet]
+07:35:38:656 INFO  HHH000108: Foreign keys: [fk6e05621c238d8f65, fk6e05621c136a7e31]
+07:35:38:656 INFO  HHH000126: Indexes: [sql130210103914580, sql130210103938590, sql130210103938800]
+07:35:38:681 INFO  HHH000261: Table found: .FBASIS.BSBTCR
+07:35:38:682 INFO  HHH000037: Columns: [tradeid, lastquantity, fuser_id, security_id, counterparty_id, cumulativequantity, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, lastprice, settlementdate, trader_id, orderquantity, side, counterpartyorderid, orderid, buysidebook_id, execid, updatedtimestamp]
+07:35:38:682 INFO  HHH000108: Foreign keys: [fk7550bc12238d8f65, fk7550bc122caa87ef, fk7550bc12911f812f, fk7550bc12eaf08210, fk7550bc121f7563ab, fk7550bc12290f3deb]
+07:35:38:682 INFO  HHH000126: Indexes: [sql130210103939490, sql130210103939220, sql130210103914760, sql130210103939360, sql130210103938960, sql130210103939750, sql130210103939620]
+07:35:38:701 INFO  HHH000261: Table found: .FBASIS.BSCHILDREN
+07:35:38:701 INFO  HHH000037: Columns: [businesssection_id, children_id]
+07:35:38:701 INFO  HHH000108: Foreign keys: [fk9eaf7550f860c4e5, fk9eaf75508e008f71]
+07:35:38:701 INFO  HHH000126: Indexes: [sql130210103914950, sql130210103939900, sql130210103940300]
+07:35:38:710 INFO  HHH000261: Table found: .FBASIS.BANKCALENDAR
+07:35:38:710 INFO  HHH000037: Columns: [id]
+07:35:38:711 INFO  HHH000108: Foreign keys: [fk4fd6bdbaa66ebd31]
+07:35:38:711 INFO  HHH000126: Indexes: [sql130210103940320, sql130210103915140]
+07:35:38:719 INFO  HHH000261: Table found: .FBASIS.BANKCALENDARGROUP
+07:35:38:720 INFO  HHH000037: Columns: [id, description]
+07:35:38:720 INFO  HHH000108: Foreign keys: [fkeb5acce5a66ebd31]
+07:35:38:720 INFO  HHH000126: Indexes: [sql130210103940370, sql130210103915350]
+07:35:38:728 INFO  HHH000261: Table found: .FBASIS.BUSINESSSECTION
+07:35:38:729 INFO  HHH000037: Columns: [id, position, description]
+07:35:38:729 INFO  HHH000108: Foreign keys: [fk2a72d6e5a66ebd31]
+07:35:38:729 INFO  HHH000126: Indexes: [sql130210103915660, sql130210103940460]
+07:35:38:741 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOK
+07:35:38:741 INFO  HHH000037: Columns: [id, killfill, bankcalendar_id, displaystyle, description, calcmethod, valuta, absolutchange, fractionaldisplay, daycountconvention]
+07:35:38:741 INFO  HHH000108: Foreign keys: [fk2da2ad66f03759e1, fk2da2ad66769d520f]
+07:35:38:742 INFO  HHH000126: Indexes: [sql130210103940580, sql130210103915870, sql130210103940540]
+07:35:38:752 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOKGROUP
+07:35:38:752 INFO  HHH000037: Columns: [id, description]
+07:35:38:752 INFO  HHH000108: Foreign keys: [fkf02dc8b9a66ebd31]
+07:35:38:752 INFO  HHH000126: Indexes: [sql130210103940710, sql130210103916060]
+07:35:38:782 INFO  HHH000261: Table found: .FBASIS.BUYSIDENEWORDERSINGLE
+07:35:38:782 INFO  HHH000037: Columns: [orderstatus, neworderid, newquantity, counterparty_id, security_id, cumulativequantity, id, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, marketinterface_id, lastquantity, fuser_id, timeinforce, leavequantity, orderquantity, newlimit, orderid, tiftimestamp, buysidebook_id, updatedtimestamp]
+07:35:38:782 INFO  HHH000108: Foreign keys: [fkf648b9b32caa87ef, fkf648b9b3290f3deb, fkf648b9b31f7563ab, fkf648b9b3fb417af5, fkf648b9b3238d8f65, fkf648b9b3911f812f]
+07:35:38:782 INFO  HHH000126: Indexes: [sql130210103941310, sql130210103941020, sql130210103941450, sql130210103916240, sql130210103941160, sql130210103940870, sql130210103940730, sql130210103916241]
+07:35:38:792 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEPAGE
+07:35:38:793 INFO  HHH000037: Columns: [id, sortby, displaystyle, description, showmarketdepth]
+07:35:38:793 INFO  HHH000108: Foreign keys: [fk206a0acea66ebd31]
+07:35:38:793 INFO  HHH000126: Indexes: [sql130210103941580, sql130210103916560]
+07:35:38:828 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEREQUEST
+07:35:38:828 INFO  HHH000037: Columns: [orderstatus, quotereqid, newquantity, multiid, security_id, counterparty_id, quoteid, cumulativequantity, id, settlementtimestamp, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, marketinterface_id, limit, expiretimestamp, lastquantity, fuser_id, leavequantity, orderquantity, quoterespid, orderid, subjecttimestamp, buysidebook_id, updatedtimestamp]
+07:35:38:828 INFO  HHH000108: Foreign keys: [fk8574edf0290f3deb, fk8574edf0fb417af5, fk8574edf0911f812f, fk8574edf0238d8f65, fk8574edf02caa87ef, fk8574edf01f7563ab]
+07:35:38:828 INFO  HHH000126: Indexes: [sql130210103942190, sql130210103941880, sql130210103916750, sql130210103942050, sql130210103941740, sql130210103942330, sql130210103941600, sql130210103916751]
+07:35:38:837 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTDATE
+07:35:38:837 INFO  HHH000037: Columns: [id, eventenddate, securitycomplexevent_id, eventstartdate]
+07:35:38:837 INFO  HHH000108: Foreign keys: [fk7cf53eb87ee4eeef]
+07:35:38:837 INFO  HHH000126: Indexes: [sql130210103942480, sql130210103917090]
+07:35:38:846 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTTIME
+07:35:38:846 INFO  HHH000037: Columns: [id, eventstarttime, complexeventdate_id, eventendtime]
+07:35:38:846 INFO  HHH000108: Foreign keys: [fk7cfca1d76cba42af]
+07:35:38:846 INFO  HHH000126: Indexes: [sql130210103942620, sql130210103917290]
+07:35:38:856 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYPARTYID
+07:35:38:856 INFO  HHH000037: Columns: [id, partyidsource, abstractbusinesscomponent_id, partyrole, counterparty_id, partyid]
+07:35:38:857 INFO  HHH000108: Foreign keys: [fkfab3e8b7d77ccf45, fkfab3e8b72caa87ef]
+07:35:38:857 INFO  HHH000126: Indexes: [sql130210103942760, sql130210103917500, sql130210103942900]
+07:35:38:869 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTY
+07:35:38:869 INFO  HHH000037: Columns: [postalcode, fax, street, companypostalcode, ftimezone, house, popostalcode, city, country, id, mobilephone, flanguage, email, pobox, telephone]
+07:35:38:869 INFO  HHH000108: Foreign keys: [fka75e768aa66ebd31]
+07:35:38:870 INFO  HHH000126: Indexes: [sql130210103943040, sql130210103917710]
+07:35:38:879 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYGROUP
+07:35:38:879 INFO  HHH000037: Columns: [id, description]
+07:35:38:879 INFO  HHH000108: Foreign keys: [fk8ed61615a66ebd31]
+07:35:38:879 INFO  HHH000126: Indexes: [sql130210103917900, sql130210103943100]
+07:35:38:888 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTURE
+07:35:38:888 INFO  HHH000037: Columns: [id, securityidsource, description]
+07:35:38:888 INFO  HHH000108: Foreign keys: [fkc47a6179f03759e1]
+07:35:38:888 INFO  HHH000126: Indexes: [sql130210103943140, sql130210103918080]
+07:35:38:897 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREGROUP
+07:35:38:897 INFO  HHH000037: Columns: [id, description]
+07:35:38:897 INFO  HHH000108: Foreign keys: [fk5072a886a66ebd31]
+07:35:38:897 INFO  HHH000126: Indexes: [sql130210103918280, sql130210103943170]
+07:35:38:919 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREREPORT
+07:35:38:919 INFO  HHH000037: Columns: [tradeid, lastquantity, security_id, counterparty_id, cumulativequantity, executingtrader, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, exceltradecapture_id, settlementdate, lastprice, market, trader_id, side, orderquantity, counterpartyorderid, user_id, orderid, execid, updatedtimestamp]
+07:35:38:919 INFO  HHH000108: Foreign keys: [fkcff0e40da77d3bfe, fkcff0e40d911f812f, fkcff0e40dbfd5ae8b, fkcff0e40d2caa87ef, fkcff0e40d136a7e31, fkcff0e40d290f3deb]
+07:35:38:919 INFO  HHH000126: Indexes: [sql130210103943480, sql130210103943200, sql130210103943890, sql130210103943610, sql130210103943350, sql130210103943760, sql130210103918490]
+07:35:38:928 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTOR
+07:35:38:928 INFO  HHH000037: Columns: [id, partyidsource, socketadress, persistmessage, marketdatatype, partyrole, marketdatarequest, datadictionary, socketport, sendercompid, partyid]
+07:35:38:929 INFO  HHH000108: Foreign keys: [fkdae95000612ba43d]
+07:35:38:929 INFO  HHH000126: Indexes: [sql130210103918700, sql130210103944040]
+07:35:38:936 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORGROUP
+07:35:38:936 INFO  HHH000037: Columns: [id, description]
+07:35:38:936 INFO  HHH000108: Foreign keys: [fk1686b65fa66ebd31]
+07:35:38:936 INFO  HHH000126: Indexes: [sql130210103944080, sql130210103918910]
+07:35:38:945 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORTARGET
+07:35:38:946 INFO  HHH000037: Columns: [id, fixacceptor_id, targetcompid, counterparty_id]
+07:35:38:946 INFO  HHH000108: Foreign keys: [fkcf90adb12fad88c5, fkcf90adb12caa87ef, fkcf90adb1f4e6c0dc]
+07:35:38:946 INFO  HHH000126: Indexes: [sql130210103944120, sql130210103944270, sql130210103919230, sql130210103944280]
+07:35:38:953 INFO  HHH000261: Table found: .FBASIS.FIXFIELDORDERENTRY
+07:35:38:953 INFO  HHH000037: Columns: [id, fixfieldorderentry_id, fixfield]
+07:35:38:953 INFO  HHH000108: Foreign keys: [fka4df1da9a687ae92]
+07:35:38:953 INFO  HHH000126: Indexes: [sql130210103944410, sql130210103919440]
+07:35:38:969 INFO  HHH000261: Table found: .FBASIS.FIXINITIATOR
+07:35:38:969 INFO  HHH000037: Columns: [earlyprices, marginrate, settlehighprice, openingprice, reconnectinterval, targetcompid, indexvalue, cashrate, requesttype, persistmessage, priorsettleprice, cvafs, cvafl, midprice, swapvaluefactor, settlementprice, sendercompid, partyidsource, tradingsessionlowprice, fixingprice, securitylistrequest, recoveryrateforshort, socketadress, tradevolume, trade, partyrole, datadictionary, socketport, tradingsessionhighprice, tradingsessionvwapprice, id, marketdatatype, sessionlowoffer, settlelowprice, bid, partyid, recoveryrateforlong, openinterest, closingprice, compositeunderlying, dvafl, offer, recoveryrate, sessionhighbid, shutdownaftersnapshot, dvafs, auctionclearingprice, simulatedsellprice, heartbeatinterval, simulatedbuyprice]
+07:35:38:969 INFO  HHH000108: Foreign keys: [fkf1a3f5ba33aa9ff3]
+07:35:38:969 INFO  HHH000126: Indexes: [sql130210103944550, sql130210103919620]
+07:35:38:977 INFO  HHH000261: Table found: .FBASIS.FIXINITIATORGROUP
+07:35:38:977 INFO  HHH000037: Columns: [id, description]
+07:35:38:977 INFO  HHH000108: Foreign keys: [fkf11094e5a66ebd31]
+07:35:38:977 INFO  HHH000126: Indexes: [sql130210103919800, sql130210103944570]
+07:35:38:985 INFO  HHH000261: Table found: .FBASIS.FROLE
+07:35:38:985 INFO  HHH000037: Columns: [id, description]
+07:35:38:985 INFO  HHH000108: Foreign keys: [fk40161dca66ebd31]
+07:35:38:985 INFO  HHH000126: Indexes: [sql130210103920000, sql130210103944580]
+07:35:38:992 INFO  HHH000261: Table found: .FBASIS.FROLEGROUP
+07:35:38:993 INFO  HHH000037: Columns: [id, description]
+07:35:38:993 INFO  HHH000108: Foreign keys: [fk563b6e03a66ebd31]
+07:35:38:993 INFO  HHH000126: Indexes: [sql130210103944581, sql130210103920240]
+07:35:39:003 INFO  HHH000261: Table found: .FBASIS.FSECURITY
+07:35:39:003 INFO  HHH000037: Columns: [id, maturity, securitydetails_id, securityid]
+07:35:39:003 INFO  HHH000108: Foreign keys: [fkc72335a6e51d5bc5, fkc72335a6a66ebd31]
+07:35:39:003 INFO  HHH000126: Indexes: [sql130210103944620, sql130210103920441, sql130210103920440, sql130210103944650]
+07:35:39:011 INFO  HHH000261: Table found: .FBASIS.FSECURITYGROUP
+07:35:39:011 INFO  HHH000037: Columns: [id, sortby, description]
+07:35:39:011 INFO  HHH000108: Foreign keys: [fkc6f86879a66ebd31]
+07:35:39:011 INFO  HHH000126: Indexes: [sql130210103944790, sql130210103920770]
+07:35:39:021 INFO  HHH000261: Table found: .FBASIS.FUSER
+07:35:39:022 INFO  HHH000037: Columns: [building, fax, department, lastname, ffunction, firstname, treepanelwidth, roomnumber, id, mobilephone, academictitle, flanguage, ftitle, floor, email, mainpanelpanelheight, fpassword, telephone]
+07:35:39:022 INFO  HHH000108: Foreign keys: [fk402cd31a66ebd31]
+07:35:39:022 INFO  HHH000126: Indexes: [sql130210103944810, sql130210103921010]
+07:35:39:029 INFO  HHH000261: Table found: .FBASIS.FUSERGROUP
+07:35:39:029 INFO  HHH000037: Columns: [id, description]
+07:35:39:029 INFO  HHH000108: Foreign keys: [fk5670cfcea66ebd31]
+07:35:39:029 INFO  HHH000126: Indexes: [sql130210103921240, sql130210103944811]
+07:35:39:039 INFO  HHH000261: Table found: .FBASIS.FUSERPARTYID
+07:35:39:039 INFO  HHH000037: Columns: [id, partyidsource, fuser_id, abstractbusinesscomponent_id, partyrole, partyid]
+07:35:39:039 INFO  HHH000108: Foreign keys: [fk3cbbc410d77ccf45, fk3cbbc410238d8f65]
+07:35:39:039 INFO  HHH000126: Indexes: [sql130210103921450, sql130210103944950, sql130210103944820]
+07:35:39:045 INFO  HHH000261: Table found: .FBASIS.IDMANAGER
+07:35:39:045 INFO  HHH000037: Columns: [id, name, lastid]
+07:35:39:045 INFO  HHH000108: Foreign keys: []
+07:35:39:045 INFO  HHH000126: Indexes: [sql130210103921731, sql130210103921730]
+07:35:39:051 INFO  HHH000261: Table found: .FBASIS.LOGENTRY
+07:35:39:052 INFO  HHH000037: Columns: [logdate, id, messagecomponent, loglevel, highlightkey, messagetext]
+07:35:39:052 INFO  HHH000108: Foreign keys: []
+07:35:39:052 INFO  HHH000126: Indexes: [sql130210103922050]
+07:35:39:062 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTURE
+07:35:39:062 INFO  HHH000037: Columns: [settrader, sapclient, securityidsource, saptransactiontypesell, sappassword, sapcompanycode, sapgeneralvaluationclass, sapusername, id, description, sapsecuritiesaccount, setexchange, saptransactiontypebuy, sapsystemnumber, sapservername]
+07:35:39:062 INFO  HHH000108: Foreign keys: [fkd315d624f03759e1]
+07:35:39:062 INFO  HHH000126: Indexes: [sql130210103922250, sql130210103945200]
+07:35:39:069 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREGROUP
+07:35:39:070 INFO  HHH000037: Columns: [id, description]
+07:35:39:070 INFO  HHH000108: Foreign keys: [fk40ac66bba66ebd31]
+07:35:39:070 INFO  HHH000126: Indexes: [sql130210103922450, sql130210103945300]
+07:35:39:090 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREREPORT
+07:35:39:090 INFO  HHH000037: Columns: [counterparty_id, security_id, executingtrader, cumulativequantity, id, lastyield, createdtimestamp, lastprice, sapfinancialtransaction, side, trader_id, counterpartyorderid, user_id, execid, tradeid, lastquantity, leavequantity, market, settlementdate, sourcecomponent_id, exportstatus, orderquantity, orderid, updatedtimestamp, saptradecapture_id]
+07:35:39:091 INFO  HHH000108: Foreign keys: [fke6eeec782caa87ef, fke6eeec78911f812f, fke6eeec78290f3deb, fke6eeec78a77d3bfe, fke6eeec7851658d06, fke6eeec78bfd5ae8b]
+07:35:39:091 INFO  HHH000126: Indexes: [sql130210103945820, sql130210103945970, sql130210103945400, sql130210103945540, sql130210103922650, sql130210103946110, sql130210103945670]
+07:35:39:110 INFO  HHH000261: Table found: .FBASIS.SSBTCR
+07:35:39:110 INFO  HHH000037: Columns: [tradeid, lastquantity, fuser_id, security_id, counterparty_id, cumulativequantity, sellsidebook_id, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, lastprice, settlementdate, trader_id, orderquantity, side, counterpartyorderid, orderid, execid, updatedtimestamp]
+07:35:39:110 INFO  HHH000108: Foreign keys: [fk92531ea119802ca5, fk92531ea12caa87ef, fk92531ea1238d8f65, fk92531ea11871865a, fk92531ea1911f812f, fk92531ea1290f3deb]
+07:35:39:111 INFO  HHH000126: Indexes: [sql130210103946410, sql130210103946690, sql130210103946260, sql130210103946550, sql130210103947050, sql130210103922860, sql130210103946910]
+07:35:39:119 INFO  HHH000261: Table found: .FBASIS.SSCF_PDS
+07:35:39:119 INFO  HHH000037: Columns: [predefinedstrings, spreadsheetcellformat_id]
+07:35:39:119 INFO  HHH000108: Foreign keys: [fk4b024563758bc0e5]
+07:35:39:120 INFO  HHH000126: Indexes: [sql130210103947200]
+07:35:39:128 INFO  HHH000261: Table found: .FBASIS.SSFF
+07:35:39:129 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixfields_id]
+07:35:39:129 INFO  HHH000108: Foreign keys: [fk26fb2084c1520f, fk26fb201a957f54]
+07:35:39:129 INFO  HHH000126: Indexes: [sql130210103923140, sql130210103923141, sql130210103947330, sql130210103947350]
+07:35:39:138 INFO  HHH000261: Table found: .FBASIS.SSFGL
+07:35:39:138 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixgrouplists_id]
+07:35:39:138 INFO  HHH000108: Foreign keys: [fk4b8694b12ca2ba, fk4b8694b84c1520f]
+07:35:39:139 INFO  HHH000126: Indexes: [sql130210103947480, sql130210103923430, sql130210103923431, sql130210103947630]
+07:35:39:148 INFO  HHH000261: Table found: .FBASIS.SECURITYALTIDGROUP
+07:35:39:148 INFO  HHH000037: Columns: [id, securitydetails_id, securityaltidsource, securityaltid]
+07:35:39:149 INFO  HHH000108: Foreign keys: [fk53757bdbe51d5bc5]
+07:35:39:149 INFO  HHH000126: Indexes: [sql130210103923720, sql130210103947660]
+07:35:39:157 INFO  HHH000261: Table found: .FBASIS.SECURITYATTRIBUTE
+07:35:39:158 INFO  HHH000037: Columns: [id, attributevalue, securitydetails_id, attributetype]
+07:35:39:158 INFO  HHH000108: Foreign keys: [fke49dbb1ce51d5bc5]
+07:35:39:158 INFO  HHH000126: Indexes: [sql130210103947800, sql130210103923910]
+07:35:39:167 INFO  HHH000261: Table found: .FBASIS.SECURITYCOMPLEXEVENT
+07:35:39:168 INFO  HHH000037: Columns: [id, securitydetails_id, eventpriceboundaryprecision, eventpriceboundarymethod, eventpricetimetype, eventprice, eventcondition, eventtype, optionpayoutamount]
+07:35:39:168 INFO  HHH000108: Foreign keys: [fk7899ab4ae51d5bc5]
+07:35:39:168 INFO  HHH000126: Indexes: [sql130210103924350, sql130210103947930]
+07:35:39:181 INFO  HHH000261: Table found: .FBASIS.SECURITYDETAILS
+07:35:39:181 INFO  HHH000037: Columns: [countryofissue, cpregtype, maturitytime, flexibleindicator, optionpayoutamount, exercisestyle, priceunitofmeasure, description, strikepriceboundaryprecision, ntpositionlimit, seniority, fpool, listmethod, udm, spbm, contractsettlmonth, securitygroup, dateddate, instrmtassignmentmethod, localeofissue, restructuringtype, strikeprice, contractmultiplier, creditrating, percentatrisk, fpei, optionpayouttype, interestaccrualdate, stateofissue, deliveryform, issuer, issuedate, unitofmeasure, cficode, couponpaymentdate, pricequotemethod, settlonopen, strikemultiplier, flowscheduletyped, productcomplex, cpprogramm, securityidsource, minpriceincrementamount, minpriceincrement, floorprice, securitysubtype, redemptiondate, unitofmeasureqty, instrumentregistry, putorcall, currency, id, couponrate, settlemethod, valuationmethod, timeunit, securitystatus, contractmultiplierunit, spdm, factor, strikevalue, securitytype, product, symbolsfx, securityexchange, capprice, priceunitofmeasureqty, strikecurrency, positionlimit]
+07:35:39:181 INFO  HHH000108: Foreign keys: []
+07:35:39:181 INFO  HHH000126: Indexes: [sql130210103924800]
+07:35:39:190 INFO  HHH000261: Table found: .FBASIS.SECURITYEVENT
+07:35:39:191 INFO  HHH000037: Columns: [eventtime, id, securitydetails_id, eventdate, eventtext, eventprice, eventtype]
+07:35:39:191 INFO  HHH000108: Foreign keys: [fk438c31ae51d5bc5]
+07:35:39:191 INFO  HHH000126: Indexes: [sql130210103925070, sql130210103948070]
+07:35:39:200 INFO  HHH000261: Table found: .FBASIS.SECURITYLEG
+07:35:39:201 INFO  HHH000037: Columns: [id, ratioquantity, securitydetails_id, side, legsecurity_id, optionratio]
+07:35:39:201 INFO  HHH000108: Foreign keys: [fkbfce128ea4cb671d, fkbfce128ee51d5bc5]
+07:35:39:201 INFO  HHH000126: Indexes: [sql130210103948370, sql130210103948210, sql130210103925270]
+07:35:39:210 INFO  HHH000261: Table found: .FBASIS.SECURITYUNDERLYING
+07:35:39:210 INFO  HHH000037: Columns: [id, securitydetails_id, startvalue, endvalue, cashtype, allocationpercent, settlementtype, endprice, underlyingsecurity_id, cashamount]
+07:35:39:210 INFO  HHH000108: Foreign keys: [fk2d6246dde51d5bc5, fk2d6246dd1d3faa6e]
+07:35:39:210 INFO  HHH000126: Indexes: [sql130210103925480, sql130210103948520, sql130210103948660]
+07:35:39:219 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOK
+07:35:39:219 INFO  HHH000037: Columns: [id, killfill, bankcalendar_id, displaystyle, description, calcmethod, valuta, absolutchange, fractionaldisplay, daycountconvention]
+07:35:39:219 INFO  HHH000108: Foreign keys: [fke9711e72769d520f, fke9711e72f03759e1]
+07:35:39:219 INFO  HHH000126: Indexes: [sql130210103948790, sql130210103948780, sql130210103925710]
+07:35:39:226 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKGROUP
+07:35:39:226 INFO  HHH000037: Columns: [id, description]
+07:35:39:226 INFO  HHH000108: Foreign keys: [fk4d381f2da66ebd31]
+07:35:39:226 INFO  HHH000126: Indexes: [sql130210103948910, sql130210103925930]
+07:35:39:233 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKMDINPUT
+07:35:39:234 INFO  HHH000037: Columns: [sellsidebook_id, id, businesscomponent_id]
+07:35:39:234 INFO  HHH000108: Foreign keys: [fkcc78e1c1dc3a4423, fkcc78e1c119802ca5]
+07:35:39:234 INFO  HHH000126: Indexes: [sql130210103926160, sql130210103948920, sql130210103949050]
+07:35:39:254 INFO  HHH000261: Table found: .FBASIS.SELLSIDENEWORDERSINGLE
+07:35:39:254 INFO  HHH000037: Columns: [orderstatus, neworderid, newquantity, counterparty_id, security_id, cumulativequantity, id, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, marketinterface_id, lastquantity, fuser_id, timeinforce, sellsidebook_id, leavequantity, settlementdate, orderquantity, newlimit, orderid, tiftimestamp, updatedtimestamp]
+07:35:39:254 INFO  HHH000108: Foreign keys: [fkb6364bbf28c27f3f, fkb6364bbf238d8f65, fkb6364bbf911f812f, fkb6364bbf19802ca5, fkb6364bbf290f3deb, fkb6364bbf2caa87ef]
+07:35:39:254 INFO  HHH000126: Indexes: [sql130210103949860, sql130210103949600, sql130210103949180, sql130210103949460, sql130210103949320, sql130210103949730, sql130210103926411, sql130210103926410]
+07:35:39:261 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEPAGE
+07:35:39:262 INFO  HHH000037: Columns: [id, sortby, displaystyle, description]
+07:35:39:262 INFO  HHH000108: Foreign keys: [fk7d746142a66ebd31]
+07:35:39:262 INFO  HHH000126: Indexes: [sql130210103950000, sql130210103926820]
+07:35:39:282 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEREQUEST
+07:35:39:282 INFO  HHH000037: Columns: [orderstatus, quotereqid, newquantity, security_id, counterparty_id, quoteid, cumulativequantity, id, settlementtimestamp, lastyield, createdtimestamp, lastprice, trader_id, side, counterpartyorderid, minquantity, limit, expiretimestamp, marketinterface_id, lastquantity, fuser_id, sellsidebook_id, leavequantity, orderquantity, quoterespid, orderid, subjecttimestamp, updatedtimestamp]
+07:35:39:282 INFO  HHH000108: Foreign keys: [fkbb7792fc28c27f3f, fkbb7792fc911f812f, fkbb7792fc2caa87ef, fkbb7792fc290f3deb, fkbb7792fc19802ca5, fkbb7792fc238d8f65]
+07:35:39:282 INFO  HHH000126: Indexes: [sql130210103950860, sql130210103950010, sql130210103927120, sql130210103950590, sql130210103950710, sql130210103950280, sql130210103950140]
+07:35:39:290 INFO  HHH000261: Table found: .FBASIS.SPREADSHEET
+07:35:39:291 INFO  HHH000037: Columns: [id, workbook]
+07:35:39:291 INFO  HHH000108: Foreign keys: [fke33b138cf03759e1]
+07:35:39:291 INFO  HHH000126: Indexes: [sql130210103927350, sql130210103950990]
+07:35:39:297 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLCONTENT
+07:35:39:297 INFO  HHH000037: Columns: [id, stringvalue, spreadsheetcelltype, booleanvalue, cellcolumn, spreadsheet, numericvalue, cellrow, formulavalue]
+07:35:39:297 INFO  HHH000108: Foreign keys: []
+07:35:39:297 INFO  HHH000126: Indexes: [sql130210103927580]
+07:35:39:305 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLFORMAT
+07:35:39:305 INFO  HHH000037: Columns: [boldfont, presentationroundingmode, negativenumbersred, cellrow, id, foregroundblue, decimalplaces, solvertolerance, thousandsseparator, minimumvalue, leadingzeroes, foregroundgreen, truevalue, falsevalue, cellcolumn, spreadsheetformattype, spreadsheet, ticksize, backgroundblue, spinnerstyle, solvercell, vincrement, gradientpaint, dateformat, backgroundgreen, foregroundred, backgroundred, locked, fractionaldisplay, timeformat, maximumvalue]
+07:35:39:305 INFO  HHH000108: Foreign keys: []
+07:35:39:305 INFO  HHH000126: Indexes: [sql130210103927800]
+07:35:39:310 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCOLUMNFORMAT
+07:35:39:310 INFO  HHH000037: Columns: [columnwidth, id, hidden, spreadsheet, columnnumber]
+07:35:39:310 INFO  HHH000108: Foreign keys: []
+07:35:39:311 INFO  HHH000126: Indexes: [sql130210103928040]
+07:35:39:316 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITION
+07:35:39:316 INFO  HHH000037: Columns: [fadeout, conditiontype, value1, backgroundblue, value2, id, foregroundblue, backgroundgreen, istype, backgroundred, foregroundred, foregroundgreen, formula]
+07:35:39:317 INFO  HHH000108: Foreign keys: []
+07:35:39:317 INFO  HHH000126: Indexes: [sql130210103928310]
+07:35:39:326 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITIONALFORMAT
+07:35:39:326 INFO  HHH000037: Columns: [id, spreadsheetcondition2_id, cellcolumn, spreadsheetcondition3_id, spreadsheet, cellrow, spreadsheetcondition1_id]
+07:35:39:326 INFO  HHH000108: Foreign keys: [fkddd53bf1d8c2b37c, fkddd53bf1d8c39c3a, fkddd53bf1d8c327db]
+07:35:39:326 INFO  HHH000126: Indexes: [sql130210103951270, sql130210103928520, sql130210103951000, sql130210103951130]
+07:35:39:333 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELD
+07:35:39:333 INFO  HHH000037: Columns: [id, valuetype, spreadcolumn, fixnumber, fixname, fixfieldmap_id, keyvalue]
+07:35:39:333 INFO  HHH000108: Foreign keys: [fkb9541991bc8f8b43]
+07:35:39:333 INFO  HHH000126: Indexes: [sql130210103951410, sql130210103928720]
+07:35:39:338 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELDMAP
+07:35:39:339 INFO  HHH000037: Columns: [id]
+07:35:39:339 INFO  HHH000108: Foreign keys: []
+07:35:39:339 INFO  HHH000126: Indexes: [sql130210103928900]
+07:35:39:347 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUP
+07:35:39:347 INFO  HHH000037: Columns: [id, spreadsheetfixgrouplist_id, fixnumber, fixname, groupiterator]
+07:35:39:347 INFO  HHH000108: Foreign keys: [fkb9666f16e76173b, fkb9666f162c1f37a5]
+07:35:39:347 INFO  HHH000126: Indexes: [sql130210103929090, sql130210103951540, sql130210103951550]
+07:35:39:353 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUPLIST
+07:35:39:354 INFO  HHH000037: Columns: [id, fixnumber, fixfieldmap_id]
+07:35:39:354 INFO  HHH000108: Foreign keys: [fkb3f118d4bc8f8b43]
+07:35:39:354 INFO  HHH000126: Indexes: [sql130210103951700, sql130210103929300]
+07:35:39:364 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXINPUTMESSAGE
+07:35:39:364 INFO  HHH000037: Columns: [id, header_id, datadictionary, messagename, businesscomponent_id, trailer_id, messageid, spreadsheet_id]
+07:35:39:364 INFO  HHH000108: Foreign keys: [fk836ac866dc3a4423, fk836ac8661bf722d, fk836ac8669306f5c7, fk836ac866f3ec1505, fk836ac866e76173b]
+07:35:39:364 INFO  HHH000126: Indexes: [sql130210103929492, sql130210103951890, sql130210103952030, sql130210103951900, sql130210103951830, sql130210103952150, sql130210103929490, sql130210103929491]
+07:35:39:375 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXOUTPUTMESSAGE
+07:35:39:375 INFO  HHH000037: Columns: [id, header_id, datadictionary, sendif, messagename, businesscomponent_id, trailer_id, messageid, spreadsheet_id]
+07:35:39:375 INFO  HHH000108: Foreign keys: [fk9f207d5d1bf722d, fk9f207d5ddc3a4423, fk9f207d5de76173b, fk9f207d5d9306f5c7, fk9f207d5df3ec1505]
+07:35:39:375 INFO  HHH000126: Indexes: [sql130210103930001, sql130210103930002, sql130210103930000, sql130210103952230, sql130210103952480, sql130210103952200, sql130210103952160, sql130210103952350]
+07:35:39:381 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETGROUP
+07:35:39:381 INFO  HHH000037: Columns: [id, description]
+07:35:39:382 INFO  HHH000108: Foreign keys: [fk48bd4a53a66ebd31]
+07:35:39:382 INFO  HHH000126: Indexes: [sql130210103952490, sql130210103930430]
+07:35:39:390 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDINPUT
+07:35:39:390 INFO  HHH000037: Columns: [cleanuponlogout, lowpxcolumn, mdentrytype, mdtradevolumecolumn, id, mdentrysizecolumn, mdentrypxcolumn, mdentrytimecolumn, securitycolumn, businesscomponent_id, highpxcolumn, mdpricedeltacolumn, counterpartycolumn, spreadsheet_id, mdentrydatecolumn]
+07:35:39:390 INFO  HHH000108: Foreign keys: [fkfb5fdb67dc3a4423, fkfb5fdb67f3ec1505]
+07:35:39:391 INFO  HHH000126: Indexes: [sql130210103952550, sql130210103952750, sql130210103930610]
+07:35:39:399 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDOUTPUT
+07:35:39:399 INFO  HHH000037: Columns: [deleteifnot, lowpxcolumn, sendifcolumn, mdentrytype, mdtradevolumecolumn, id, mdentrysizecolumn, mdentrypxcolumn, mdentrytimecolumn, securitycolumn, businesscomponent_id, highpxcolumn, mdpricedeltacolumn, spreadsheet_id, mdentrydatecolumn]
+07:35:39:399 INFO  HHH000108: Foreign keys: [fk7b3d0904dc3a4423, fk7b3d0904f3ec1505]
+07:35:39:399 INFO  HHH000126: Indexes: [sql130210103930810, sql130210103953020, sql130210103952880]
+07:35:39:404 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETROWFORMAT
+07:35:39:404 INFO  HHH000037: Columns: [id, hidden, rownumber, spreadsheet]
+07:35:39:404 INFO  HHH000108: Foreign keys: []
+07:35:39:404 INFO  HHH000126: Indexes: [sql130210103931020]
+07:35:39:410 INFO  HHH000261: Table found: .FBASIS.TRADECAPTURE
+07:35:39:410 INFO  HHH000037: Columns: [id, description]
+07:35:39:410 INFO  HHH000108: Foreign keys: [fkceb02962f03759e1]
+07:35:39:410 INFO  HHH000126: Indexes: [sql130210103931240, sql130210103953170]
+07:35:39:416 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREGROUP
+07:35:39:416 INFO  HHH000037: Columns: [id, description]
+07:35:39:416 INFO  HHH000108: Foreign keys: [fk815a6a3da66ebd31]
+07:35:39:416 INFO  HHH000126: Indexes: [sql130210103931450, sql130210103953230]
+07:35:39:430 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREREPORT
+07:35:39:430 INFO  HHH000037: Columns: [tradecapture_id, tradeid, lastquantity, fuser_id, executingtradersource, security_id, counterparty_id, cumulativequantity, executingtrader, id, leavequantity, createdtimestamp, lastyield, sourcecomponent_id, settlementdate, lastprice, market, trader_id, side, orderquantity, counterpartyorderid, orderid, execid, updatedtimestamp]
+07:35:39:430 INFO  HHH000108: Foreign keys: [fkbc015936911f812f, fkbc015936a3c333fe, fkbc015936a77d3bfe, fkbc015936290f3deb, fkbc0159362caa87ef, fkbc015936238d8f65]
+07:35:39:430 INFO  HHH000126: Indexes: [sql130210103953800, sql130210103953670, sql130210103931740, sql130210103953290, sql130210103953930, sql130210103954060, sql130210103953490]
+07:35:39:438 INFO  HHH000261: Table found: .FBASIS.TRADER
+07:35:39:438 INFO  HHH000037: Columns: [building, fax, department, lastname, ffunction, firstname, roomnumber, id, academictitle, mobilephone, flanguage, ftitle, floor, email, telephone]
+07:35:39:438 INFO  HHH000108: Foreign keys: [fk95cb27aea66ebd31]
+07:35:39:438 INFO  HHH000126: Indexes: [sql130210103954200, sql130210103931920]
+07:35:39:445 INFO  HHH000261: Table found: .FBASIS.TRADERPARTYID
+07:35:39:446 INFO  HHH000037: Columns: [id, partyidsource, trader_id, abstractbusinesscomponent_id, partyrole, partyid]
+07:35:39:446 INFO  HHH000108: Foreign keys: [fk7cad12f3911f812f, fk7cad12f3d77ccf45]
+07:35:39:446 INFO  HHH000126: Indexes: [sql130210103954440, sql130210103932120, sql130210103954250]
+07:35:39:452 INFO  HHH000261: Table found: .FBASIS.ASSIGNED_ROLES
+07:35:39:453 INFO  HHH000037: Columns: [fuser_id, assignedroles_id]
+07:35:39:453 INFO  HHH000108: Foreign keys: [fk8dd0ed0c376bc2d2, fk8dd0ed0c238d8f65]
+07:35:39:453 INFO  HHH000126: Indexes: [sql130210103954710, sql130210103954570, sql130210103932300]
+07:35:39:459 INFO  HHH000261: Table found: .FBASIS.BSQP_ABSBS
+07:35:39:459 INFO  HHH000037: Columns: [absbs_id, buysidequotepage_id]
+07:35:39:459 INFO  HHH000108: Foreign keys: [fkc59b79742dcd3240, fkc59b797493133209]
+07:35:39:459 INFO  HHH000126: Indexes: [sql130210103954990, sql130210103954850]
+07:35:39:465 INFO  HHH000261: Table found: .FBASIS.DOCKSETTINGS
+07:35:39:465 INFO  HHH000037: Columns: [id, docksettings]
+07:35:39:465 INFO  HHH000108: Foreign keys: [fk5aec5f76c89acd97]
+07:35:39:465 INFO  HHH000126: Indexes: [sql130210103955130]
+07:35:39:472 INFO  HHH000261: Table found: .FBASIS.EXECUTE_ROLES
+07:35:39:472 INFO  HHH000037: Columns: [executeroles_id, abstractbusinessobject_id]
+07:35:39:472 INFO  HHH000108: Foreign keys: [fk4853bd735c7c1579, fk4853bd734030528f]
+07:35:39:472 INFO  HHH000126: Indexes: [sql130210103932670, sql130210103955390, sql130210103955260]
+07:35:39:477 INFO  HHH000261: Table found: .FBASIS.EXPANDSET
+07:35:39:478 INFO  HHH000037: Columns: [id, expandset]
+07:35:39:478 INFO  HHH000108: Foreign keys: [fk109a768c89acd97]
+07:35:39:478 INFO  HHH000126: Indexes: [sql130210103932880, sql130210103955820]
+07:35:39:484 INFO  HHH000261: Table found: .FBASIS.OPENBUSINESSOBJECTS
+07:35:39:484 INFO  HHH000037: Columns: [id, openbusinessobjects]
+07:35:39:484 INFO  HHH000108: Foreign keys: [fk3e7c598ac89acd97]
+07:35:39:484 INFO  HHH000126: Indexes: [sql130210103956050, sql130210103933230]
+07:35:39:492 INFO  HHH000261: Table found: .FBASIS.READ_ROLES
+07:35:39:492 INFO  HHH000037: Columns: [readroles_id, abstractbusinessobject_id]
+07:35:39:493 INFO  HHH000108: Foreign keys: [fkf68c42d45ea8c69a, fkf68c42d44030528f]
+07:35:39:493 INFO  HHH000126: Indexes: [sql130210103933460, sql130210103956310, sql130210103956180]
+07:35:39:500 INFO  HHH000261: Table found: .FBASIS.SSQP_ASSBS
+07:35:39:500 INFO  HHH000037: Columns: [sellsidequotepage_id, assbs_id]
+07:35:39:500 INFO  HHH000108: Foreign keys: [fkfe83b6d22761e673, fkfe83b6d24320f54f]
+07:35:39:500 INFO  HHH000126: Indexes: [sql130210103956590, sql130210103956450]
+07:35:39:507 INFO  HHH000261: Table found: .FBASIS.WRITE_ROLES
+07:35:39:507 INFO  HHH000037: Columns: [writeroles_id, abstractbusinessobject_id]
+07:35:39:507 INFO  HHH000108: Foreign keys: [fk6889a65d46db6be3, fk6889a65d4030528f]
+07:35:39:507 INFO  HHH000126: Indexes: [sql130210103956890, sql130210103956730, sql130210103933740]
+07:35:39:510 INFO  HHH000232: Schema update complete
+07:35:48:446 INFO  Business Component Hungary Government Bond Pricing is started
+07:35:48:447 INFO  Business Component Dow Values Pricing is started
+07:35:48:446 INFO  Business Component German Government Bond Pricing is started
+07:35:48:448 INFO  Business Component DAX Values Pricing is started
+07:35:48:448 INFO  Business Component Play with me is started
+07:35:48:448 INFO  Business Component Sell Side Equity Book is started
+07:35:48:448 INFO  Business Component Buy Side Equity Book is started
+07:35:48:448 INFO  Business Component U.S. T-Notes 5 Years Pricing is started
+07:35:48:449 INFO  Business Component U.S. T-Notes 7 Years Pricing is started
+07:35:48:455 INFO  Business Component Sell Side Bond Book is started
+07:35:48:455 INFO  Business Component U.S. T-Notes 2-3 Years Pricing is started
+07:35:48:456 INFO  Business Component U.S. Treasury Rates is started
+07:35:48:456 INFO  Business Component Buy Side Bond Book is started
+07:35:48:456 INFO  Business Component U.S. T-Notes 10 Years Pricing is started
+07:35:48:457 INFO  Business Component Future Quotes is started
+07:35:48:508 INFO  FIX Agora Plugin "FIX Agora Buy Side Server" loaded.
+07:35:48:508 INFO  FIX Agora Buy Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:48:571 INFO  Business Component Sample Excel Export is started
+07:35:48:639 INFO  FIX Agora Plugin "FIX Agora Sell Side Server" loaded.
+07:35:48:639 INFO  FIX Agora Sell Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:48:970 INFO  Business Component Trade Capture All Assets is started
+07:35:48:972 INFO  FIX Agora Plugin "FIX Agora Excel Server" loaded.
+07:35:48:972 INFO  FIX Agora Excel Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:49:008 INFO  Business Component IDES Trade Export is started
+07:35:49:433 INFO  FIX Agora Plugin "FIX Agora Trade Capture Server" loaded.
+07:35:49:433 INFO  FIX Agora Trade Capture Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:49:544 INFO  FIX Agora Plugin "FIX Agora SAP Server" loaded.
+07:35:49:544 INFO  FIX Agora SAP Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+07:35:49:556 INFO  Load configuration from /home/alex/workspace_private/FIXAgoraBasisServer/./conf/basis.xml
+07:35:49:556 INFO  Server is accepting clients as host=127.0.0.1 on port=4711
+07:35:49:703 INFO  [FIXT.1.1:BOM1->BOZ1] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:703 INFO  [FIXT.1.1:BOM1->BOH1] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:703 INFO  [FIXT.1.1:BOM2->BOA2] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:703 INFO  [FIXT.1.1:BOM->YAHOO] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:703 INFO  [FIXT.1.1:BOM1->BOA1] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:704 INFO  [FIXT.1.1:BOM1->BOP1] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:714 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:717 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:717 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:717 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:714 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:718 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:718 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:717 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:718 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:719 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:717 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:719 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:717 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:719 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:719 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:739 INFO  [FIXT.1.1:BOM2->BOZ2] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:752 INFO  [FIXT.1.1:BOM1->BOA1] [/127.0.0.1:4715]
+07:35:49:752 INFO  [FIXT.1.1:BOM->YAHOO] [/127.0.0.1:4713]
+07:35:49:752 INFO  [FIXT.1.1:BOM1->BOH1] [/127.0.0.1:4718]
+07:35:49:752 INFO  [FIXT.1.1:BOM1->BOZ1] [/127.0.0.1:4717]
+07:35:49:752 INFO  [FIXT.1.1:BOM1->BOP1] [/127.0.0.1:4716]
+07:35:49:755 INFO  SessionTimer started
+07:35:49:757 INFO  Business Component Bank of Aphrodite Initiator is started
+07:35:49:760 INFO  SessionTimer started
+07:35:49:761 INFO  SessionTimer started
+07:35:49:762 INFO  Business Component Bank of Hades Initiator is started
+07:35:49:762 INFO  SessionTimer started
+07:35:49:762 INFO  SessionTimer started
+07:35:49:762 INFO  Business Component Yahoo Finance is started
+07:35:49:762 INFO  [FIXT.1.1:BOM2->BOH2] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:764 INFO  Business Component Bank of Poseidon Initiator is started
+07:35:49:763 INFO  Business Component Bank of Zeus Initiator is started
+07:35:49:779 INFO  [FIXT.1.1:BOM2->BOP2] daily, 00:00:00-UTC - 00:00:00-UTC
+07:35:49:780 INFO  SessionTimer started
+07:35:49:782 INFO  MINA session created for FIXT.1.1:BOM1->BOA1: local=/127.0.0.1:12369, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4715
+07:35:49:785 INFO  MINA session created for FIXT.1.1:BOM1->BOH1: local=/127.0.0.1:51013, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4718
+07:35:49:786 INFO  MINA session created for FIXT.1.1:BOM->YAHOO: local=/127.0.0.1:33833, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4713
+07:35:49:786 INFO  Socket option: SocketTcpNoDelay=true
+07:35:49:787 INFO  Socket option: SocketSynchronousWrites=false
+07:35:49:788 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+07:35:49:789 INFO  MINA session created for FIXT.1.1:BOM1->BOZ1: local=/127.0.0.1:46666, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4717
+07:35:49:790 INFO  MINA session created for FIXT.1.1:BOM1->BOP1: local=/127.0.0.1:54840, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4716
+07:35:49:790 INFO  Listening for connections at /127.0.0.1:4714
+07:35:49:792 INFO  Business Component FIX Agora Acceptor is started
+07:35:50:832 INFO  MINA session created: /127.0.0.1:10846
+07:35:50:861 INFO  MINA session created: /127.0.0.1:10847
+07:35:50:896 INFO  MINA session created: /127.0.0.1:10848
+07:35:50:922 INFO  MINA session created: /127.0.0.1:10849
+07:36:36:871 INFO  client connected
+07:37:01:846 INFO  client disconnected
+07:37:01:893 INFO  client disconnected
+07:37:03:991 INFO  [FIXT.1.1:BOM1->BOZ1] Disconnecting: IO Session closed
+07:37:03:992 INFO  [FIXT.1.1:BOM1->BOH1] Disconnecting: IO Session closed
+07:37:03:992 INFO  [FIXT.1.1:BOM1->BOP1] Disconnecting: IO Session closed
+07:37:03:992 INFO  [FIXT.1.1:BOM->YAHOO] Disconnecting: IO Session closed
+07:37:03:992 INFO  [FIXT.1.1:BOM1->BOA1] Disconnecting: IO Session closed
+07:37:03:991 INFO  [FIXT.1.1:BOM2->BOP2] Disconnecting: IO Session closed
+07:37:04:009 INFO  [FIXT.1.1:BOM2->BOA2] Disconnecting: IO Session closed
+07:37:04:030 INFO  [FIXT.1.1:BOM2->BOZ2] Disconnecting: IO Session closed
+07:37:04:033 INFO  [FIXT.1.1:BOM2->BOH2] Disconnecting: IO Session closed
+20:16:45:678 INFO  Start FIX Agora Server
+20:16:45:698 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:16:45:699 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+20:16:45:699 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+20:16:45:699 INFO  System: java.vm.version=20.5-b03
+20:16:45:699 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+20:16:45:699 INFO  System: java.vendor.url=http://java.sun.com/
+20:16:45:699 INFO  System: path.separator=:
+20:16:45:699 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+20:16:45:699 INFO  System: file.encoding.pkg=sun.io
+20:16:45:699 INFO  System: sun.java.launcher=SUN_STANDARD
+20:16:45:699 INFO  System: user.country=DE
+20:16:45:700 INFO  System: sun.os.patch.level=unknown
+20:16:45:700 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+20:16:45:700 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisServer
+20:16:45:700 INFO  System: java.runtime.version=1.6.0_30-b12
+20:16:45:700 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+20:16:45:700 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+20:16:45:700 INFO  System: os.arch=amd64
+20:16:45:700 INFO  System: java.io.tmpdir=/tmp
+20:16:45:700 INFO  System: line.separator=
+
+20:16:45:700 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+20:16:45:700 INFO  System: os.name=Linux
+20:16:45:700 INFO  System: sun.jnu.encoding=UTF-8
+20:16:45:700 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20:16:45:700 INFO  System: java.specification.name=Java Platform API Specification
+20:16:45:700 INFO  System: java.class.version=50.0
+20:16:45:701 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+20:16:45:701 INFO  System: os.version=3.11.10-29-desktop
+20:16:45:701 INFO  System: user.home=/home/alex
+20:16:45:701 INFO  System: user.timezone=Europe/Berlin
+20:16:45:701 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+20:16:45:701 INFO  System: file.encoding=UTF-8
+20:16:45:701 INFO  System: java.specification.version=1.6
+20:16:45:701 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/antlr-2.7.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-collections-3.2.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/dom4j-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/mina-core-1.1.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/conf:/home/alex/workspace_private/FIXAgoraBasisServer/lib/quickfixj-all-1.2.5-sp2-patch.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-math3-3.0.jar:/home/alex/workspace_private/FIXAgoraBuySideServer/bin:/home/alex/workspace_private/FIXAgoraSellSideServer/bin:/home/alex/workspace_private/FIXAgoraExcelServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraTradeCaptureServer/bin:/home/alex/workspace_private/FIXAgoraSAPServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-entitymanager-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jcommon-1.0.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-api-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/c3p0-0.9.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-c3p0-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/guava-13.0.1.jar
+20:16:45:701 INFO  System: user.name=alex
+20:16:45:701 INFO  System: java.vm.specification.version=1.0
+20:16:45:701 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.server.FBasisServer
+20:16:45:701 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+20:16:45:701 INFO  System: sun.arch.data.model=64
+20:16:45:701 INFO  System: user.language=de
+20:16:45:702 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+20:16:45:702 INFO  System: java.vm.info=mixed mode
+20:16:45:702 INFO  System: java.version=1.6.0_30
+20:16:45:702 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+20:16:45:702 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+20:16:45:702 INFO  System: java.vendor=Sun Microsystems Inc.
+20:16:45:702 INFO  System: file.separator=/
+20:16:45:702 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+20:16:45:702 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+20:16:45:702 INFO  System: sun.cpu.endian=little
+20:16:45:703 INFO  System: sun.cpu.isalist=
+20:16:45:703 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar loaded.
+20:16:45:704 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar loaded.
+20:16:45:704 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/ojdbc6_g.jar loaded.
+20:16:46:178 INFO  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+20:16:46:186 INFO  HHH000412: Hibernate Core {4.1.6.Final}
+20:16:46:195 INFO  HHH000206: hibernate.properties not found
+20:16:46:197 INFO  HHH000021: Bytecode provider name : javassist
+20:16:47:076 WARN  HHH000144: hibernate.connection.autocommit = false breaks the EJB3 specification
+20:16:47:854 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+20:16:47:862 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+20:16:47:899 INFO  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+20:16:47:900 INFO  HHH010002: C3P0 using driver: org.apache.derby.jdbc.EmbeddedDriver at URL: jdbc:derby:derby;create=true
+20:16:47:900 INFO  HHH000046: Connection properties: {user=fbasis, password=****, autocommit=false, release_mode=auto}
+20:16:47:901 INFO  HHH000006: Autocommit mode: false
+20:16:50:221 INFO  HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+20:16:50:229 WARN  HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+20:16:50:233 INFO  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+20:16:50:252 INFO  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+20:16:50:257 INFO  HHH000397: Using ASTQueryTranslatorFactory
+20:16:51:239 INFO  HHH000228: Running hbm2ddl schema update
+20:16:51:239 INFO  HHH000102: Fetching database metadata
+20:16:51:242 INFO  HHH000396: Updating schema
+20:16:51:456 INFO  HHH000261: Table found: .FBASIS.ABSBS
+20:16:51:456 INFO  HHH000037: Columns: [absbs_id, bankcalendar_id, calcmethod, security_id, valuta, buysidebook_id, fractionaldisplay, daycountconvention]
+20:16:51:456 INFO  HHH000108: Foreign keys: [fk3b33823769d520f, fk3b33823290f3deb, fk3b338231f7563ab]
+20:16:51:456 INFO  HHH000126: Indexes: [sql130210103934390, sql130210103911600, sql130210103933940, sql130210103934230]
+20:16:51:486 INFO  HHH000261: Table found: .FBASIS.ABSTCT
+20:16:51:487 INFO  HHH000037: Columns: [id, abstractbusinesscomponent_id, lasttradeid, buysidebook_id]
+20:16:51:487 INFO  HHH000108: Foreign keys: [fk72b40e331f7563ab, fk72b40e33d77ccf45]
+20:16:51:487 INFO  HHH000126: Indexes: [sql130210103934560, sql130210103934880, sql130210103911860]
+20:16:51:524 INFO  HHH000261: Table found: .FBASIS.ASSBS
+20:16:51:524 INFO  HHH000037: Columns: [sellsidebook_id, bankcalendar_id, calcmethod, security_id, valuta, fractionaldisplay, daycountconvention, assbs_id]
+20:16:51:524 INFO  HHH000108: Foreign keys: [fk3baf272290f3deb, fk3baf272769d520f, fk3baf27219802ca5]
+20:16:51:524 INFO  HHH000126: Indexes: [sql130210103935640, sql130210103935340, sql130210103935180, sql130210103912050]
+20:18:23:645 INFO  Start FIX Agora Server
+20:18:23:646 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:23:646 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+20:18:23:646 INFO  System: sun.boot.library.path=/usr/java/jdk1.8.0_51/jre/lib/amd64
+20:18:23:647 INFO  System: java.vm.version=25.51-b03
+20:18:23:647 INFO  System: java.vm.vendor=Oracle Corporation
+20:18:23:647 INFO  System: java.vendor.url=http://java.oracle.com/
+20:18:23:647 INFO  System: path.separator=:
+20:18:23:647 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+20:18:23:647 INFO  System: file.encoding.pkg=sun.io
+20:18:23:647 INFO  System: user.country=DE
+20:18:23:647 INFO  System: sun.java.launcher=SUN_STANDARD
+20:18:23:647 INFO  System: sun.os.patch.level=unknown
+20:18:23:648 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+20:18:23:648 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisServer
+20:18:23:648 INFO  System: java.runtime.version=1.8.0_51-b16
+20:18:23:648 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+20:18:23:648 INFO  System: java.endorsed.dirs=/usr/java/jdk1.8.0_51/jre/lib/endorsed
+20:18:23:648 INFO  System: os.arch=amd64
+20:18:23:648 INFO  System: java.io.tmpdir=/tmp
+20:18:23:648 INFO  System: line.separator=
+
+20:18:23:648 INFO  System: java.vm.specification.vendor=Oracle Corporation
+20:18:23:648 INFO  System: os.name=Linux
+20:18:23:648 INFO  System: sun.jnu.encoding=UTF-8
+20:18:23:648 INFO  System: java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20:18:23:649 INFO  System: java.specification.name=Java Platform API Specification
+20:18:23:649 INFO  System: java.class.version=52.0
+20:18:23:649 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+20:18:23:649 INFO  System: os.version=3.11.10-29-desktop
+20:18:23:649 INFO  System: user.home=/home/alex
+20:18:23:649 INFO  System: user.timezone=Europe/Berlin
+20:18:23:649 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+20:18:23:649 INFO  System: file.encoding=UTF-8
+20:18:23:649 INFO  System: java.specification.version=1.8
+20:18:23:649 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/antlr-2.7.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-collections-3.2.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/dom4j-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-commons-annotations-4.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/mina-core-1.1.7.jar:/home/alex/workspace_private/FIXAgoraBasisServer/conf:/home/alex/workspace_private/FIXAgoraBasisServer/lib/quickfixj-all-1.2.5-sp2-patch.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/commons-math3-3.0.jar:/home/alex/workspace_private/FIXAgoraBuySideServer/bin:/home/alex/workspace_private/FIXAgoraSellSideServer/bin:/home/alex/workspace_private/FIXAgoraExcelServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraTradeCaptureServer/bin:/home/alex/workspace_private/FIXAgoraSAPServer/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-entitymanager-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jcommon-1.0.17.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/slf4j-api-1.6.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/c3p0-0.9.1.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/hibernate-c3p0-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/guava-13.0.1.jar
+20:18:23:650 INFO  System: user.name=alex
+20:18:23:650 INFO  System: java.vm.specification.version=1.8
+20:18:23:650 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.server.FBasisServer
+20:18:23:650 INFO  System: java.home=/usr/java/jdk1.8.0_51/jre
+20:18:23:650 INFO  System: sun.arch.data.model=64
+20:18:23:650 INFO  System: user.language=de
+20:18:23:650 INFO  System: java.specification.vendor=Oracle Corporation
+20:18:23:650 INFO  System: awt.toolkit=sun.awt.X11.XToolkit
+20:18:23:650 INFO  System: java.vm.info=mixed mode
+20:18:23:650 INFO  System: java.version=1.8.0_51
+20:18:23:651 INFO  System: java.ext.dirs=/usr/java/jdk1.8.0_51/jre/lib/ext:/usr/java/packages/lib/ext
+20:18:23:651 INFO  System: sun.boot.class.path=/usr/java/jdk1.8.0_51/jre/lib/resources.jar:/usr/java/jdk1.8.0_51/jre/lib/rt.jar:/usr/java/jdk1.8.0_51/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_51/jre/lib/jsse.jar:/usr/java/jdk1.8.0_51/jre/lib/jce.jar:/usr/java/jdk1.8.0_51/jre/lib/charsets.jar:/usr/java/jdk1.8.0_51/jre/lib/jfr.jar:/usr/java/jdk1.8.0_51/jre/classes
+20:18:23:651 INFO  System: java.vendor=Oracle Corporation
+20:18:23:651 INFO  System: file.separator=/
+20:18:23:651 INFO  System: java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+20:18:23:651 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+20:18:23:651 INFO  System: sun.cpu.endian=little
+20:18:23:651 INFO  System: sun.cpu.isalist=
+20:18:23:652 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/sapjco.jar loaded.
+20:18:23:652 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar loaded.
+20:18:23:653 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/ojdbc6_g.jar loaded.
+20:18:23:827 INFO  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+20:18:23:834 INFO  HHH000412: Hibernate Core {4.1.6.Final}
+20:18:23:836 INFO  HHH000206: hibernate.properties not found
+20:18:23:839 INFO  HHH000021: Bytecode provider name : javassist
+20:18:24:157 WARN  HHH000144: hibernate.connection.autocommit = false breaks the EJB3 specification
+20:18:24:641 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+20:18:24:649 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+20:18:24:681 INFO  HHH000130: Instantiating explicit connection provider: org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+20:18:24:683 INFO  HHH010002: C3P0 using driver: org.apache.derby.jdbc.EmbeddedDriver at URL: jdbc:derby:derby;create=true
+20:18:24:683 INFO  HHH000046: Connection properties: {user=fbasis, password=****, autocommit=false, release_mode=auto}
+20:18:24:684 INFO  HHH000006: Autocommit mode: false
+20:18:26:016 INFO  HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+20:18:26:019 WARN  HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+20:18:26:023 INFO  HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+20:18:26:031 INFO  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+20:18:26:034 INFO  HHH000397: Using ASTQueryTranslatorFactory
+20:18:26:739 INFO  HHH000228: Running hbm2ddl schema update
+20:18:26:740 INFO  HHH000102: Fetching database metadata
+20:18:26:744 INFO  HHH000396: Updating schema
+20:18:26:863 INFO  HHH000261: Table found: .FBASIS.ABSBS
+20:18:26:864 INFO  HHH000037: Columns: [calcmethod, fractionaldisplay, valuta, absbs_id, buysidebook_id, daycountconvention, bankcalendar_id, security_id]
+20:18:26:864 INFO  HHH000108: Foreign keys: [fk3b33823769d520f, fk3b338231f7563ab, fk3b33823290f3deb]
+20:18:26:864 INFO  HHH000126: Indexes: [sql130210103934390, sql130210103911600, sql130210103933940, sql130210103934230]
+20:18:26:885 INFO  HHH000261: Table found: .FBASIS.ABSTCT
+20:18:26:886 INFO  HHH000037: Columns: [abstractbusinesscomponent_id, id, buysidebook_id, lasttradeid]
+20:18:26:886 INFO  HHH000108: Foreign keys: [fk72b40e33d77ccf45, fk72b40e331f7563ab]
+20:18:26:886 INFO  HHH000126: Indexes: [sql130210103911860, sql130210103934880, sql130210103934560]
+20:18:26:910 INFO  HHH000261: Table found: .FBASIS.ASSBS
+20:18:26:910 INFO  HHH000037: Columns: [calcmethod, fractionaldisplay, valuta, sellsidebook_id, daycountconvention, bankcalendar_id, assbs_id, security_id]
+20:18:26:911 INFO  HHH000108: Foreign keys: [fk3baf27219802ca5, fk3baf272769d520f, fk3baf272290f3deb]
+20:18:26:911 INFO  HHH000126: Indexes: [sql130210103935340, sql130210103935180, sql130210103912050, sql130210103935640]
+20:18:26:935 INFO  HHH000261: Table found: .FBASIS.ASSTCT
+20:18:26:935 INFO  HHH000037: Columns: [abstractbusinesscomponent_id, sellsidebook_id, id, lasttradeid]
+20:18:26:936 INFO  HHH000108: Foreign keys: [fk73a39dc4d77ccf45, fk73a39dc419802ca5]
+20:18:26:936 INFO  HHH000126: Indexes: [sql130210103912220, sql130210103935780, sql130210103935950]
+20:18:26:952 INFO  HHH000261: Table found: .FBASIS.ABSTRACTACCEPTOR
+20:18:26:953 INFO  HHH000037: Columns: [marketname, securityidsource, connectatstartup, id]
+20:18:26:953 INFO  HHH000108: Foreign keys: [fk391df74df03759e1]
+20:18:26:953 INFO  HHH000126: Indexes: [sql130210103936110, sql130210103912420]
+20:18:26:965 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSCOMPONENT
+20:18:26:965 INFO  HHH000037: Columns: [datadictionary, id]
+20:18:26:966 INFO  HHH000108: Foreign keys: [fk7b46ecfba66ebd31]
+20:18:26:966 INFO  HHH000126: Indexes: [sql130210103936160, sql130210103912610]
+20:18:27:040 INFO  HHH000261: Table found: .FBASIS.ABSTRACTBUSINESSOBJECT
+20:18:27:041 INFO  HHH000037: Columns: [modificationuser_id, parent_id, name, id, modificationdate]
+20:18:27:041 INFO  HHH000108: Foreign keys: [fk79c5040121d560e6, fk79c50401c25e156f]
+20:18:27:041 INFO  HHH000126: Indexes: [sql130210103936370, sql130210103912810, sql130210103912811, sql130210103936190]
+20:18:27:062 INFO  HHH000261: Table found: .FBASIS.ABSTRACTINITIATOR
+20:18:27:063 INFO  HHH000037: Columns: [counterparty_id, route_id, marketname, securityidsource, connectatstartup, id]
+20:18:27:063 INFO  HHH000108: Foreign keys: [fk5a04380d2caa87ef, fk5a04380df03759e1, fk5a04380d33fd41a9]
+20:18:27:063 INFO  HHH000126: Indexes: [sql130210103936560, sql130210103936580, sql130210103936720, sql130210103913130]
+20:18:27:077 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDBUYSIDEINITIATOR
+20:18:27:077 INFO  HHH000037: Columns: [initiator_id, id, buysidebook_id]
+20:18:27:077 INFO  HHH000108: Foreign keys: [fkf4b22bc029c96003, fkf4b22bc01f7563ab]
+20:18:27:078 INFO  HHH000126: Indexes: [sql130210103937020, sql130210103913340, sql130210103936860]
+20:18:27:091 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDINITIATORSECURITY
+20:18:27:091 INFO  HHH000037: Columns: [counterparty_id, id, fixinitiator_id, security_id]
+20:18:27:091 INFO  HHH000108: Foreign keys: [fk516a26412caa87ef, fk516a264186aaa9cf, fk516a264168987498, fk516a2641290f3deb]
+20:18:27:091 INFO  HHH000126: Indexes: [sql130210103937320, sql130210103913520, sql130210103937450, sql130210103937170, sql130210103937610]
+20:18:27:103 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDSELLSIDEACCEPTOR
+20:18:27:104 INFO  HHH000037: Columns: [acceptor_id, sellsidebook_id, id]
+20:18:27:104 INFO  HHH000108: Foreign keys: [fk96b6de219802ca5, fk96b6de287853c11]
+20:18:27:104 INFO  HHH000126: Indexes: [sql130210103937780, sql130210103913710, sql130210103937630]
+20:18:27:113 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURESOURCE
+20:18:27:113 INFO  HHH000037: Columns: [tradecapture_id, id, businesscomponent_id]
+20:18:27:113 INFO  HHH000108: Foreign keys: [fk7e207e8bdc3a4423, fk7e207e8ba3c333fe]
+20:18:27:113 INFO  HHH000126: Indexes: [sql130210103914180, sql130210103938090, sql130210103937940]
+20:18:27:121 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDTRADECAPTURETARGET
+20:18:27:122 INFO  HHH000037: Columns: [tradecapture_id, abstractbusinesscomponent_id, id, lasttradeid]
+20:18:27:122 INFO  HHH000108: Foreign keys: [fk7f0e8801d77ccf45, fk7f0e8801a3c333fe]
+20:18:27:122 INFO  HHH000126: Indexes: [sql130210103938230, sql130210103938460, sql130210103914380]
+20:18:27:134 INFO  HHH000261: Table found: .FBASIS.ASSIGNEDUSERSETTINGS
+20:18:27:134 INFO  HHH000037: Columns: [path, deleteafterexport, replaceoldsheet, sheet, id, fuser_id, exceltradecapture_id]
+20:18:27:135 INFO  HHH000108: Foreign keys: [fk6e05621c136a7e31, fk6e05621c238d8f65]
+20:18:27:135 INFO  HHH000126: Indexes: [sql130210103938590, sql130210103938800, sql130210103914580]
+20:18:27:162 INFO  HHH000261: Table found: .FBASIS.BSBTCR
+20:18:27:162 INFO  HHH000037: Columns: [trader_id, side, lastquantity, counterparty_id, leavequantity, orderid, orderquantity, cumulativequantity, execid, counterpartyorderid, createdtimestamp, updatedtimestamp, id, fuser_id, lastprice, buysidebook_id, settlementdate, sourcecomponent_id, lastyield, tradeid, security_id]
+20:18:27:162 INFO  HHH000108: Foreign keys: [fk7550bc12eaf08210, fk7550bc12290f3deb, fk7550bc121f7563ab, fk7550bc122caa87ef, fk7550bc12238d8f65, fk7550bc12911f812f]
+20:18:27:162 INFO  HHH000126: Indexes: [sql130210103914760, sql130210103939750, sql130210103939220, sql130210103939360, sql130210103939490, sql130210103938960, sql130210103939620]
+20:18:27:186 INFO  HHH000261: Table found: .FBASIS.BSCHILDREN
+20:18:27:186 INFO  HHH000037: Columns: [children_id, businesssection_id]
+20:18:27:187 INFO  HHH000108: Foreign keys: [fk9eaf75508e008f71, fk9eaf7550f860c4e5]
+20:18:27:187 INFO  HHH000126: Indexes: [sql130210103940300, sql130210103914950, sql130210103939900]
+20:18:27:195 INFO  HHH000261: Table found: .FBASIS.BANKCALENDAR
+20:18:27:195 INFO  HHH000037: Columns: [id]
+20:18:27:195 INFO  HHH000108: Foreign keys: [fk4fd6bdbaa66ebd31]
+20:18:27:195 INFO  HHH000126: Indexes: [sql130210103915140, sql130210103940320]
+20:18:27:202 INFO  HHH000261: Table found: .FBASIS.BANKCALENDARGROUP
+20:18:27:202 INFO  HHH000037: Columns: [description, id]
+20:18:27:202 INFO  HHH000108: Foreign keys: [fkeb5acce5a66ebd31]
+20:18:27:202 INFO  HHH000126: Indexes: [sql130210103940370, sql130210103915350]
+20:18:27:210 INFO  HHH000261: Table found: .FBASIS.BUSINESSSECTION
+20:18:27:210 INFO  HHH000037: Columns: [description, position, id]
+20:18:27:210 INFO  HHH000108: Foreign keys: [fk2a72d6e5a66ebd31]
+20:18:27:210 INFO  HHH000126: Indexes: [sql130210103940460, sql130210103915660]
+20:18:27:220 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOK
+20:18:27:221 INFO  HHH000037: Columns: [absolutchange, calcmethod, fractionaldisplay, valuta, killfill, description, id, daycountconvention, bankcalendar_id, displaystyle]
+20:18:27:221 INFO  HHH000108: Foreign keys: [fk2da2ad66f03759e1, fk2da2ad66769d520f]
+20:18:27:221 INFO  HHH000126: Indexes: [sql130210103940580, sql130210103915870, sql130210103940540]
+20:18:27:228 INFO  HHH000261: Table found: .FBASIS.BUYSIDEBOOKGROUP
+20:18:27:228 INFO  HHH000037: Columns: [description, id]
+20:18:27:229 INFO  HHH000108: Foreign keys: [fkf02dc8b9a66ebd31]
+20:18:27:229 INFO  HHH000126: Indexes: [sql130210103916060, sql130210103940710]
+20:18:27:244 INFO  HHH000261: Table found: .FBASIS.BUYSIDENEWORDERSINGLE
+20:18:27:244 INFO  HHH000037: Columns: [trader_id, orderstatus, leavequantity, orderquantity, cumulativequantity, marketinterface_id, neworderid, newlimit, minquantity, timeinforce, createdtimestamp, limit, updatedtimestamp, id, fuser_id, lastprice, newquantity, lastyield, security_id, side, lastquantity, counterparty_id, orderid, counterpartyorderid, buysidebook_id, tiftimestamp]
+20:18:27:244 INFO  HHH000108: Foreign keys: [fkf648b9b32caa87ef, fkf648b9b3238d8f65, fkf648b9b3911f812f, fkf648b9b3290f3deb, fkf648b9b3fb417af5, fkf648b9b31f7563ab]
+20:18:27:244 INFO  HHH000126: Indexes: [sql130210103940730, sql130210103916240, sql130210103941020, sql130210103941160, sql130210103941310, sql130210103916241, sql130210103940870, sql130210103941450]
+20:18:27:253 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEPAGE
+20:18:27:253 INFO  HHH000037: Columns: [description, sortby, showmarketdepth, id, displaystyle]
+20:18:27:253 INFO  HHH000108: Foreign keys: [fk206a0acea66ebd31]
+20:18:27:253 INFO  HHH000126: Indexes: [sql130210103941580, sql130210103916560]
+20:18:27:269 INFO  HHH000261: Table found: .FBASIS.BUYSIDEQUOTEREQUEST
+20:18:27:270 INFO  HHH000037: Columns: [trader_id, multiid, orderstatus, leavequantity, orderquantity, expiretimestamp, cumulativequantity, quotereqid, marketinterface_id, quoteid, minquantity, createdtimestamp, limit, updatedtimestamp, id, fuser_id, lastprice, newquantity, lastyield, security_id, settlementtimestamp, side, lastquantity, counterparty_id, orderid, subjecttimestamp, counterpartyorderid, quoterespid, buysidebook_id]
+20:18:27:270 INFO  HHH000108: Foreign keys: [fk8574edf0238d8f65, fk8574edf0911f812f, fk8574edf01f7563ab, fk8574edf0fb417af5, fk8574edf0290f3deb, fk8574edf02caa87ef]
+20:18:27:270 INFO  HHH000126: Indexes: [sql130210103941600, sql130210103916751, sql130210103941740, sql130210103942050, sql130210103942190, sql130210103916750, sql130210103942330, sql130210103941880]
+20:18:27:279 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTDATE
+20:18:27:279 INFO  HHH000037: Columns: [eventstartdate, id, eventenddate, securitycomplexevent_id]
+20:18:27:279 INFO  HHH000108: Foreign keys: [fk7cf53eb87ee4eeef]
+20:18:27:279 INFO  HHH000126: Indexes: [sql130210103917090, sql130210103942480]
+20:18:27:288 INFO  HHH000261: Table found: .FBASIS.COMPLEXEVENTTIME
+20:18:27:288 INFO  HHH000037: Columns: [eventendtime, complexeventdate_id, id, eventstarttime]
+20:18:27:289 INFO  HHH000108: Foreign keys: [fk7cfca1d76cba42af]
+20:18:27:289 INFO  HHH000126: Indexes: [sql130210103942620, sql130210103917290]
+20:18:27:298 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYPARTYID
+20:18:27:299 INFO  HHH000037: Columns: [counterparty_id, partyrole, partyidsource, abstractbusinesscomponent_id, id, partyid]
+20:18:27:299 INFO  HHH000108: Foreign keys: [fkfab3e8b7d77ccf45, fkfab3e8b72caa87ef]
+20:18:27:299 INFO  HHH000126: Indexes: [sql130210103917500, sql130210103942900, sql130210103942760]
+20:18:27:308 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTY
+20:18:27:308 INFO  HHH000037: Columns: [country, city, popostalcode, flanguage, telephone, house, companypostalcode, pobox, postalcode, street, mobilephone, id, fax, ftimezone, email]
+20:18:27:308 INFO  HHH000108: Foreign keys: [fka75e768aa66ebd31]
+20:18:27:309 INFO  HHH000126: Indexes: [sql130210103917710, sql130210103943040]
+20:18:27:316 INFO  HHH000261: Table found: .FBASIS.COUNTERPARTYGROUP
+20:18:27:316 INFO  HHH000037: Columns: [description, id]
+20:18:27:316 INFO  HHH000108: Foreign keys: [fk8ed61615a66ebd31]
+20:18:27:316 INFO  HHH000126: Indexes: [sql130210103917900, sql130210103943100]
+20:18:27:325 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTURE
+20:18:27:325 INFO  HHH000037: Columns: [securityidsource, description, id]
+20:18:27:325 INFO  HHH000108: Foreign keys: [fkc47a6179f03759e1]
+20:18:27:326 INFO  HHH000126: Indexes: [sql130210103918080, sql130210103943140]
+20:18:27:335 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREGROUP
+20:18:27:335 INFO  HHH000037: Columns: [description, id]
+20:18:27:335 INFO  HHH000108: Foreign keys: [fk5072a886a66ebd31]
+20:18:27:335 INFO  HHH000126: Indexes: [sql130210103918280, sql130210103943170]
+20:18:27:350 INFO  HHH000261: Table found: .FBASIS.EXCELTRADECAPTUREREPORT
+20:18:27:351 INFO  HHH000037: Columns: [trader_id, side, lastquantity, counterparty_id, leavequantity, orderid, orderquantity, cumulativequantity, exceltradecapture_id, execid, market, counterpartyorderid, executingtrader, user_id, createdtimestamp, updatedtimestamp, id, lastprice, settlementdate, sourcecomponent_id, lastyield, tradeid, security_id]
+20:18:27:351 INFO  HHH000108: Foreign keys: [fkcff0e40d136a7e31, fkcff0e40dbfd5ae8b, fkcff0e40d911f812f, fkcff0e40da77d3bfe, fkcff0e40d2caa87ef, fkcff0e40d290f3deb]
+20:18:27:351 INFO  HHH000126: Indexes: [sql130210103943610, sql130210103943480, sql130210103918490, sql130210103943890, sql130210103943350, sql130210103943200, sql130210103943760]
+20:18:27:359 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTOR
+20:18:27:359 INFO  HHH000037: Columns: [persistmessage, sendercompid, datadictionary, marketdatatype, partyrole, marketdatarequest, socketadress, partyidsource, id, partyid, socketport]
+20:18:27:359 INFO  HHH000108: Foreign keys: [fkdae95000612ba43d]
+20:18:27:359 INFO  HHH000126: Indexes: [sql130210103918700, sql130210103944040]
+20:18:27:365 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORGROUP
+20:18:27:365 INFO  HHH000037: Columns: [description, id]
+20:18:27:365 INFO  HHH000108: Foreign keys: [fk1686b65fa66ebd31]
+20:18:27:365 INFO  HHH000126: Indexes: [sql130210103918910, sql130210103944080]
+20:18:27:373 INFO  HHH000261: Table found: .FBASIS.FIXACCEPTORTARGET
+20:18:27:373 INFO  HHH000037: Columns: [fixacceptor_id, counterparty_id, targetcompid, id]
+20:18:27:373 INFO  HHH000108: Foreign keys: [fkcf90adb12fad88c5, fkcf90adb1f4e6c0dc, fkcf90adb12caa87ef]
+20:18:27:373 INFO  HHH000126: Indexes: [sql130210103944270, sql130210103944280, sql130210103919230, sql130210103944120]
+20:18:27:379 INFO  HHH000261: Table found: .FBASIS.FIXFIELDORDERENTRY
+20:18:27:379 INFO  HHH000037: Columns: [fixfieldorderentry_id, id, fixfield]
+20:18:27:379 INFO  HHH000108: Foreign keys: [fka4df1da9a687ae92]
+20:18:27:379 INFO  HHH000126: Indexes: [sql130210103919440, sql130210103944410]
+20:18:27:390 INFO  HHH000261: Table found: .FBASIS.FIXINITIATOR
+20:18:27:390 INFO  HHH000037: Columns: [openinterest, earlyprices, fixingprice, marginrate, offer, openingprice, recoveryrate, closingprice, indexvalue, id, socketport, dvafs, heartbeatinterval, partyidsource, dvafl, cvafs, sendercompid, recoveryrateforshort, partyid, cvafl, sessionhighbid, recoveryrateforlong, partyrole, shutdownaftersnapshot, tradevolume, priorsettleprice, persistmessage, requesttype, midprice, datadictionary, marketdatatype, securitylistrequest, tradingsessionhighprice, tradingsessionvwapprice, settlementprice, simulatedbuyprice, compositeunderlying, reconnectinterval, sessionlowoffer, tradingsessionlowprice, cashrate, simulatedsellprice, settlelowprice, trade, socketadress, targetcompid, auctionclearingprice, settlehighprice, swapvaluefactor, bid]
+20:18:27:390 INFO  HHH000108: Foreign keys: [fkf1a3f5ba33aa9ff3]
+20:18:27:390 INFO  HHH000126: Indexes: [sql130210103944550, sql130210103919620]
+20:18:27:397 INFO  HHH000261: Table found: .FBASIS.FIXINITIATORGROUP
+20:18:27:397 INFO  HHH000037: Columns: [description, id]
+20:18:27:398 INFO  HHH000108: Foreign keys: [fkf11094e5a66ebd31]
+20:18:27:398 INFO  HHH000126: Indexes: [sql130210103919800, sql130210103944570]
+20:18:27:403 INFO  HHH000261: Table found: .FBASIS.FROLE
+20:18:27:404 INFO  HHH000037: Columns: [description, id]
+20:18:27:404 INFO  HHH000108: Foreign keys: [fk40161dca66ebd31]
+20:18:27:404 INFO  HHH000126: Indexes: [sql130210103944580, sql130210103920000]
+20:18:27:410 INFO  HHH000261: Table found: .FBASIS.FROLEGROUP
+20:18:27:410 INFO  HHH000037: Columns: [description, id]
+20:18:27:410 INFO  HHH000108: Foreign keys: [fk563b6e03a66ebd31]
+20:18:27:410 INFO  HHH000126: Indexes: [sql130210103944581, sql130210103920240]
+20:18:27:420 INFO  HHH000261: Table found: .FBASIS.FSECURITY
+20:18:27:420 INFO  HHH000037: Columns: [maturity, securitydetails_id, securityid, id]
+20:18:27:420 INFO  HHH000108: Foreign keys: [fkc72335a6e51d5bc5, fkc72335a6a66ebd31]
+20:18:27:420 INFO  HHH000126: Indexes: [sql130210103920441, sql130210103944650, sql130210103920440, sql130210103944620]
+20:18:27:429 INFO  HHH000261: Table found: .FBASIS.FSECURITYGROUP
+20:18:27:429 INFO  HHH000037: Columns: [description, sortby, id]
+20:18:27:429 INFO  HHH000108: Foreign keys: [fkc6f86879a66ebd31]
+20:18:27:430 INFO  HHH000126: Indexes: [sql130210103920770, sql130210103944790]
+20:18:27:438 INFO  HHH000261: Table found: .FBASIS.FUSER
+20:18:27:438 INFO  HHH000037: Columns: [firstname, roomnumber, flanguage, mainpanelpanelheight, telephone, fpassword, ffunction, building, lastname, ftitle, academictitle, mobilephone, treepanelwidth, id, department, fax, floor, email]
+20:18:27:438 INFO  HHH000108: Foreign keys: [fk402cd31a66ebd31]
+20:18:27:438 INFO  HHH000126: Indexes: [sql130210103944810, sql130210103921010]
+20:18:27:445 INFO  HHH000261: Table found: .FBASIS.FUSERGROUP
+20:18:27:445 INFO  HHH000037: Columns: [description, id]
+20:18:27:445 INFO  HHH000108: Foreign keys: [fk5670cfcea66ebd31]
+20:18:27:445 INFO  HHH000126: Indexes: [sql130210103944811, sql130210103921240]
+20:18:27:456 INFO  HHH000261: Table found: .FBASIS.FUSERPARTYID
+20:18:27:456 INFO  HHH000037: Columns: [partyrole, partyidsource, abstractbusinesscomponent_id, id, fuser_id, partyid]
+20:18:27:456 INFO  HHH000108: Foreign keys: [fk3cbbc410d77ccf45, fk3cbbc410238d8f65]
+20:18:27:457 INFO  HHH000126: Indexes: [sql130210103944820, sql130210103944950, sql130210103921450]
+20:18:27:463 INFO  HHH000261: Table found: .FBASIS.IDMANAGER
+20:18:27:464 INFO  HHH000037: Columns: [name, lastid, id]
+20:18:27:464 INFO  HHH000108: Foreign keys: []
+20:18:27:465 INFO  HHH000126: Indexes: [sql130210103921731, sql130210103921730]
+20:18:27:472 INFO  HHH000261: Table found: .FBASIS.LOGENTRY
+20:18:27:472 INFO  HHH000037: Columns: [messagecomponent, logdate, loglevel, messagetext, highlightkey, id]
+20:18:27:473 INFO  HHH000108: Foreign keys: []
+20:18:27:473 INFO  HHH000126: Indexes: [sql130210103922050]
+20:18:27:483 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTURE
+20:18:27:483 INFO  HHH000037: Columns: [sapservername, sapgeneralvaluationclass, description, sapcompanycode, sapclient, saptransactiontypesell, sapusername, sapsystemnumber, securityidsource, setexchange, sapsecuritiesaccount, sappassword, id, settrader, saptransactiontypebuy]
+20:18:27:483 INFO  HHH000108: Foreign keys: [fkd315d624f03759e1]
+20:18:27:484 INFO  HHH000126: Indexes: [sql130210103922250, sql130210103945200]
+20:18:27:492 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREGROUP
+20:18:27:492 INFO  HHH000037: Columns: [description, id]
+20:18:27:492 INFO  HHH000108: Foreign keys: [fk40ac66bba66ebd31]
+20:18:27:492 INFO  HHH000126: Indexes: [sql130210103922450, sql130210103945300]
+20:18:27:502 INFO  HHH000261: Table found: .FBASIS.SAPTRADECAPTUREREPORT
+20:18:27:502 INFO  HHH000037: Columns: [trader_id, leavequantity, orderquantity, saptradecapture_id, cumulativequantity, execid, executingtrader, createdtimestamp, exportstatus, updatedtimestamp, id, lastprice, lastyield, tradeid, security_id, side, lastquantity, counterparty_id, orderid, sapfinancialtransaction, market, counterpartyorderid, user_id, settlementdate, sourcecomponent_id]
+20:18:27:503 INFO  HHH000108: Foreign keys: [fke6eeec78bfd5ae8b, fke6eeec78911f812f, fke6eeec78290f3deb, fke6eeec7851658d06, fke6eeec78a77d3bfe, fke6eeec782caa87ef]
+20:18:27:503 INFO  HHH000126: Indexes: [sql130210103945540, sql130210103945820, sql130210103945670, sql130210103946110, sql130210103922650, sql130210103945400, sql130210103945970]
+20:18:27:518 INFO  HHH000261: Table found: .FBASIS.SSBTCR
+20:18:27:518 INFO  HHH000037: Columns: [trader_id, side, lastquantity, counterparty_id, leavequantity, orderid, orderquantity, cumulativequantity, execid, counterpartyorderid, createdtimestamp, updatedtimestamp, sellsidebook_id, id, fuser_id, lastprice, settlementdate, sourcecomponent_id, lastyield, tradeid, security_id]
+20:18:27:518 INFO  HHH000108: Foreign keys: [fk92531ea1911f812f, fk92531ea1290f3deb, fk92531ea11871865a, fk92531ea12caa87ef, fk92531ea1238d8f65, fk92531ea119802ca5]
+20:18:27:518 INFO  HHH000126: Indexes: [sql130210103946260, sql130210103946690, sql130210103946910, sql130210103947050, sql130210103922860, sql130210103946550, sql130210103946410]
+20:18:27:525 INFO  HHH000261: Table found: .FBASIS.SSCF_PDS
+20:18:27:526 INFO  HHH000037: Columns: [spreadsheetcellformat_id, predefinedstrings]
+20:18:27:526 INFO  HHH000108: Foreign keys: [fk4b024563758bc0e5]
+20:18:27:526 INFO  HHH000126: Indexes: [sql130210103947200]
+20:18:27:536 INFO  HHH000261: Table found: .FBASIS.SSFF
+20:18:27:536 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixfields_id]
+20:18:27:536 INFO  HHH000108: Foreign keys: [fk26fb201a957f54, fk26fb2084c1520f]
+20:18:27:536 INFO  HHH000126: Indexes: [sql130210103923140, sql130210103923141, sql130210103947350, sql130210103947330]
+20:18:27:544 INFO  HHH000261: Table found: .FBASIS.SSFGL
+20:18:27:545 INFO  HHH000037: Columns: [spreadsheetfixfieldmap_id, spreadsheetfixgrouplists_id]
+20:18:27:545 INFO  HHH000108: Foreign keys: [fk4b8694b12ca2ba, fk4b8694b84c1520f]
+20:18:27:545 INFO  HHH000126: Indexes: [sql130210103947480, sql130210103923430, sql130210103923431, sql130210103947630]
+20:18:27:552 INFO  HHH000261: Table found: .FBASIS.SECURITYALTIDGROUP
+20:18:27:553 INFO  HHH000037: Columns: [securitydetails_id, securityaltidsource, id, securityaltid]
+20:18:27:553 INFO  HHH000108: Foreign keys: [fk53757bdbe51d5bc5]
+20:18:27:553 INFO  HHH000126: Indexes: [sql130210103947660, sql130210103923720]
+20:18:27:562 INFO  HHH000261: Table found: .FBASIS.SECURITYATTRIBUTE
+20:18:27:563 INFO  HHH000037: Columns: [attributevalue, securitydetails_id, attributetype, id]
+20:18:27:563 INFO  HHH000108: Foreign keys: [fke49dbb1ce51d5bc5]
+20:18:27:563 INFO  HHH000126: Indexes: [sql130210103923910, sql130210103947800]
+20:18:27:571 INFO  HHH000261: Table found: .FBASIS.SECURITYCOMPLEXEVENT
+20:18:27:571 INFO  HHH000037: Columns: [eventcondition, eventpriceboundarymethod, eventprice, securitydetails_id, eventpriceboundaryprecision, eventtype, optionpayoutamount, id, eventpricetimetype]
+20:18:27:571 INFO  HHH000108: Foreign keys: [fk7899ab4ae51d5bc5]
+20:18:27:571 INFO  HHH000126: Indexes: [sql130210103924350, sql130210103947930]
+20:18:27:581 INFO  HHH000261: Table found: .FBASIS.SECURITYDETAILS
+20:18:27:581 INFO  HHH000037: Columns: [maturitytime, restructuringtype, securityexchange, settlemethod, issuedate, positionlimit, issuer, settlonopen, instrumentregistry, spdm, countryofissue, securityidsource, productcomplex, deliveryform, id, putorcall, strikeprice, contractmultiplier, interestaccrualdate, priceunitofmeasureqty, minpriceincrementamount, strikecurrency, strikemultiplier, minpriceincrement, flexibleindicator, ntpositionlimit, optionpayoutamount, listmethod, contractsettlmonth, priceunitofmeasure, unitofmeasureqty, floorprice, redemptiondate, securitysubtype, unitofmeasure, udm, securitytype, optionpayouttype, securitygroup, description, securitystatus, stateofissue, dateddate, exercisestyle, symbolsfx, fpool, couponpaymentdate, creditrating, currency, flowscheduletyped, valuationmethod, factor, spbm, cficode, fpei, percentatrisk, strikepriceboundaryprecision, instrmtassignmentmethod, product, couponrate, strikevalue, pricequotemethod, timeunit, localeofissue, capprice, cpprogramm, cpregtype, seniority, contractmultiplierunit]
+20:18:27:581 INFO  HHH000108: Foreign keys: []
+20:18:27:582 INFO  HHH000126: Indexes: [sql130210103924800]
+20:18:27:589 INFO  HHH000261: Table found: .FBASIS.SECURITYEVENT
+20:18:27:589 INFO  HHH000037: Columns: [eventprice, securitydetails_id, eventtext, eventtime, eventtype, id, eventdate]
+20:18:27:589 INFO  HHH000108: Foreign keys: [fk438c31ae51d5bc5]
+20:18:27:589 INFO  HHH000126: Indexes: [sql130210103925070, sql130210103948070]
+20:18:27:601 INFO  HHH000261: Table found: .FBASIS.SECURITYLEG
+20:18:27:601 INFO  HHH000037: Columns: [side, optionratio, securitydetails_id, id, ratioquantity, legsecurity_id]
+20:18:27:601 INFO  HHH000108: Foreign keys: [fkbfce128ee51d5bc5, fkbfce128ea4cb671d]
+20:18:27:601 INFO  HHH000126: Indexes: [sql130210103948210, sql130210103925270, sql130210103948370]
+20:18:27:611 INFO  HHH000261: Table found: .FBASIS.SECURITYUNDERLYING
+20:18:27:612 INFO  HHH000037: Columns: [settlementtype, cashtype, endvalue, cashamount, allocationpercent, endprice, securitydetails_id, startvalue, underlyingsecurity_id, id]
+20:18:27:612 INFO  HHH000108: Foreign keys: [fk2d6246dd1d3faa6e, fk2d6246dde51d5bc5]
+20:18:27:612 INFO  HHH000126: Indexes: [sql130210103948660, sql130210103925480, sql130210103948520]
+20:18:27:622 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOK
+20:18:27:623 INFO  HHH000037: Columns: [absolutchange, calcmethod, fractionaldisplay, valuta, killfill, description, id, daycountconvention, bankcalendar_id, displaystyle]
+20:18:27:623 INFO  HHH000108: Foreign keys: [fke9711e72f03759e1, fke9711e72769d520f]
+20:18:27:623 INFO  HHH000126: Indexes: [sql130210103948780, sql130210103948790, sql130210103925710]
+20:18:27:632 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKGROUP
+20:18:27:632 INFO  HHH000037: Columns: [description, id]
+20:18:27:632 INFO  HHH000108: Foreign keys: [fk4d381f2da66ebd31]
+20:18:27:632 INFO  HHH000126: Indexes: [sql130210103925930, sql130210103948910]
+20:18:27:639 INFO  HHH000261: Table found: .FBASIS.SELLSIDEBOOKMDINPUT
+20:18:27:639 INFO  HHH000037: Columns: [sellsidebook_id, id, businesscomponent_id]
+20:18:27:639 INFO  HHH000108: Foreign keys: [fkcc78e1c119802ca5, fkcc78e1c1dc3a4423]
+20:18:27:639 INFO  HHH000126: Indexes: [sql130210103949050, sql130210103948920, sql130210103926160]
+20:18:27:650 INFO  HHH000261: Table found: .FBASIS.SELLSIDENEWORDERSINGLE
+20:18:27:650 INFO  HHH000037: Columns: [trader_id, orderstatus, leavequantity, orderquantity, cumulativequantity, marketinterface_id, neworderid, newlimit, minquantity, timeinforce, createdtimestamp, limit, updatedtimestamp, id, fuser_id, lastprice, newquantity, lastyield, security_id, side, lastquantity, counterparty_id, orderid, counterpartyorderid, sellsidebook_id, settlementdate, tiftimestamp]
+20:18:27:650 INFO  HHH000108: Foreign keys: [fkb6364bbf238d8f65, fkb6364bbf28c27f3f, fkb6364bbf911f812f, fkb6364bbf290f3deb, fkb6364bbf19802ca5, fkb6364bbf2caa87ef]
+20:18:27:650 INFO  HHH000126: Indexes: [sql130210103926410, sql130210103926411, sql130210103949860, sql130210103949320, sql130210103949460, sql130210103949180, sql130210103949730, sql130210103949600]
+20:18:27:656 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEPAGE
+20:18:27:656 INFO  HHH000037: Columns: [description, sortby, id, displaystyle]
+20:18:27:656 INFO  HHH000108: Foreign keys: [fk7d746142a66ebd31]
+20:18:27:656 INFO  HHH000126: Indexes: [sql130210103950000, sql130210103926820]
+20:18:27:675 INFO  HHH000261: Table found: .FBASIS.SELLSIDEQUOTEREQUEST
+20:18:27:675 INFO  HHH000037: Columns: [trader_id, orderstatus, leavequantity, orderquantity, expiretimestamp, cumulativequantity, quotereqid, marketinterface_id, quoteid, minquantity, createdtimestamp, limit, updatedtimestamp, id, fuser_id, lastprice, newquantity, lastyield, security_id, settlementtimestamp, side, lastquantity, counterparty_id, orderid, subjecttimestamp, counterpartyorderid, sellsidebook_id, quoterespid]
+20:18:27:676 INFO  HHH000108: Foreign keys: [fkbb7792fc2caa87ef, fkbb7792fc28c27f3f, fkbb7792fc290f3deb, fkbb7792fc911f812f, fkbb7792fc238d8f65, fkbb7792fc19802ca5]
+20:18:27:676 INFO  HHH000126: Indexes: [sql130210103950010, sql130210103950140, sql130210103950590, sql130210103950280, sql130210103950710, sql130210103927120, sql130210103950860]
+20:18:27:684 INFO  HHH000261: Table found: .FBASIS.SPREADSHEET
+20:18:27:684 INFO  HHH000037: Columns: [workbook, id]
+20:18:27:684 INFO  HHH000108: Foreign keys: [fke33b138cf03759e1]
+20:18:27:684 INFO  HHH000126: Indexes: [sql130210103950990, sql130210103927350]
+20:18:27:690 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLCONTENT
+20:18:27:690 INFO  HHH000037: Columns: [numericvalue, stringvalue, spreadsheetcelltype, spreadsheet, id, cellcolumn, formulavalue, booleanvalue, cellrow]
+20:18:27:690 INFO  HHH000108: Foreign keys: []
+20:18:27:690 INFO  HHH000126: Indexes: [sql130210103927580]
+20:18:27:698 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCELLFORMAT
+20:18:27:698 INFO  HHH000037: Columns: [backgroundred, leadingzeroes, spreadsheetformattype, falsevalue, backgroundblue, boldfont, foregroundblue, spreadsheet, presentationroundingmode, id, locked, maximumvalue, ticksize, backgroundgreen, solvercell, fractionaldisplay, gradientpaint, truevalue, foregroundgreen, timeformat, thousandsseparator, negativenumbersred, decimalplaces, spinnerstyle, minimumvalue, vincrement, solvertolerance, cellcolumn, foregroundred, dateformat, cellrow]
+20:18:27:699 INFO  HHH000108: Foreign keys: []
+20:18:27:699 INFO  HHH000126: Indexes: [sql130210103927800]
+20:18:27:703 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCOLUMNFORMAT
+20:18:27:703 INFO  HHH000037: Columns: [hidden, spreadsheet, columnnumber, id, columnwidth]
+20:18:27:704 INFO  HHH000108: Foreign keys: []
+20:18:27:704 INFO  HHH000126: Indexes: [sql130210103928040]
+20:18:27:709 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITION
+20:18:27:709 INFO  HHH000037: Columns: [fadeout, backgroundgreen, backgroundred, value2, value1, foregroundgreen, conditiontype, istype, backgroundblue, foregroundblue, formula, id, foregroundred]
+20:18:27:709 INFO  HHH000108: Foreign keys: []
+20:18:27:709 INFO  HHH000126: Indexes: [sql130210103928310]
+20:18:27:716 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETCONDITIONALFORMAT
+20:18:27:716 INFO  HHH000037: Columns: [spreadsheetcondition3_id, spreadsheetcondition2_id, spreadsheet, id, spreadsheetcondition1_id, cellcolumn, cellrow]
+20:18:27:716 INFO  HHH000108: Foreign keys: [fkddd53bf1d8c39c3a, fkddd53bf1d8c2b37c, fkddd53bf1d8c327db]
+20:18:27:716 INFO  HHH000126: Indexes: [sql130210103951270, sql130210103951130, sql130210103928520, sql130210103951000]
+20:18:27:723 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELD
+20:18:27:723 INFO  HHH000037: Columns: [valuetype, fixname, spreadcolumn, keyvalue, fixnumber, fixfieldmap_id, id]
+20:18:27:723 INFO  HHH000108: Foreign keys: [fkb9541991bc8f8b43]
+20:18:27:723 INFO  HHH000126: Indexes: [sql130210103928720, sql130210103951410]
+20:18:27:727 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXFIELDMAP
+20:18:27:727 INFO  HHH000037: Columns: [id]
+20:18:27:727 INFO  HHH000108: Foreign keys: []
+20:18:27:727 INFO  HHH000126: Indexes: [sql130210103928900]
+20:18:27:734 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUP
+20:18:27:734 INFO  HHH000037: Columns: [spreadsheetfixgrouplist_id, fixname, groupiterator, fixnumber, id]
+20:18:27:734 INFO  HHH000108: Foreign keys: [fkb9666f16e76173b, fkb9666f162c1f37a5]
+20:18:27:734 INFO  HHH000126: Indexes: [sql130210103929090, sql130210103951550, sql130210103951540]
+20:18:27:741 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXGROUPLIST
+20:18:27:742 INFO  HHH000037: Columns: [fixnumber, fixfieldmap_id, id]
+20:18:27:742 INFO  HHH000108: Foreign keys: [fkb3f118d4bc8f8b43]
+20:18:27:742 INFO  HHH000126: Indexes: [sql130210103951700, sql130210103929300]
+20:18:27:750 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXINPUTMESSAGE
+20:18:27:751 INFO  HHH000037: Columns: [messagename, datadictionary, header_id, trailer_id, messageid, spreadsheet_id, id, businesscomponent_id]
+20:18:27:751 INFO  HHH000108: Foreign keys: [fk836ac866e76173b, fk836ac866dc3a4423, fk836ac8669306f5c7, fk836ac866f3ec1505, fk836ac8661bf722d]
+20:18:27:751 INFO  HHH000126: Indexes: [sql130210103951830, sql130210103929491, sql130210103929490, sql130210103951900, sql130210103929492, sql130210103952150, sql130210103952030, sql130210103951890]
+20:18:27:759 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETFIXOUTPUTMESSAGE
+20:18:27:759 INFO  HHH000037: Columns: [messagename, datadictionary, header_id, sendif, trailer_id, messageid, spreadsheet_id, id, businesscomponent_id]
+20:18:27:759 INFO  HHH000108: Foreign keys: [fk9f207d5df3ec1505, fk9f207d5ddc3a4423, fk9f207d5d9306f5c7, fk9f207d5de76173b, fk9f207d5d1bf722d]
+20:18:27:760 INFO  HHH000126: Indexes: [sql130210103952160, sql130210103952480, sql130210103952350, sql130210103930002, sql130210103952230, sql130210103930001, sql130210103930000, sql130210103952200]
+20:18:27:765 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETGROUP
+20:18:27:765 INFO  HHH000037: Columns: [description, id]
+20:18:27:765 INFO  HHH000108: Foreign keys: [fk48bd4a53a66ebd31]
+20:18:27:765 INFO  HHH000126: Indexes: [sql130210103952490, sql130210103930430]
+20:18:27:772 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDINPUT
+20:18:27:772 INFO  HHH000037: Columns: [highpxcolumn, lowpxcolumn, mdentrysizecolumn, counterpartycolumn, mdentrydatecolumn, mdentrypxcolumn, spreadsheet_id, mdtradevolumecolumn, mdentrytimecolumn, mdpricedeltacolumn, cleanuponlogout, mdentrytype, id, securitycolumn, businesscomponent_id]
+20:18:27:772 INFO  HHH000108: Foreign keys: [fkfb5fdb67dc3a4423, fkfb5fdb67f3ec1505]
+20:18:27:772 INFO  HHH000126: Indexes: [sql130210103930610, sql130210103952550, sql130210103952750]
+20:18:27:778 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETMDOUTPUT
+20:18:27:778 INFO  HHH000037: Columns: [highpxcolumn, deleteifnot, lowpxcolumn, mdentrysizecolumn, mdentrydatecolumn, mdentrypxcolumn, spreadsheet_id, mdtradevolumecolumn, mdentrytimecolumn, mdpricedeltacolumn, mdentrytype, id, securitycolumn, sendifcolumn, businesscomponent_id]
+20:18:27:778 INFO  HHH000108: Foreign keys: [fk7b3d0904f3ec1505, fk7b3d0904dc3a4423]
+20:18:27:779 INFO  HHH000126: Indexes: [sql130210103930810, sql130210103953020, sql130210103952880]
+20:18:27:784 INFO  HHH000261: Table found: .FBASIS.SPREADSHEETROWFORMAT
+20:18:27:784 INFO  HHH000037: Columns: [hidden, spreadsheet, rownumber, id]
+20:18:27:784 INFO  HHH000108: Foreign keys: []
+20:18:27:784 INFO  HHH000126: Indexes: [sql130210103931020]
+20:18:27:791 INFO  HHH000261: Table found: .FBASIS.TRADECAPTURE
+20:18:27:792 INFO  HHH000037: Columns: [description, id]
+20:18:27:792 INFO  HHH000108: Foreign keys: [fkceb02962f03759e1]
+20:18:27:792 INFO  HHH000126: Indexes: [sql130210103953170, sql130210103931240]
+20:18:27:799 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREGROUP
+20:18:27:799 INFO  HHH000037: Columns: [description, id]
+20:18:27:799 INFO  HHH000108: Foreign keys: [fk815a6a3da66ebd31]
+20:18:27:799 INFO  HHH000126: Indexes: [sql130210103953230, sql130210103931450]
+20:18:27:812 INFO  HHH000261: Table found: .FBASIS.TRADECAPTUREREPORT
+20:18:27:812 INFO  HHH000037: Columns: [trader_id, side, lastquantity, counterparty_id, tradecapture_id, leavequantity, orderid, orderquantity, cumulativequantity, execid, market, executingtradersource, counterpartyorderid, executingtrader, createdtimestamp, updatedtimestamp, id, fuser_id, lastprice, settlementdate, sourcecomponent_id, lastyield, tradeid, security_id]
+20:18:27:812 INFO  HHH000108: Foreign keys: [fkbc015936911f812f, fkbc015936290f3deb, fkbc015936a77d3bfe, fkbc0159362caa87ef, fkbc015936a3c333fe, fkbc015936238d8f65]
+20:18:27:812 INFO  HHH000126: Indexes: [sql130210103953930, sql130210103953290, sql130210103954060, sql130210103953800, sql130210103953490, sql130210103953670, sql130210103931740]
+20:18:27:818 INFO  HHH000261: Table found: .FBASIS.TRADER
+20:18:27:818 INFO  HHH000037: Columns: [firstname, roomnumber, flanguage, telephone, ffunction, building, lastname, ftitle, academictitle, mobilephone, id, department, fax, floor, email]
+20:18:27:818 INFO  HHH000108: Foreign keys: [fk95cb27aea66ebd31]
+20:18:27:818 INFO  HHH000126: Indexes: [sql130210103931920, sql130210103954200]
+20:18:27:823 INFO  HHH000261: Table found: .FBASIS.TRADERPARTYID
+20:18:27:824 INFO  HHH000037: Columns: [trader_id, partyrole, partyidsource, abstractbusinesscomponent_id, id, partyid]
+20:18:27:824 INFO  HHH000108: Foreign keys: [fk7cad12f3d77ccf45, fk7cad12f3911f812f]
+20:18:27:824 INFO  HHH000126: Indexes: [sql130210103954250, sql130210103954440, sql130210103932120]
+20:18:27:829 INFO  HHH000261: Table found: .FBASIS.ASSIGNED_ROLES
+20:18:27:829 INFO  HHH000037: Columns: [assignedroles_id, fuser_id]
+20:18:27:829 INFO  HHH000108: Foreign keys: [fk8dd0ed0c238d8f65, fk8dd0ed0c376bc2d2]
+20:18:27:829 INFO  HHH000126: Indexes: [sql130210103954710, sql130210103954570, sql130210103932300]
+20:18:27:835 INFO  HHH000261: Table found: .FBASIS.BSQP_ABSBS
+20:18:27:835 INFO  HHH000037: Columns: [buysidequotepage_id, absbs_id]
+20:18:27:835 INFO  HHH000108: Foreign keys: [fkc59b79742dcd3240, fkc59b797493133209]
+20:18:27:835 INFO  HHH000126: Indexes: [sql130210103954990, sql130210103954850]
+20:18:27:841 INFO  HHH000261: Table found: .FBASIS.DOCKSETTINGS
+20:18:27:842 INFO  HHH000037: Columns: [docksettings, id]
+20:18:27:842 INFO  HHH000108: Foreign keys: [fk5aec5f76c89acd97]
+20:18:27:842 INFO  HHH000126: Indexes: [sql130210103955130]
+20:18:27:848 INFO  HHH000261: Table found: .FBASIS.EXECUTE_ROLES
+20:18:27:849 INFO  HHH000037: Columns: [executeroles_id, abstractbusinessobject_id]
+20:18:27:849 INFO  HHH000108: Foreign keys: [fk4853bd735c7c1579, fk4853bd734030528f]
+20:18:27:849 INFO  HHH000126: Indexes: [sql130210103955260, sql130210103955390, sql130210103932670]
+20:18:27:855 INFO  HHH000261: Table found: .FBASIS.EXPANDSET
+20:18:27:855 INFO  HHH000037: Columns: [expandset, id]
+20:18:27:855 INFO  HHH000108: Foreign keys: [fk109a768c89acd97]
+20:18:27:855 INFO  HHH000126: Indexes: [sql130210103955820, sql130210103932880]
+20:18:27:860 INFO  HHH000261: Table found: .FBASIS.OPENBUSINESSOBJECTS
+20:18:27:860 INFO  HHH000037: Columns: [id, openbusinessobjects]
+20:18:27:860 INFO  HHH000108: Foreign keys: [fk3e7c598ac89acd97]
+20:18:27:861 INFO  HHH000126: Indexes: [sql130210103956050, sql130210103933230]
+20:18:27:867 INFO  HHH000261: Table found: .FBASIS.READ_ROLES
+20:18:27:867 INFO  HHH000037: Columns: [abstractbusinessobject_id, readroles_id]
+20:18:27:867 INFO  HHH000108: Foreign keys: [fkf68c42d44030528f, fkf68c42d45ea8c69a]
+20:18:27:867 INFO  HHH000126: Indexes: [sql130210103956180, sql130210103956310, sql130210103933460]
+20:18:27:873 INFO  HHH000261: Table found: .FBASIS.SSQP_ASSBS
+20:18:27:874 INFO  HHH000037: Columns: [sellsidequotepage_id, assbs_id]
+20:18:27:874 INFO  HHH000108: Foreign keys: [fkfe83b6d24320f54f, fkfe83b6d22761e673]
+20:18:27:874 INFO  HHH000126: Indexes: [sql130210103956590, sql130210103956450]
+20:18:27:880 INFO  HHH000261: Table found: .FBASIS.WRITE_ROLES
+20:18:27:880 INFO  HHH000037: Columns: [abstractbusinessobject_id, writeroles_id]
+20:18:27:880 INFO  HHH000108: Foreign keys: [fk6889a65d46db6be3, fk6889a65d4030528f]
+20:18:27:880 INFO  HHH000126: Indexes: [sql130210103933740, sql130210103956890, sql130210103956730]
+20:18:27:883 INFO  HHH000232: Schema update complete
+20:18:37:981 INFO  Business Component Play with me is started
+20:18:38:014 INFO  Business Component U.S. T-Notes 10 Years Pricing is started
+20:18:38:014 INFO  Business Component U.S. Treasury Rates is started
+20:18:38:032 INFO  Business Component U.S. T-Notes 7 Years Pricing is started
+20:18:38:032 INFO  Business Component Sell Side Equity Book is started
+20:18:38:022 INFO  Business Component U.S. T-Notes 2-3 Years Pricing is started
+20:18:38:022 INFO  Business Component Buy Side Bond Book is started
+20:18:38:016 INFO  Business Component Sell Side Bond Book is started
+20:18:38:031 INFO  Business Component U.S. T-Notes 5 Years Pricing is started
+20:18:38:014 INFO  Business Component Future Quotes is started
+20:18:38:033 INFO  Business Component Buy Side Equity Book is started
+20:18:38:033 INFO  Business Component Dow Values Pricing is started
+20:18:38:032 INFO  Business Component DAX Values Pricing is started
+20:18:38:034 INFO  Business Component German Government Bond Pricing is started
+20:18:38:034 INFO  Business Component Hungary Government Bond Pricing is started
+20:18:38:402 INFO  Business Component Sample Excel Export is started
+20:18:38:402 INFO  FIX Agora Plugin "FIX Agora Buy Side Server" loaded.
+20:18:38:402 INFO  FIX Agora Buy Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:38:589 INFO  FIX Agora Plugin "FIX Agora Sell Side Server" loaded.
+20:18:38:589 INFO  FIX Agora Sell Side Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:39:044 INFO  Business Component Trade Capture All Assets is started
+20:18:39:083 INFO  FIX Agora Plugin "FIX Agora Excel Server" loaded.
+20:18:39:083 INFO  FIX Agora Excel Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:39:550 INFO  FIX Agora Plugin "FIX Agora Trade Capture Server" loaded.
+20:18:39:551 INFO  FIX Agora Trade Capture Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:39:669 INFO  FIX Agora Plugin "FIX Agora SAP Server" loaded.
+20:18:39:669 INFO  FIX Agora SAP Server - License: LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:18:39:684 INFO  Load configuration from /home/alex/workspace_private/FIXAgoraBasisServer/./conf/basis.xml
+20:18:39:685 INFO  Server is accepting clients as host=127.0.0.1 on port=4711
+20:18:40:404 INFO  [FIXT.1.1:BOM1->BOZ1] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:406 INFO  [FIXT.1.1:BOM2->BOA2] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:407 INFO  [FIXT.1.1:BOM1->BOH1] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:406 INFO  [FIXT.1.1:BOM1->BOA1] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:406 INFO  [FIXT.1.1:BOM->YAHOO] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:406 INFO  [FIXT.1.1:BOM1->BOP1] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:505 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:506 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:506 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:511 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:512 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:512 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:512 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:513 INFO  [FIXT.1.1:BOM2->BOP2] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:513 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:514 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:516 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:516 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:516 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:523 INFO  [FIXT.1.1:BOM2->BOZ2] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:531 INFO  [FIXT.1.1:BOM2->BOH2] daily, 00:00:00-UTC - 00:00:00-UTC
+20:18:40:548 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:549 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:549 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:557 INFO  SessionTimer started
+20:18:40:584 INFO  Socket option: SocketTcpNoDelay=true
+20:18:40:586 INFO  [FIXT.1.1:BOM1->BOP1] [/127.0.0.1:4716]
+20:18:40:586 INFO  [FIXT.1.1:BOM1->BOZ1] [/127.0.0.1:4717]
+20:18:40:586 INFO  [FIXT.1.1:BOM1->BOH1] [/127.0.0.1:4718]
+20:18:40:586 INFO  SessionTimer started
+20:18:40:586 INFO  SessionTimer started
+20:18:40:586 INFO  [FIXT.1.1:BOM->YAHOO] [/127.0.0.1:4713]
+20:18:40:586 INFO  [FIXT.1.1:BOM1->BOA1] [/127.0.0.1:4715]
+20:18:40:587 INFO  SessionTimer started
+20:18:40:586 INFO  Socket option: SocketSynchronousWrites=false
+20:18:40:588 INFO  Business Component Bank of Hades Initiator is started
+20:18:40:588 INFO  Business Component Bank of Aphrodite Initiator is started
+20:18:40:588 INFO  Business Component Bank of Poseidon Initiator is started
+20:18:40:587 INFO  SessionTimer started
+20:18:40:586 INFO  SessionTimer started
+20:18:40:588 INFO  Business Component Yahoo Finance is started
+20:18:40:588 INFO  Business Component Bank of Zeus Initiator is started
+20:18:40:588 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+20:18:40:595 INFO  Listening for connections at /127.0.0.1:4714
+20:18:40:595 INFO  Business Component FIX Agora Acceptor is started
+20:18:40:673 INFO  MINA session created for FIXT.1.1:BOM1->BOH1: local=/127.0.0.1:61223, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4718
+20:18:40:675 INFO  MINA session created for FIXT.1.1:BOM1->BOP1: local=/127.0.0.1:30999, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4716
+20:18:40:677 INFO  MINA session created for FIXT.1.1:BOM1->BOA1: local=/127.0.0.1:28874, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4715
+20:18:40:679 INFO  MINA session created for FIXT.1.1:BOM->YAHOO: local=/127.0.0.1:14235, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4713
+20:18:40:681 INFO  MINA session created for FIXT.1.1:BOM1->BOZ1: local=/127.0.0.1:23614, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4717
+20:18:44:186 INFO  MINA session created: /127.0.0.1:23671
+20:18:44:193 INFO  MINA session created: /127.0.0.1:23672
+20:18:44:219 INFO  MINA session created: /127.0.0.1:23674
+20:18:44:241 INFO  MINA session created: /127.0.0.1:23675
+20:19:15:938 INFO  client connected
+20:19:30:441 ERROR Bug
+java.lang.NullPointerException
+	at java.lang.Integer.compareTo(Integer.java:1216)
+	at java.lang.Integer.compareTo(Integer.java:52)
+	at java.util.TreeMap.put(TreeMap.java:568)
+	at quickfix.FieldMap.getGroups(FieldMap.java:689)
+	at quickfix.FieldMap.getGroupCount(FieldMap.java:644)
+	at net.sourceforge.fixagora.buyside.server.control.component.BuySideBookComponentHandler.processFIXMessage(BuySideBookComponentHandler.java:1060)
+	at net.sourceforge.fixagora.basis.server.control.component.AbstractComponentHandler.startProcessor(AbstractComponentHandler.java:179)
+	at net.sourceforge.fixagora.basis.server.control.component.AbstractComponentHandler$1.run(AbstractComponentHandler.java:112)
+20:22:51:908 INFO  client disconnected
+20:22:51:912 INFO  client disconnected
+20:22:53:416 INFO  [FIXT.1.1:BOM1->BOH1] Disconnecting: IO Session closed
+20:22:53:416 INFO  [FIXT.1.1:BOM->YAHOO] Disconnecting: IO Session closed
+20:22:53:416 INFO  [FIXT.1.1:BOM1->BOZ1] Disconnecting: IO Session closed
+20:22:53:416 INFO  [FIXT.1.1:BOM1->BOP1] Disconnecting: IO Session closed
+20:22:53:416 INFO  [FIXT.1.1:BOM1->BOA1] Disconnecting: IO Session closed
+20:22:53:416 INFO  [FIXT.1.1:BOM2->BOA2] Disconnecting: IO Session closed
+20:22:53:422 INFO  [FIXT.1.1:BOM2->BOP2] Disconnecting: IO Session closed
+20:22:53:429 INFO  [FIXT.1.1:BOM2->BOZ2] Disconnecting: IO Session closed
+20:22:53:432 INFO  [FIXT.1.1:BOM2->BOH2] Disconnecting: IO Session closed

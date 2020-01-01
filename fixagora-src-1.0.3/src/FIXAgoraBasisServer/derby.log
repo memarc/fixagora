@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Aug 09 17:18:58 CEST 2015:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-014f-130b-12ba-0000369b6508 
+on database directory /home/alex/workspace_private/FIXAgoraBasisServer/derby  with class loader sun.misc.Launcher$AppClassLoader@3182f0db 
+Loaded from file:/home/alex/workspace_private/FIXAgoraBasisServer/extlib/derby.jar
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_30-b12
+user.dir=/home/alex/workspace_private/FIXAgoraBasisServer
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

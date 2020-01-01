@@ -1,0 +1,41 @@
+
+**** ERROR file opened at 20130212 173415 CET, SAP-REL 640,0,165 RFC-VER 3 881595 MT-SL
+T:140162687248128 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.56.101, GWSERV=sapgw00, ASHOST=192.168.56.101, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.56.101, service 3300)
+
+TIME        Tue Feb 12 17:34:15 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r_mt.cpp
+LINE        8724
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     1
+
+>TS> Tue Feb 12 17:35:04 2013
+T:140162687248128 Error in program 'java': ======> Connect to SAP gateway failed
+Connect_PM  GWHOST=192.168.56.101, GWSERV=sapgw00, ASHOST=192.168.56.101, SYSNR=00
+
+LOCATION    CPIC (TCP/IP) on local host
+ERROR       partner not reached (host 192.168.56.101, service 3300)
+
+TIME        Tue Feb 12 17:35:04 2013
+RELEASE     640
+COMPONENT   NI (network interface)
+VERSION     37
+RC          -10
+MODULE      nixxi_r_mt.cpp
+LINE        8715
+DETAIL      NiPConnect2
+SYSTEM CALL SiPeekPendConn
+ERRNO       113
+ERRNO TEXT  No route to host
+COUNTER     2
+

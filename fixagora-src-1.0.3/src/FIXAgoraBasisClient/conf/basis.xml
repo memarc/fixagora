@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><basis>
+	
+	<property name="lastname" value="Admin"/>
+	<property name="lasthost" value="localhost"/>
+	<property name="lastport" value="4711"/>
+	
+</basis>

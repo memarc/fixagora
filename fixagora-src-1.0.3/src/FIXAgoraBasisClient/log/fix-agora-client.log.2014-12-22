@@ -1,0 +1,622 @@
+11:36:42:377 INFO  Start FIX Agora Client
+11:36:42:378 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+11:36:42:378 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+11:36:42:378 INFO  System: agoralogfilename=fix-agora-client
+11:36:42:378 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+11:36:42:379 INFO  System: java.vm.version=20.5-b03
+11:36:42:379 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+11:36:42:379 INFO  System: java.vendor.url=http://java.sun.com/
+11:36:42:379 INFO  System: path.separator=:
+11:36:42:379 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+11:36:42:379 INFO  System: file.encoding.pkg=sun.io
+11:36:42:379 INFO  System: sun.java.launcher=SUN_STANDARD
+11:36:42:379 INFO  System: user.country=DE
+11:36:42:379 INFO  System: sun.os.patch.level=unknown
+11:36:42:379 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+11:36:42:379 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+11:36:42:379 INFO  System: java.runtime.version=1.6.0_30-b12
+11:36:42:380 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+11:36:42:380 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+11:36:42:380 INFO  System: os.arch=amd64
+11:36:42:380 INFO  System: java.io.tmpdir=/tmp
+11:36:42:380 INFO  System: line.separator=
+
+11:36:42:380 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+11:36:42:380 INFO  System: os.name=Linux
+11:36:42:380 INFO  System: sun.jnu.encoding=UTF-8
+11:36:42:380 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11:36:42:380 INFO  System: java.specification.name=Java Platform API Specification
+11:36:42:380 INFO  System: java.class.version=50.0
+11:36:42:380 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+11:36:42:380 INFO  System: os.version=3.11.10-25-desktop
+11:36:42:381 INFO  System: user.home=/home/alex
+11:36:42:381 INFO  System: user.timezone=Europe/Berlin
+11:36:42:381 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+11:36:42:381 INFO  System: file.encoding=UTF-8
+11:36:42:381 INFO  System: java.specification.version=1.6
+11:36:42:381 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+11:36:42:381 INFO  System: user.name=alex
+11:36:42:381 INFO  System: java.vm.specification.version=1.0
+11:36:42:381 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+11:36:42:381 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+11:36:42:381 INFO  System: sun.arch.data.model=64
+11:36:42:381 INFO  System: user.language=de
+11:36:42:381 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+11:36:42:382 INFO  System: java.vm.info=mixed mode
+11:36:42:382 INFO  System: java.version=1.6.0_30
+11:36:42:382 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+11:36:42:382 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+11:36:42:382 INFO  System: java.vendor=Sun Microsystems Inc.
+11:36:42:382 INFO  System: file.separator=/
+11:36:42:382 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+11:36:42:382 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+11:36:42:382 INFO  System: sun.cpu.endian=little
+11:36:42:382 INFO  System: sun.cpu.isalist=
+11:36:42:383 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+11:36:42:383 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+11:36:47:992 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+11:36:47:992 INFO  FIX Agora Buy Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+11:36:48:020 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+11:36:48:020 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+11:36:48:069 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+11:36:48:069 INFO  FIX Agora Sell Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+11:36:48:118 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+11:36:48:119 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+11:36:48:153 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+11:36:48:153 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+11:37:01:935 INFO  client is started
+12:18:28:755 INFO  Stop FIX Agora Client
+12:19:35:553 INFO  Start FIX Agora Client
+12:19:35:554 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+12:19:35:554 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+12:19:35:554 INFO  System: agoralogfilename=fix-agora-client
+12:19:35:554 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+12:19:35:554 INFO  System: java.vm.version=20.5-b03
+12:19:35:554 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+12:19:35:554 INFO  System: java.vendor.url=http://java.sun.com/
+12:19:35:554 INFO  System: path.separator=:
+12:19:35:555 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+12:19:35:555 INFO  System: file.encoding.pkg=sun.io
+12:19:35:555 INFO  System: sun.java.launcher=SUN_STANDARD
+12:19:35:555 INFO  System: user.country=DE
+12:19:35:555 INFO  System: sun.os.patch.level=unknown
+12:19:35:555 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+12:19:35:555 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+12:19:35:555 INFO  System: java.runtime.version=1.6.0_30-b12
+12:19:35:555 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+12:19:35:555 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+12:19:35:555 INFO  System: os.arch=amd64
+12:19:35:555 INFO  System: java.io.tmpdir=/tmp
+12:19:35:555 INFO  System: line.separator=
+
+12:19:35:555 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+12:19:35:556 INFO  System: os.name=Linux
+12:19:35:556 INFO  System: sun.jnu.encoding=UTF-8
+12:19:35:556 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12:19:35:556 INFO  System: java.specification.name=Java Platform API Specification
+12:19:35:556 INFO  System: java.class.version=50.0
+12:19:35:556 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+12:19:35:556 INFO  System: os.version=3.11.10-25-desktop
+12:19:35:556 INFO  System: user.home=/home/alex
+12:19:35:556 INFO  System: user.timezone=Europe/Berlin
+12:19:35:556 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+12:19:35:556 INFO  System: file.encoding=UTF-8
+12:19:35:556 INFO  System: java.specification.version=1.6
+12:19:35:556 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+12:19:35:556 INFO  System: user.name=alex
+12:19:35:557 INFO  System: java.vm.specification.version=1.0
+12:19:35:557 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+12:19:35:557 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+12:19:35:557 INFO  System: sun.arch.data.model=64
+12:19:35:557 INFO  System: user.language=de
+12:19:35:557 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+12:19:35:557 INFO  System: java.vm.info=mixed mode
+12:19:35:557 INFO  System: java.version=1.6.0_30
+12:19:35:557 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+12:19:35:557 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+12:19:35:557 INFO  System: java.vendor=Sun Microsystems Inc.
+12:19:35:557 INFO  System: file.separator=/
+12:19:35:557 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+12:19:35:557 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+12:19:35:557 INFO  System: sun.cpu.endian=little
+12:19:35:558 INFO  System: sun.cpu.isalist=
+12:19:35:558 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+12:19:35:558 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+12:19:39:277 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+12:19:39:277 INFO  FIX Agora Buy Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+12:19:39:280 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+12:19:39:280 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+12:19:39:283 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+12:19:39:284 INFO  FIX Agora Sell Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+12:19:39:287 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+12:19:39:287 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+12:19:39:289 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+12:19:39:290 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+12:19:39:377 ERROR Bug
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:567)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.connect(NioClientSocketPipelineSink.java:466)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.processSelectedKeys(NioClientSocketPipelineSink.java:422)
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink$Boss.run(NioClientSocketPipelineSink.java:338)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+12:20:25:011 INFO  client is started
+13:20:50:387 INFO  Stop FIX Agora Client
+17:50:20:064 INFO  Start FIX Agora Client
+17:50:20:065 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+17:50:20:065 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+17:50:20:065 INFO  System: agoralogfilename=fix-agora-client
+17:50:20:065 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+17:50:20:065 INFO  System: java.vm.version=20.5-b03
+17:50:20:066 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+17:50:20:066 INFO  System: java.vendor.url=http://java.sun.com/
+17:50:20:066 INFO  System: path.separator=:
+17:50:20:066 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+17:50:20:066 INFO  System: file.encoding.pkg=sun.io
+17:50:20:066 INFO  System: sun.java.launcher=SUN_STANDARD
+17:50:20:066 INFO  System: user.country=DE
+17:50:20:066 INFO  System: sun.os.patch.level=unknown
+17:50:20:066 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+17:50:20:066 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+17:50:20:067 INFO  System: java.runtime.version=1.6.0_30-b12
+17:50:20:067 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+17:50:20:067 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+17:50:20:067 INFO  System: os.arch=amd64
+17:50:20:067 INFO  System: java.io.tmpdir=/tmp
+17:50:20:067 INFO  System: line.separator=
+
+17:50:20:067 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+17:50:20:067 INFO  System: os.name=Linux
+17:50:20:067 INFO  System: sun.jnu.encoding=UTF-8
+17:50:20:067 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+17:50:20:067 INFO  System: java.specification.name=Java Platform API Specification
+17:50:20:068 INFO  System: java.class.version=50.0
+17:50:20:068 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+17:50:20:068 INFO  System: os.version=3.11.10-25-desktop
+17:50:20:068 INFO  System: user.home=/home/alex
+17:50:20:068 INFO  System: user.timezone=Europe/Berlin
+17:50:20:068 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+17:50:20:068 INFO  System: file.encoding=UTF-8
+17:50:20:068 INFO  System: java.specification.version=1.6
+17:50:20:068 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+17:50:20:068 INFO  System: user.name=alex
+17:50:20:068 INFO  System: java.vm.specification.version=1.0
+17:50:20:069 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+17:50:20:069 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+17:50:20:069 INFO  System: sun.arch.data.model=64
+17:50:20:069 INFO  System: user.language=de
+17:50:20:069 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+17:50:20:069 INFO  System: java.vm.info=mixed mode
+17:50:20:069 INFO  System: java.version=1.6.0_30
+17:50:20:069 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+17:50:20:069 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+17:50:20:069 INFO  System: java.vendor=Sun Microsystems Inc.
+17:50:20:069 INFO  System: file.separator=/
+17:50:20:070 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+17:50:20:070 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+17:50:20:070 INFO  System: sun.cpu.endian=little
+17:50:20:070 INFO  System: sun.cpu.isalist=
+17:50:20:071 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+17:50:20:071 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+17:50:25:229 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+17:50:25:229 INFO  FIX Agora Buy Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+17:50:25:232 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+17:50:25:232 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+17:50:25:235 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+17:50:25:235 INFO  FIX Agora Sell Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+17:50:25:238 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+17:50:25:238 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+17:50:25:241 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+17:50:25:241 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+17:50:35:218 INFO  client is started
+18:46:20:644 INFO  Stop FIX Agora Client
+18:46:29:228 INFO  Start FIX Agora Client
+18:46:29:229 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+18:46:29:229 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+18:46:29:229 INFO  System: agoralogfilename=fix-agora-client
+18:46:29:229 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+18:46:29:229 INFO  System: java.vm.version=20.5-b03
+18:46:29:230 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+18:46:29:230 INFO  System: java.vendor.url=http://java.sun.com/
+18:46:29:230 INFO  System: path.separator=:
+18:46:29:230 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+18:46:29:230 INFO  System: file.encoding.pkg=sun.io
+18:46:29:230 INFO  System: sun.java.launcher=SUN_STANDARD
+18:46:29:230 INFO  System: user.country=DE
+18:46:29:230 INFO  System: sun.os.patch.level=unknown
+18:46:29:230 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+18:46:29:230 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+18:46:29:230 INFO  System: java.runtime.version=1.6.0_30-b12
+18:46:29:230 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+18:46:29:230 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+18:46:29:231 INFO  System: os.arch=amd64
+18:46:29:231 INFO  System: java.io.tmpdir=/tmp
+18:46:29:231 INFO  System: line.separator=
+
+18:46:29:231 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+18:46:29:231 INFO  System: os.name=Linux
+18:46:29:231 INFO  System: sun.jnu.encoding=UTF-8
+18:46:29:231 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18:46:29:231 INFO  System: java.specification.name=Java Platform API Specification
+18:46:29:231 INFO  System: java.class.version=50.0
+18:46:29:231 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+18:46:29:231 INFO  System: os.version=3.11.10-25-desktop
+18:46:29:232 INFO  System: user.home=/home/alex
+18:46:29:232 INFO  System: user.timezone=Europe/Berlin
+18:46:29:232 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+18:46:29:232 INFO  System: file.encoding=UTF-8
+18:46:29:232 INFO  System: java.specification.version=1.6
+18:46:29:232 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+18:46:29:232 INFO  System: user.name=alex
+18:46:29:232 INFO  System: java.vm.specification.version=1.0
+18:46:29:232 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+18:46:29:232 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+18:46:29:232 INFO  System: sun.arch.data.model=64
+18:46:29:233 INFO  System: user.language=de
+18:46:29:233 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+18:46:29:233 INFO  System: java.vm.info=mixed mode
+18:46:29:233 INFO  System: java.version=1.6.0_30
+18:46:29:233 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+18:46:29:233 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+18:46:29:233 INFO  System: java.vendor=Sun Microsystems Inc.
+18:46:29:233 INFO  System: file.separator=/
+18:46:29:233 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+18:46:29:233 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+18:46:29:233 INFO  System: sun.cpu.endian=little
+18:46:29:234 INFO  System: sun.cpu.isalist=
+18:46:29:234 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+18:46:29:234 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+18:46:33:308 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+18:46:33:308 INFO  FIX Agora Buy Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:46:33:311 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+18:46:33:311 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:46:33:314 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+18:46:33:314 INFO  FIX Agora Sell Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:46:33:317 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+18:46:33:317 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:46:33:319 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+18:46:33:319 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:46:43:464 INFO  client is started
+18:52:14:846 INFO  Stop FIX Agora Client
+18:52:47:685 INFO  Start FIX Agora Client
+18:52:47:685 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+18:52:47:686 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+18:52:47:686 INFO  System: agoralogfilename=fix-agora-client
+18:52:47:686 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+18:52:47:686 INFO  System: java.vm.version=20.5-b03
+18:52:47:686 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+18:52:47:686 INFO  System: java.vendor.url=http://java.sun.com/
+18:52:47:686 INFO  System: path.separator=:
+18:52:47:686 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+18:52:47:686 INFO  System: file.encoding.pkg=sun.io
+18:52:47:686 INFO  System: sun.java.launcher=SUN_STANDARD
+18:52:47:686 INFO  System: user.country=DE
+18:52:47:687 INFO  System: sun.os.patch.level=unknown
+18:52:47:687 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+18:52:47:687 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+18:52:47:687 INFO  System: java.runtime.version=1.6.0_30-b12
+18:52:47:687 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+18:52:47:687 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+18:52:47:687 INFO  System: os.arch=amd64
+18:52:47:687 INFO  System: java.io.tmpdir=/tmp
+18:52:47:687 INFO  System: line.separator=
+
+18:52:47:687 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+18:52:47:687 INFO  System: os.name=Linux
+18:52:47:687 INFO  System: sun.jnu.encoding=UTF-8
+18:52:47:687 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18:52:47:687 INFO  System: java.specification.name=Java Platform API Specification
+18:52:47:687 INFO  System: java.class.version=50.0
+18:52:47:687 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+18:52:47:688 INFO  System: os.version=3.11.10-25-desktop
+18:52:47:688 INFO  System: user.home=/home/alex
+18:52:47:688 INFO  System: user.timezone=Europe/Berlin
+18:52:47:688 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+18:52:47:688 INFO  System: file.encoding=UTF-8
+18:52:47:688 INFO  System: java.specification.version=1.6
+18:52:47:688 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+18:52:47:688 INFO  System: user.name=alex
+18:52:47:688 INFO  System: java.vm.specification.version=1.0
+18:52:47:688 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+18:52:47:688 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+18:52:47:688 INFO  System: sun.arch.data.model=64
+18:52:47:688 INFO  System: user.language=de
+18:52:47:688 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+18:52:47:689 INFO  System: java.vm.info=mixed mode
+18:52:47:689 INFO  System: java.version=1.6.0_30
+18:52:47:689 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+18:52:47:689 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+18:52:47:689 INFO  System: java.vendor=Sun Microsystems Inc.
+18:52:47:689 INFO  System: file.separator=/
+18:52:47:689 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+18:52:47:689 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+18:52:47:689 INFO  System: sun.cpu.endian=little
+18:52:47:689 INFO  System: sun.cpu.isalist=
+18:52:47:690 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+18:52:47:690 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+18:52:51:536 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+18:52:51:536 INFO  FIX Agora Buy Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:52:51:540 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+18:52:51:540 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:52:51:544 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+18:52:51:544 INFO  FIX Agora Sell Side - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:52:51:547 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+18:52:51:547 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:52:51:550 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+18:52:51:550 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.1  -  Copyright (C) 2012-2013  Alexander Pinnow
+18:53:02:349 INFO  client is started
+20:13:00:908 INFO  Stop FIX Agora Client
+20:40:02:682 INFO  Start FIX Agora Client
+20:40:02:683 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:40:02:685 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+20:40:02:685 INFO  System: agoralogfilename=fix-agora-client
+20:40:02:685 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+20:40:02:686 INFO  System: java.vm.version=20.5-b03
+20:40:02:686 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+20:40:02:686 INFO  System: java.vendor.url=http://java.sun.com/
+20:40:02:687 INFO  System: path.separator=:
+20:40:02:687 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+20:40:02:687 INFO  System: file.encoding.pkg=sun.io
+20:40:02:688 INFO  System: sun.java.launcher=SUN_STANDARD
+20:40:02:688 INFO  System: user.country=DE
+20:40:02:688 INFO  System: sun.os.patch.level=unknown
+20:40:02:689 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+20:40:02:689 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+20:40:02:689 INFO  System: java.runtime.version=1.6.0_30-b12
+20:40:02:690 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+20:40:02:690 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+20:40:02:690 INFO  System: os.arch=amd64
+20:40:02:691 INFO  System: java.io.tmpdir=/tmp
+20:40:02:691 INFO  System: line.separator=
+
+20:40:02:691 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+20:40:02:692 INFO  System: os.name=Linux
+20:40:02:692 INFO  System: sun.jnu.encoding=UTF-8
+20:40:02:692 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20:40:02:693 INFO  System: java.specification.name=Java Platform API Specification
+20:40:02:693 INFO  System: java.class.version=50.0
+20:40:02:693 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+20:40:02:694 INFO  System: os.version=3.11.10-25-desktop
+20:40:02:694 INFO  System: user.home=/home/alex
+20:40:02:694 INFO  System: user.timezone=Europe/Berlin
+20:40:02:695 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+20:40:02:695 INFO  System: file.encoding=UTF-8
+20:40:02:695 INFO  System: java.specification.version=1.6
+20:40:02:696 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+20:40:02:696 INFO  System: user.name=alex
+20:40:02:696 INFO  System: java.vm.specification.version=1.0
+20:40:02:697 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+20:40:02:697 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+20:40:02:697 INFO  System: sun.arch.data.model=64
+20:40:02:698 INFO  System: user.language=de
+20:40:02:698 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+20:40:02:698 INFO  System: java.vm.info=mixed mode
+20:40:02:698 INFO  System: java.version=1.6.0_30
+20:40:02:699 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+20:40:02:699 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+20:40:02:699 INFO  System: java.vendor=Sun Microsystems Inc.
+20:40:02:700 INFO  System: file.separator=/
+20:40:02:700 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+20:40:02:700 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+20:40:02:701 INFO  System: sun.cpu.endian=little
+20:40:02:701 INFO  System: sun.cpu.isalist=
+20:40:02:703 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+20:40:02:704 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+20:40:07:720 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+20:40:07:721 INFO  FIX Agora Buy Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:40:07:735 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+20:40:07:736 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:40:07:749 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+20:40:07:750 INFO  FIX Agora Sell Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:40:07:758 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+20:40:07:758 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:40:07:768 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+20:40:07:769 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:40:27:234 INFO  client is started
+20:58:13:891 INFO  Stop FIX Agora Client
+20:58:24:388 INFO  Start FIX Agora Client
+20:58:24:389 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+20:58:24:390 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+20:58:24:390 INFO  System: agoralogfilename=fix-agora-client
+20:58:24:391 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+20:58:24:391 INFO  System: java.vm.version=20.5-b03
+20:58:24:391 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+20:58:24:391 INFO  System: java.vendor.url=http://java.sun.com/
+20:58:24:391 INFO  System: path.separator=:
+20:58:24:391 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+20:58:24:392 INFO  System: file.encoding.pkg=sun.io
+20:58:24:392 INFO  System: sun.java.launcher=SUN_STANDARD
+20:58:24:392 INFO  System: user.country=DE
+20:58:24:392 INFO  System: sun.os.patch.level=unknown
+20:58:24:392 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+20:58:24:392 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+20:58:24:393 INFO  System: java.runtime.version=1.6.0_30-b12
+20:58:24:393 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+20:58:24:393 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+20:58:24:393 INFO  System: os.arch=amd64
+20:58:24:393 INFO  System: java.io.tmpdir=/tmp
+20:58:24:393 INFO  System: line.separator=
+
+20:58:24:393 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+20:58:24:394 INFO  System: os.name=Linux
+20:58:24:394 INFO  System: sun.jnu.encoding=UTF-8
+20:58:24:394 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+20:58:24:394 INFO  System: java.specification.name=Java Platform API Specification
+20:58:24:394 INFO  System: java.class.version=50.0
+20:58:24:394 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+20:58:24:395 INFO  System: os.version=3.11.10-25-desktop
+20:58:24:395 INFO  System: user.home=/home/alex
+20:58:24:395 INFO  System: user.timezone=Europe/Berlin
+20:58:24:395 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+20:58:24:395 INFO  System: file.encoding=UTF-8
+20:58:24:395 INFO  System: java.specification.version=1.6
+20:58:24:396 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+20:58:24:396 INFO  System: user.name=alex
+20:58:24:396 INFO  System: java.vm.specification.version=1.0
+20:58:24:396 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+20:58:24:396 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+20:58:24:396 INFO  System: sun.arch.data.model=64
+20:58:24:397 INFO  System: user.language=de
+20:58:24:397 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+20:58:24:397 INFO  System: java.vm.info=mixed mode
+20:58:24:397 INFO  System: java.version=1.6.0_30
+20:58:24:397 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+20:58:24:397 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+20:58:24:398 INFO  System: java.vendor=Sun Microsystems Inc.
+20:58:24:398 INFO  System: file.separator=/
+20:58:24:398 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+20:58:24:398 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+20:58:24:398 INFO  System: sun.cpu.endian=little
+20:58:24:398 INFO  System: sun.cpu.isalist=
+20:58:24:399 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+20:58:24:400 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+20:58:28:417 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+20:58:28:417 INFO  FIX Agora Buy Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:58:28:424 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+20:58:28:425 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:58:28:433 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+20:58:28:434 INFO  FIX Agora Sell Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:58:28:441 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+20:58:28:441 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:58:28:450 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+20:58:28:450 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+20:58:41:831 INFO  client is started
+21:04:46:755 INFO  Stop FIX Agora Client
+21:04:51:206 INFO  Start FIX Agora Client
+21:04:51:206 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+21:04:51:207 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+21:04:51:207 INFO  System: agoralogfilename=fix-agora-client
+21:04:51:207 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+21:04:51:207 INFO  System: java.vm.version=20.5-b03
+21:04:51:207 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+21:04:51:208 INFO  System: java.vendor.url=http://java.sun.com/
+21:04:51:208 INFO  System: path.separator=:
+21:04:51:208 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+21:04:51:208 INFO  System: file.encoding.pkg=sun.io
+21:04:51:208 INFO  System: sun.java.launcher=SUN_STANDARD
+21:04:51:208 INFO  System: user.country=DE
+21:04:51:208 INFO  System: sun.os.patch.level=unknown
+21:04:51:208 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+21:04:51:208 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+21:04:51:209 INFO  System: java.runtime.version=1.6.0_30-b12
+21:04:51:209 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+21:04:51:209 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+21:04:51:209 INFO  System: os.arch=amd64
+21:04:51:209 INFO  System: java.io.tmpdir=/tmp
+21:04:51:209 INFO  System: line.separator=
+
+21:04:51:209 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+21:04:51:209 INFO  System: os.name=Linux
+21:04:51:210 INFO  System: sun.jnu.encoding=UTF-8
+21:04:51:210 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+21:04:51:210 INFO  System: java.specification.name=Java Platform API Specification
+21:04:51:210 INFO  System: java.class.version=50.0
+21:04:51:210 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+21:04:51:210 INFO  System: os.version=3.11.10-25-desktop
+21:04:51:210 INFO  System: user.home=/home/alex
+21:04:51:210 INFO  System: user.timezone=Europe/Berlin
+21:04:51:211 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+21:04:51:211 INFO  System: file.encoding=UTF-8
+21:04:51:211 INFO  System: java.specification.version=1.6
+21:04:51:211 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+21:04:51:211 INFO  System: user.name=alex
+21:04:51:211 INFO  System: java.vm.specification.version=1.0
+21:04:51:211 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+21:04:51:211 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+21:04:51:212 INFO  System: sun.arch.data.model=64
+21:04:51:212 INFO  System: user.language=de
+21:04:51:212 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+21:04:51:212 INFO  System: java.vm.info=mixed mode
+21:04:51:212 INFO  System: java.version=1.6.0_30
+21:04:51:212 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+21:04:51:212 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+21:04:51:213 INFO  System: java.vendor=Sun Microsystems Inc.
+21:04:51:213 INFO  System: file.separator=/
+21:04:51:213 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+21:04:51:213 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+21:04:51:213 INFO  System: sun.cpu.endian=little
+21:04:51:213 INFO  System: sun.cpu.isalist=
+21:04:51:214 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+21:04:51:214 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+21:04:57:199 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+21:04:57:199 INFO  FIX Agora Buy Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:04:57:216 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+21:04:57:217 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:04:57:223 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+21:04:57:224 INFO  FIX Agora Sell Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:04:57:229 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+21:04:57:229 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:04:57:235 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+21:04:57:235 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:05:15:982 INFO  client is started
+21:08:26:818 INFO  Stop FIX Agora Client
+21:08:34:555 INFO  Start FIX Agora Client
+21:08:34:556 INFO  LGPL Version 2.1 - Copyright(C) 2012-2013 - Alexander Pinnow
+21:08:34:558 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+21:08:34:558 INFO  System: agoralogfilename=fix-agora-client
+21:08:34:558 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+21:08:34:558 INFO  System: java.vm.version=20.5-b03
+21:08:34:559 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+21:08:34:559 INFO  System: java.vendor.url=http://java.sun.com/
+21:08:34:559 INFO  System: path.separator=:
+21:08:34:559 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+21:08:34:560 INFO  System: file.encoding.pkg=sun.io
+21:08:34:560 INFO  System: sun.java.launcher=SUN_STANDARD
+21:08:34:560 INFO  System: user.country=DE
+21:08:34:560 INFO  System: sun.os.patch.level=unknown
+21:08:34:561 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+21:08:34:561 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBasisClient
+21:08:34:561 INFO  System: java.runtime.version=1.6.0_30-b12
+21:08:34:561 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+21:08:34:562 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+21:08:34:562 INFO  System: os.arch=amd64
+21:08:34:562 INFO  System: java.io.tmpdir=/tmp
+21:08:34:562 INFO  System: line.separator=
+
+21:08:34:563 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+21:08:34:563 INFO  System: os.name=Linux
+21:08:34:563 INFO  System: sun.jnu.encoding=UTF-8
+21:08:34:563 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+21:08:34:564 INFO  System: java.specification.name=Java Platform API Specification
+21:08:34:564 INFO  System: java.class.version=50.0
+21:08:34:564 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+21:08:34:564 INFO  System: os.version=3.11.10-25-desktop
+21:08:34:565 INFO  System: user.home=/home/alex
+21:08:34:565 INFO  System: user.timezone=Europe/Berlin
+21:08:34:565 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+21:08:34:565 INFO  System: file.encoding=UTF-8
+21:08:34:566 INFO  System: java.specification.version=1.6
+21:08:34:566 INFO  System: java.class.path=/home/alex/workspace_private/FIXAgoraBasisClient/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-api-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisShared/bin:/home/alex/workspace_private/FIXAgoraBasisShared/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar:/home/alex/workspace_private/FIXAgoraBasisServer/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/dockingFramesCore.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jcalendar-1.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/swingx-all-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/javassist-3.15.0-GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jquantlib-0.2.4.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBuySideClient/bin:/home/alex/workspace_private/FIXAgoraExcelClient/bin:/home/alex/workspace_private/FIXAgoraBuySideShared/bin:/home/alex/workspace_private/FIXAgoraExcelShared/bin:/home/alex/workspace_private/FIXAgoraSellSideShared/bin:/home/alex/workspace_private/FIXAgoraSellSideClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureClient/bin:/home/alex/workspace_private/FIXAgoraTradeCaptureShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/poi-ooxml-schemas-3.8-20120326.jar:/home/alex/workspace_private/FIXAgoraSAPClient/bin:/home/alex/workspace_private/FIXAgoraSAPShared/bin:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-looks-2.5.2.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jgoodies-common-1.4.0.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/log4j-1.2.17.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/slf4j-log4j12-1.6.3.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/hibernate-core-4.1.6.Final.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/jboss-logging-3.1.0.GA.jar:/home/alex/workspace_private/FIXAgoraBasisClient/lib/netty-3.5.7.Final.jar
+21:08:34:566 INFO  System: user.name=alex
+21:08:34:566 INFO  System: java.vm.specification.version=1.0
+21:08:34:567 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.client.control.BasisClient
+21:08:34:567 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+21:08:34:567 INFO  System: sun.arch.data.model=64
+21:08:34:568 INFO  System: user.language=de
+21:08:34:568 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+21:08:34:568 INFO  System: java.vm.info=mixed mode
+21:08:34:568 INFO  System: java.version=1.6.0_30
+21:08:34:569 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+21:08:34:569 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+21:08:34:569 INFO  System: java.vendor=Sun Microsystems Inc.
+21:08:34:569 INFO  System: file.separator=/
+21:08:34:570 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+21:08:34:570 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+21:08:34:570 INFO  System: sun.cpu.endian=little
+21:08:34:570 INFO  System: sun.cpu.isalist=
+21:08:34:572 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jfreechart-1.0.14.jar loaded.
+21:08:34:573 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBasisClient/extlib/jcommon-1.0.17.jar loaded.
+21:08:39:135 INFO  FIX Agora Plugin "FIX Agora Buy Side" loaded.
+21:08:39:136 INFO  FIX Agora Buy Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:08:39:142 INFO  FIX Agora Plugin "FIX Agora Excel Integration" loaded.
+21:08:39:142 INFO  FIX Agora Excel Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:08:39:148 INFO  FIX Agora Plugin "FIX Agora Sell Side" loaded.
+21:08:39:148 INFO  FIX Agora Sell Side - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:08:39:153 INFO  FIX Agora Plugin "FIX Agora Trade Capture" loaded.
+21:08:39:153 INFO  FIX Agora Trade Capture - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:08:39:159 INFO  FIX Agora Plugin "FIX Agora SAP Integration" loaded.
+21:08:39:159 INFO  FIX Agora SAP Integration - Copyright: Version 1.0.2  -  Copyright (C) 2012-2013  Alexander Pinnow
+21:08:54:830 INFO  client is started
+21:14:21:476 INFO  Stop FIX Agora Client

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence  
+                  http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="fbasis" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jar-file>lib/fixagora-basis-shared-@basis_version@.jar</jar-file>
+		<jar-file>extlib/fixagora-buyside-shared-@buyside_version@.jar</jar-file>
+		<jar-file>extlib/fixagora-sellside-shared-@sellside_version@.jar</jar-file>
+		<jar-file>extlib/fixagora-tradecapture-shared-@tradecapture_version@.jar</jar-file>
+		<jar-file>extlib/fixagora-excel-shared-@excel_version@.jar</jar-file>
+		<jar-file>extlib/fixagora-sap-shared-@sap_version@.jar</jar-file> 
+		<properties>
+
+			<property name="connection.provider_class"
+				value="org.hibernate.connection.C3P0ConnectionProvider" />
+			<property name="hibernate.c3p0.acquire_increment" value="1" />
+			<property name="hibernate.c3p0.idle_test_period" value="60" />
+			<property name="hibernate.c3p0.min_size" value="1" />
+			<property name="hibernate.c3p0.max_size" value="2" />
+			<property name="hibernate.c3p0.max_statements" value="50" />
+			<property name="hibernate.c3p0.timeout" value="0" />
+			<property name="hibernate.c3p0.acquireRetryAttempts" value="1" />
+			<property name="hibernate.c3p0.acquireRetryDelay" value="250" />
+
+
+			<property name="hibernate.archive.autodetection" value="class" />
+			<property name="hibernate.format_sql" value="false" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.connection.autocommit" value="false" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+
+			<property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
+			<property name="hibernate.connection.url" value="jdbc:oracle:thin:@127.0.0.1:1521:XE" />
+			<property name="hibernate.connection.username" value="agora" />
+			<property name="hibernate.connection.password" value="agora" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect" />
+		</properties>
+	</persistence-unit>
+
+</persistence>  

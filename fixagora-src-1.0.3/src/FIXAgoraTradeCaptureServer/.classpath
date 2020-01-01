@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FIXAgoraBasisShared"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FIXAgoraBasisServer"/>
+	<classpathentry kind="lib" path="/FIXAgoraBasisServer/lib/quickfixj-all-1.2.5-sp2-patch.jar"/>
+	<classpathentry kind="lib" path="/FIXAgoraBasisServer/lib/jquantlib-0.2.4.jar" sourcepath="/home/alex/temp/jquantlib/src/main/java"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FIXAgoraTradeCaptureShared"/>
+	<classpathentry kind="lib" path="/FIXAgoraBasisServer/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="/FIXAgoraBasisServer/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,4 @@
+xterm -e ./../fixagora-server/fixagora-server.sh
+./../fixagora-client/fixagora-client.sh localhost 4711 Admin admin
+./../fixagora-client/fixagora-client.sh localhost 4711 sally sally123
+./../fixagora-client/fixagora-client.sh localhost 4711 bill bill123

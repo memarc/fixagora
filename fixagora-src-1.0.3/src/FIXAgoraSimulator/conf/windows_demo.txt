@@ -1,0 +1,4 @@
+cmd /c start "FIX Agora Server" ".\..\fixagora-server\FIX Agora Server.exe"
+cmd /c ".\..\fixagora-client\FIX Agora Client.exe" localhost 4711 Admin admin
+cmd /c ".\..\fixagora-client\FIX Agora Client.exe" localhost 4711 sally sally123
+cmd /c ".\..\fixagora-client\FIX Agora Client.exe" localhost 4711 bill bill123

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.3.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/FIXAgoraBasisShared"/>
+	<classpathentry kind="lib" path="lib/dockingFramesCore.jar"/>
+	<classpathentry kind="lib" path="lib/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/swingx-all-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jquantlib-0.2.4.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="/FIXAgoraBuySideClient/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraExcelClient/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraBuySideShared/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraExcelShared/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraSellSideShared/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraSellSideClient/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraTradeCaptureClient/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraTradeCaptureShared/bin"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="/FIXAgoraSAPClient/bin"/>
+	<classpathentry kind="lib" path="/FIXAgoraSAPShared/bin"/>
+	<classpathentry kind="lib" path="lib/jgoodies-looks-2.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/jgoodies-common-1.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.3.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate-core-4.1.6.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,175 @@
+18:25:51:303 INFO  Start FIX Agora Server
+18:25:51:303 INFO  LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:25:51:304 INFO  System: java.runtime.name=Java(TM) SE Runtime Environment
+18:25:51:304 INFO  System: sun.boot.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64
+18:25:51:304 INFO  System: java.vm.version=20.5-b03
+18:25:51:304 INFO  System: java.vm.vendor=Sun Microsystems Inc.
+18:25:51:304 INFO  System: java.vendor.url=http://java.sun.com/
+18:25:51:304 INFO  System: path.separator=:
+18:25:51:304 INFO  System: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+18:25:51:305 INFO  System: file.encoding.pkg=sun.io
+18:25:51:305 INFO  System: sun.java.launcher=SUN_STANDARD
+18:25:51:305 INFO  System: user.country=DE
+18:25:51:305 INFO  System: sun.os.patch.level=unknown
+18:25:51:305 INFO  System: java.vm.specification.name=Java Virtual Machine Specification
+18:25:51:305 INFO  System: user.dir=/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server
+18:25:51:305 INFO  System: java.runtime.version=1.6.0_30-b12
+18:25:51:305 INFO  System: java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+18:25:51:305 INFO  System: java.endorsed.dirs=/usr/java/jdk1.6.0_30/jre/lib/endorsed
+18:25:51:305 INFO  System: os.arch=amd64
+18:25:51:306 INFO  System: java.io.tmpdir=/tmp
+18:25:51:306 INFO  System: line.separator=
+
+18:25:51:306 INFO  System: java.vm.specification.vendor=Sun Microsystems Inc.
+18:25:51:306 INFO  System: os.name=Linux
+18:25:51:306 INFO  System: sun.jnu.encoding=UTF-8
+18:25:51:306 INFO  System: java.library.path=/usr/java/jdk1.6.0_30/jre/lib/amd64/server:/usr/java/jdk1.6.0_30/jre/lib/amd64:/usr/java/jdk1.6.0_30/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+18:25:51:306 INFO  System: java.specification.name=Java Platform API Specification
+18:25:51:306 INFO  System: java.class.version=50.0
+18:25:51:306 INFO  System: sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+18:25:51:306 INFO  System: os.version=3.1.10-1.16-desktop
+18:25:51:306 INFO  System: user.home=/home/alex
+18:25:51:306 INFO  System: user.timezone=Europe/Berlin
+18:25:51:307 INFO  System: java.awt.printerjob=sun.print.PSPrinterJob
+18:25:51:307 INFO  System: file.encoding=UTF-8
+18:25:51:307 INFO  System: java.specification.version=1.6
+18:25:51:307 INFO  System: java.class.path=./conf:./lib/c3p0-0.9.1.jar:./lib/hibernate-c3p0-4.1.6.Final.jar:./lib/netty-3.5.7.Final.jar:./conf:./lib/antlr-2.7.7.jar:./lib/commons-collections-3.2.1.jar:./lib/commons-math3-3.0.jar:./lib/dom4j-1.6.1.jar:./lib/fixagora-basis-shared-0.8.0.jar:./lib/fixagora-basis-server-0.8.0.jar:./lib/hibernate-commons-annotations-4.0.1.Final.jar:./lib/hibernate-core-4.1.6.Final.jar:./lib/hibernate-entitymanager-4.1.6.Final.jar:./lib/hibernate-jpa-2.0-api-1.0.1.Final.jar:./lib/javassist-3.15.0-GA.jar:./lib/jboss-logging-3.1.0.GA.jar:./lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar:./lib/jcommon-1.0.17.jar:./lib/jquantlib-0.2.4.jar:./lib/mina-core-1.1.7.jar:./lib/poi-3.8-20120326.jar:./lib/quickfixj-all-1.2.5-sp2-patch.jar:./lib/log4j-1.2.17.jar:./lib/slf4j-api-1.6.1.jar:./lib/slf4j-log4j12-1.6.3.jar
+18:25:51:307 INFO  System: user.name=alex
+18:25:51:307 INFO  System: java.vm.specification.version=1.0
+18:25:51:307 INFO  System: sun.java.command=net.sourceforge.fixagora.basis.server.FBasisServer
+18:25:51:307 INFO  System: java.home=/usr/java/jdk1.6.0_30/jre
+18:25:51:307 INFO  System: sun.arch.data.model=64
+18:25:51:307 INFO  System: user.language=de
+18:25:51:307 INFO  System: java.specification.vendor=Sun Microsystems Inc.
+18:25:51:307 INFO  System: java.vm.info=mixed mode
+18:25:51:308 INFO  System: java.version=1.6.0_30
+18:25:51:308 INFO  System: java.ext.dirs=/usr/java/jdk1.6.0_30/jre/lib/ext:/usr/java/packages/lib/ext
+18:25:51:308 INFO  System: sun.boot.class.path=/usr/java/jdk1.6.0_30/jre/lib/resources.jar:/usr/java/jdk1.6.0_30/jre/lib/rt.jar:/usr/java/jdk1.6.0_30/jre/lib/sunrsasign.jar:/usr/java/jdk1.6.0_30/jre/lib/jsse.jar:/usr/java/jdk1.6.0_30/jre/lib/jce.jar:/usr/java/jdk1.6.0_30/jre/lib/charsets.jar:/usr/java/jdk1.6.0_30/jre/lib/modules/jdk.boot.jar:/usr/java/jdk1.6.0_30/jre/classes
+18:25:51:308 INFO  System: java.vendor=Sun Microsystems Inc.
+18:25:51:308 INFO  System: file.separator=/
+18:25:51:308 INFO  System: java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+18:25:51:308 INFO  System: sun.io.unicode.encoding=UnicodeLittle
+18:25:51:308 INFO  System: sun.cpu.endian=little
+18:25:51:308 INFO  System: sun.cpu.isalist=
+18:25:51:309 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-excel-server-0.8.0.jar loaded.
+18:25:51:309 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-sellside-server-0.8.0.jar loaded.
+18:25:51:309 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-buyside-server-0.8.0.jar loaded.
+18:25:51:310 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-sap-shared-0.8.0.jar loaded.
+18:25:51:310 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/derby.jar loaded.
+18:25:51:310 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-tradecapture-server-0.8.0.jar loaded.
+18:25:51:310 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-sap-server-0.8.0.jar loaded.
+18:25:51:310 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-tradecapture-shared-0.8.0.jar loaded.
+18:25:51:311 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-sellside-shared-0.8.0.jar loaded.
+18:25:51:311 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-excel-shared-0.8.0.jar loaded.
+18:25:51:311 INFO  External Library file:/home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/extlib/fixagora-buyside-shared-0.8.0.jar loaded.
+18:25:51:430 INFO  HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+18:25:51:434 INFO  HHH000412: Hibernate Core {4.1.6.Final}
+18:25:51:436 INFO  HHH000206: hibernate.properties not found
+18:25:51:437 INFO  HHH000021: Bytecode provider name : javassist
+18:25:51:670 WARN  HHH000144: hibernate.connection.autocommit = false breaks the EJB3 specification
+18:25:52:077 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+18:25:52:084 INFO  HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+18:25:52:104 INFO  HHH000402: Using Hibernate built-in connection pool (not for production use!)
+18:25:52:252 INFO  HHH000115: Hibernate connection pool size: 20
+18:25:52:252 INFO  HHH000006: Autocommit mode: false
+18:25:52:252 INFO  HHH000401: using driver [org.apache.derby.jdbc.EmbeddedDriver] at URL [jdbc:derby:derby;create=true]
+18:25:52:252 INFO  HHH000046: Connection properties: {user=fbasis, password=****, autocommit=false, release_mode=auto}
+18:25:53:183 INFO  HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+18:25:53:184 WARN  HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+18:25:53:199 INFO  HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+18:25:53:202 INFO  HHH000397: Using ASTQueryTranslatorFactory
+18:26:02:653 INFO  Business Component U.S. T-Notes 7 Years Pricing is started
+18:26:02:653 INFO  Business Component U.S. T-Notes 10 Years Pricing is started
+18:26:02:656 INFO  Business Component U.S. T-Notes 5 Years Pricing is started
+18:26:02:656 INFO  Business Component U.S. Treasury Rates is started
+18:26:02:657 INFO  Business Component German Government Bond Pricing is started
+18:26:02:657 INFO  Business Component Future Quotes is started
+18:26:02:657 INFO  Business Component Dow Values Pricing is started
+18:26:02:657 INFO  Business Component Buy Side Bond Book is started
+18:26:02:657 INFO  Business Component DAX Values Pricing is started
+18:26:02:658 INFO  Business Component Buy Side Equity Book is started
+18:26:02:658 INFO  Business Component Hungary Government Bond Pricing is started
+18:26:02:658 INFO  Business Component Sell Side Equity Book is started
+18:26:02:658 INFO  Business Component U.S. T-Notes 2-3 Years Pricing is started
+18:26:02:658 INFO  Business Component Play with me is started
+18:26:02:662 INFO  Business Component Sell Side Bond Book is started
+18:26:02:680 INFO  FIX Agora Plugin "FIX Agora Excel Server" loaded.
+18:26:02:680 INFO  FIX Agora Excel Server - License: LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:26:03:312 INFO  Business Component Sample Excel Export is started
+18:26:03:457 ERROR SAP Java Connector is missing. Please contact your administrator. The export function is disabled.
+18:26:03:459 INFO  Business Component IDES Trade Export is started
+18:26:03:574 INFO  FIX Agora Plugin "FIX Agora Sell Side Server" loaded.
+18:26:03:574 INFO  FIX Agora Sell Side Server - License: LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:26:03:669 INFO  FIX Agora Plugin "FIX Agora Buy Side Server" loaded.
+18:26:03:669 INFO  FIX Agora Buy Side Server - License: LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:26:03:702 INFO  FIX Agora Plugin "FIX Agora Trade Capture Server" loaded.
+18:26:03:702 INFO  FIX Agora Trade Capture Server - License: LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:26:03:707 INFO  Business Component Trade Capture All Assets is started
+18:26:03:720 INFO  FIX Agora Plugin "FIX Agora SAP Server" loaded.
+18:26:03:720 INFO  FIX Agora SAP Server - License: LGPL Version 2.1 - Copyright(C) 2012 - Alexander Pinnow
+18:26:03:750 INFO  Load configuration from /home/alex/workspace_private/FIXAgoraBuild/dist/linux/fixagora/fixagora-server/./conf/basis.xml
+18:26:03:750 INFO  Server is accepting clients as host=127.0.0.1 on port=4711
+18:26:03:845 INFO  [FIXT.1.1:BOM->YAHOO] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:846 INFO  [FIXT.1.1:BOM1->BOA1] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:846 INFO  [FIXT.1.1:BOM1->BOZ1] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:846 INFO  [FIXT.1.1:BOM2->BOA2] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:845 INFO  [FIXT.1.1:BOM1->BOP1] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:854 INFO  [FIXT.1.1:BOM1->BOH1] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:856 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:858 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:858 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:858 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:856 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:858 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:858 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:858 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:858 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:859 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:858 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:859 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:858 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:858 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:860 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:877 INFO  [FIXT.1.1:BOM2->BOZ2] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:885 INFO  [FIXT.1.1:BOM1->BOP1] [/127.0.0.1:4716]
+18:26:03:886 INFO  [FIXT.1.1:BOM1->BOZ1] [/127.0.0.1:4717]
+18:26:03:885 INFO  [FIXT.1.1:BOM->YAHOO] [/127.0.0.1:4713]
+18:26:03:885 INFO  [FIXT.1.1:BOM1->BOH1] [/127.0.0.1:4718]
+18:26:03:885 INFO  [FIXT.1.1:BOM1->BOA1] [/127.0.0.1:4715]
+18:26:03:888 INFO  SessionTimer started
+18:26:03:890 INFO  SessionTimer started
+18:26:03:888 INFO  SessionTimer started
+18:26:03:888 INFO  SessionTimer started
+18:26:03:888 INFO  SessionTimer started
+18:26:03:891 INFO  Business Component Bank of Aphrodite Initiator is started
+18:26:03:891 INFO  Business Component Bank of Poseidon Initiator is started
+18:26:03:891 INFO  Business Component Yahoo Finance is started
+18:26:03:891 INFO  Business Component Bank of Zeus Initiator is started
+18:26:03:891 INFO  Business Component Bank of Hades Initiator is started
+18:26:03:900 INFO  [FIXT.1.1:BOM2->BOH2] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:906 INFO  MINA session created for FIXT.1.1:BOM1->BOZ1: local=/127.0.0.1:9140, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4717
+18:26:03:907 INFO  MINA session created for FIXT.1.1:BOM1->BOA1: local=/127.0.0.1:64990, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4715
+18:26:03:909 INFO  MINA session created for FIXT.1.1:BOM1->BOP1: local=/127.0.0.1:41757, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4716
+18:26:03:910 INFO  MINA session created for FIXT.1.1:BOM->YAHOO: local=/127.0.0.1:43983, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4713
+18:26:03:911 INFO  MINA session created for FIXT.1.1:BOM1->BOH1: local=/127.0.0.1:25854, class org.apache.mina.transport.socket.nio.SocketSessionImpl, remote=/127.0.0.1:4718
+18:26:03:926 INFO  [FIXT.1.1:BOM2->BOP2] daily, 00:00:00-UTC - 00:00:00-UTC
+18:26:03:927 INFO  SessionTimer started
+18:26:03:930 INFO  Socket option: SocketTcpNoDelay=true
+18:26:03:930 INFO  Socket option: SocketSynchronousWrites=false
+18:26:03:931 INFO  Socket option: SocketSynchronousWriteTimeout=30000
+18:26:03:932 INFO  Listening for connections at /127.0.0.1:4714
+18:26:03:933 INFO  Business Component FIX Agora Acceptor is started
+18:26:10:983 INFO  MINA session created: /127.0.0.1:30655
+18:26:11:002 INFO  MINA session created: /127.0.0.1:30656
+18:26:11:045 INFO  MINA session created: /127.0.0.1:30657
+18:26:11:076 INFO  MINA session created: /127.0.0.1:30658
+18:26:13:202 INFO  client connected
+18:26:22:020 INFO  client connected
+18:26:32:740 INFO  client connected
+18:27:07:764 INFO  client disconnected
+18:27:07:836 INFO  client disconnected
+18:27:10:093 INFO  client disconnected
+18:27:10:120 INFO  client disconnected
+18:27:12:590 INFO  client disconnected
+18:27:12:633 INFO  client disconnected
+18:27:15:413 INFO  HHH000030: Cleaning up connection pool [jdbc:derby:derby;create=true]

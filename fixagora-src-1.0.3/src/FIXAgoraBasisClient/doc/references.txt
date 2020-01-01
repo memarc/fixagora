@@ -1,0 +1,108 @@
+Antlr
+http://www.antlr.org
+BSD Open Source License 	
+
+Apache Commons
+http://commons.apache.org/
+Apache License 2.0
+
+Apache Derby
+http://db.apache.org/derby/
+Apache License 2.0 	
+
+Apache Mina
+http://mina.apache.org/
+Apache License 2.0
+
+Apache POI
+http://poi.apache.org/
+Apache License 2.0 	
+
+Crystal 
+http://everaldo.com/crystal/
+GNU Library or Lesser General Public License (LGPL)
+
+Docking Frames
+http://dock.javaforge.com/
+GNU Library or Lesser General Public License (LGPL) 	
+
+dom4j
+http://dom4j.sourceforge.net/
+BSD Open Source License
+
+Flag Icons
+http://www.famfamfam.com/lab/icons/flags/
+Creative Commons Attribution 2.5 Generic 	
+
+Hibernate
+http://www.hibernate.org/
+GNU Library or Lesser General Public License (LGPL)
+
+Javassist
+http://www.jboss.org/javassist
+GNU Library or Lesser General Public License (LGPL) 	
+
+JBoss Transactions
+http://www.jboss.org/jbosstm
+GNU Library or Lesser General Public License (LGPL)
+
+JCalendar
+http://www.toedter.com/en/jcalendar/
+GNU Library or Lesser General Public License (LGPL) 	
+
+JCommon
+http://jfree.org/jcommon/
+GNU Library or Lesser General Public License (LGPL)
+
+JFreeChart
+http://www.jfree.org/jfreechart/
+GNU Library or Lesser General Public License (LGPL) 	
+
+JGoodies Common
+http://www.jgoodies.com/downloads/libraries/
+BSD Open Source License
+
+JGoodies Looks
+http://www.jgoodies.com/freeware/libraries/looks/
+BSD Open Source License 	
+
+JQuantLib
+http://www.jquantlib.com/
+BSD Open Source License
+
+Log4j
+http://logging.apache.org/log4j/1.2/
+Apache License 2.0 	
+
+Netty Project
+https://netty.io/
+Apache License 2.0
+
+New York City at night
+http://commons.wikimedia.org/wiki/File:New_York_City_at_night_HDR.jpg
+Creative Commons Attribution-Share Alike 2.0 Generic 	
+
+OpenOffice.org Documentation Project
+http://wiki.openoffice.org/wiki/Documentation
+Apache License 2.0
+
+Oxygen
+http://www.oxygen-icons.org/
+GNU Library or Lesser General Public License (LGPL) 	
+
+QuickFIX/J
+Modified by Alexander Pinnow
+http://www.quickfixj.org/
+GNU Library or Lesser General Public License (LGPL)
+
+SLF4J
+http://www.slf4j.org/
+MIT License 	
+
+SwingX
+http://swingx.java.net/
+GNU Library or Lesser General Public License (LGPL)
+
+Yahoo! Finance Web Services
+http://finance.yahoo.com/
+Yahoo! Finance Web Services Terms of Use

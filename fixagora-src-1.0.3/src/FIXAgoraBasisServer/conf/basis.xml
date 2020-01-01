@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><basis>
+
+	<property name="host" value="127.0.0.1"/> 
+	<!-- <property name="host" value="192.168.56.1"/> -->
+	<property name="port" value="4711"/>
+	
+</basis>
